@@ -39,3 +39,7 @@ Uses all 50 rows for Types 43 and 44 from building_Building.csv, schema 122. The
 ## v1.4.7 Research Center discount
 
 Automatic target-center discount applied to research only, independently of building cost inclusion. Community-reported endpoints: 0.1% at level 1 and 5% at level 25 (https://rokhub.app/tools/kvk/crystal-tech and https://rokbuilder.com/tools/kvk/crystal-tech/). Intermediate levels are explicitly interpolated estimates pending game-data confirmation. Target center is assumed completed before research starts. Cutting Corners bonuses are applied sequentially and additively. Additional discount is separate. Buildings are not discounted.
+
+## v1.4.8 Verified Research Center discounts
+
+Replaces the v1.4.7 interpolated estimates with all 25 rates transcribed from the supplied in-game Crystal Research Cost Reduction screenshots. The rates are also displayed in the building breakdown. The target-center-first and additive-stacking assumptions remain unchanged.

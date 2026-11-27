@@ -61,3 +61,9 @@ assert.equal(ctx.researchNet(1000000,ctx.researchDiscount(25,0),0.15),800000);
 assert.equal(ctx.researchNet(1000000,ctx.researchDiscount(25,0),0),950000);
 assert.equal(ctx.researchNet(1000000,ctx.researchDiscount(25,2),0.15),780000);
 console.log("Research Center discount tests passed: Lv.1, Lv.25, Cutting Corners and additional discounts.");
+
+const verifiedCenterRates=[0.1,0.2,0.3,0.4,0.5,0.6,0.7,0.8,0.9,1,1.2,1.4,1.6,1.8,2,2.2,2.4,2.6,2.8,3,3.3,3.6,4,4.5,5];
+verifiedCenterRates.forEach((pct,i)=>assert.equal(ctx.centerDiscount(i+1),pct/100));
+assert.equal(ctx.researchNet(1000000,ctx.researchDiscount(15,0),0),980000);
+assert.equal(ctx.researchNet(1000000,ctx.researchDiscount(20,0),0.15),820000);
+console.log("All 25 in-game Research Center discount rates verified.");
