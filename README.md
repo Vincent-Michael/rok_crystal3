@@ -15,3 +15,7 @@ Unofficial datamine. Raw base costs exclude buildings, discounts and recurring u
 ## v0.7 Section crystal requirements
 
 Five non-overlapping sections split at the four Awakening positions. Displays full base cost, full cumulative base, selected remaining base, discounted remaining and discounted cumulative cost; per-column amounts are displayed beneath the tree. Section costs are full-section totals, not minimum unlock paths. No research data changes.
+
+## v0.8 Research simulator
+
+Starts with an empty research plan. Add one level, Max Path, Remove one, Remove All, Inspect, Clear Plan and Undo. The automatic path uses all configured prerequisite pairs, conservatively including relation 1. Max paths respect the target Research Center cap. Removing a prerequisite trims dependent planned targets but never completed levels. No Prereqs allows independent hypothetical targets. Cutting Corners priorities order selected paths; optional detours can be added explicitly. Research order, raw speedups, Season Coins and crystal totals update immediately. Building costs are manual; optional sequential discounts are an unverified additive model. UI interaction inspired by https://infocat-rok.com/tech-simulator.

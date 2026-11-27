@@ -19,6 +19,7 @@ jobs:
         run: |
           python3 scripts/validate.py
           node --check /tmp/crystal-site.js
+          node scripts/test_planner.cjs
       - name: Configure Pages
         uses: actions/configure-pages@v5
       - name: Prepare site
