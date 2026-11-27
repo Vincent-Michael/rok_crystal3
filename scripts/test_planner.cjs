@@ -84,6 +84,21 @@ assert.equal(Math.floor(ctx.adjustedBuildingTime(1214597,98)/60),10223);
 assert.equal(Math.floor(ctx.adjustedBuildingTime(3644602,98)/60),30678);
 console.log("Building speed tests passed: separate +98% bonus and KingsCodex adjusted totals.");
 
+// Alliance helps act on the remaining time of each individual upgrade.
+assert.equal(ctx.allianceHelpTime(19800,98,0,180),10000);
+assert.equal(ctx.allianceHelpTime(300,0,30,180),0);
+assert.equal(ctx.allianceHelpTime(1000,0,1,60),940);
+assert.ok(Math.abs(ctx.allianceHelpTime(1000000,0,30,180)-1000000*0.99**30)<1e-7);
+assert.equal(ctx.upgradeTimeTotals([{seconds:300},{seconds:300}],0,1,180).withHelp,240);
+assert.equal(ctx.upgradeTimeTotals([],98,30,180).withHelp,0);
+const mineHelp=ctx.upgradeTimeTotals(ctx.buildingUpgradeRows(buildingData.mine,1,25),98,30,180);
+assert.equal(mineHelp.base,1214597);
+assert.ok(Math.abs(mineHelp.without-ctx.adjustedBuildingTime(mineHelp.base,98))<1e-6);
+assert.ok(mineHelp.withHelp<mineHelp.without);
+assert.ok(Math.abs(mineHelp.saved-(mineHelp.without-mineHelp.withHelp))<1e-6);
+assert.equal(ctx.upgradeTimeTotals(ctx.buildingUpgradeRows(buildingData.mine,25,25),98,30,180).withHelp,0);
+console.log("Alliance help tests passed: per-upgrade compounding, minimum savings, zero helps, completed levels and zero-time clamping.");
+
 const visible=ctx.visibleColumns;
 assert.deepEqual(JSON.parse(JSON.stringify(visible(0,1350,21,264,32,213))),{first:1,last:5});
 assert.deepEqual(JSON.parse(JSON.stringify(visible(4206,1350,21,264,32,213))),{first:17,last:21});
