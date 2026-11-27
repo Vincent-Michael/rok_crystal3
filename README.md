@@ -27,3 +27,7 @@ Every non-awakening research card, table row and detail panel includes minus/plu
 ## v1.0 Technology descriptions
 
 All 45 technologies have English descriptions from the extracted Research localization/catalog, effect names, current/target/max configured buff values, and original description keys. Type 1034 (Emergency Support) is a provisional localization mapping. Dual-effect labels with unresolved mappings are identified; raw utility unlock values are not interpreted as Gem prices. Hover a technology or click Inspect to see the description.
+
+## v1.1 Compact interface
+
+Blue/gold cards with horizontal − / level / + controls and a green information button. Descriptions and per-level costs appear in a closable dialog. Settings, detailed totals, research sequence and Awakening summary are collapsed by default. Existing Schema 300 data, prerequisites, exports and original artwork are preserved. The layout is inspired by the supplied InfoCat screenshot, not a pixel-identical reproduction.

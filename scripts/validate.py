@@ -38,3 +38,17 @@ print("Section costs verified:", [s["base"] for s in sections])
 
 assert all(t.get("description") and t.get("descriptionKey") and t.get("buffLabels") for t in data)
 print("Technology descriptions verified: 45/45")
+
+from html.parser import HTMLParser
+class PageIDs(HTMLParser):
+    def __init__(self):
+        super().__init__()
+        self.ids = []
+    def handle_starttag(self, tag, attrs):
+        self.ids += [value for key, value in attrs if key == "id"]
+page = PageIDs()
+page.feed(html)
+assert len(page.ids) == len(set(page.ids)), "Duplicate page IDs"
+assert set(re.findall(r'\$\("([^"]+)"\)', script)) <= set(page.ids), "Missing JS element IDs"
+assert '<dialog id="techDialog"' in html
+print("Compact layout verified: unique HTML IDs, all JS references present, technology dialog.")
