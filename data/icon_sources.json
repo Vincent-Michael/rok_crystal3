@@ -38,10 +38,11 @@
     "img_CrystalResearch_New_frame02": "https://raw.githubusercontent.com/Vincent-Michael/rok_s22_leaks/main/media/img_CrystalResearch_New_frame02_9145583560872093603.png",
     "img_CrystalResearch_New_icon01": "https://raw.githubusercontent.com/Vincent-Michael/rok_s22_leaks/main/media/img_CrystalResearch_New_icon01_-4892197818025794220.png"
   },
-  "missing": [
-    "img_icon_CrystalResearch37",
-    "img_icon_CrystalResearch38",
-    "img_icon_Research81"
-  ],
-  "notes": "Icon URLs matched by technology name and appearance. Local exported PNGs override URLs. Awakening graphics are from the game-resource export in rok_s22_leaks. Source game artwork belongs to Lilith Games."
+  "missing": [],
+  "notes": "Three user-supplied original PNGs are checked into assets/icons and override any remote references. Other images are matched by name/appearance; Awakening graphics are from rok_s22_leaks. Source game artwork belongs to Lilith Games.",
+  "local": {
+    "img_icon_CrystalResearch37": "assets/icons/img_icon_CrystalResearch37.png",
+    "img_icon_CrystalResearch38": "assets/icons/img_icon_CrystalResearch38.png",
+    "img_icon_Research81": "assets/icons/img_icon_Research81.png"
+  }
 }

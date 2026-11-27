@@ -45,6 +45,10 @@ with concurrent.futures.ThreadPoolExecutor(max_workers=8) as pool:
             print("EMBEDDED", key)
         else:
             print("FALLBACK", key, err)
+required_local = set(manifest.get("local", {}))
+missing_local = required_local - set(assets)
+if missing_local:
+    raise SystemExit("Required uploaded icons could not be embedded: " + ", ".join(sorted(missing_local)))
 html = (root / "index.html").read_text(encoding="utf-8")
 html, count = re.subn(r'(<script type="application/json" id="gameAssets">).*?(</script>)', lambda m: m[1]+json.dumps(assets,separators=(",",":"))+m[2], html, flags=re.S)
 assert count == 1
