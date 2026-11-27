@@ -75,3 +75,9 @@ assert '<h3>Requirements</h3>' in dialog and 'id="requirements"' in dialog
 assert re.search(r'<section class="popup-requirements"[^>]*>.*?</section>\s*$', dialog, re.S), "Requirements must be visible at the end of the popup"
 assert 'id="levelRows"' in dialog and dialog.index('id="levelRows"') < dialog.index('id="requirements"')
 print("Technology popup verified: level table followed by visible requirements only; no expandable editors.")
+
+# Removed legacy detail folds; preserve settings controls and the live awakening summary.
+for title in ("Section cost breakdown", "Research sequence &amp; speedups", "Building costs &amp; speedups", "Crystal Awakening"):
+    assert f"<summary>{title}</summary>" not in html, f"Removed fold returned: {title}"
+assert 'id="sequenceDiscount"' in html and 'id="orderCSV"' in html and 'id="awakeLiveBuff"' in html
+print("Compact layout verified: four legacy folds removed; calculation settings and export preserved.")
