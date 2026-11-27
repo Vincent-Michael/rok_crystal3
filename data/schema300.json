@@ -3706,7 +3706,7 @@
   },
   {
     "id": 1019,
-    "name": "Emergency Support",
+    "name": "Larger Camps",
     "icon": "⛺",
     "key": "LC_RESEARCH_NEW_CRYSTAL_NAME30",
     "pic": "img_icon_Research12",
@@ -4991,7 +4991,7 @@
   },
   {
     "id": 1026,
-    "name": "Special Medicine I *",
+    "name": "Special Concoctions I",
     "icon": "✚",
     "key": "LC_RESEARCH_NEW_CRYSTAL_NAME33",
     "pic": "img_icon_Research1",
@@ -7116,7 +7116,7 @@
   },
   {
     "id": 1039,
-    "name": "Special Medicine II *",
+    "name": "Special Concoctions II",
     "icon": "✚",
     "key": "LC_RESEARCH_NEW_CRYSTAL_NAME44",
     "pic": "img_icon_Research1",
