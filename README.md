@@ -47,3 +47,7 @@ Replaces the v1.4.7 interpolated estimates with all 25 rates transcribed from th
 ## v1.4.9 Building speedups
 
 The supplied November 2026 KingsCodex Crystal Buildings graphic matches the existing schema 122 level 2–25 costs and times at displayed minute precision. CSV exact seconds retained. Building speed bonus defaults to +98% and is independently adjustable in Settings. Main building KPI shows adjusted time with base time also visible. Research speed and crystal costs are unaffected.
+
+## v1.4.15 Prerequisite rules
+
+All 421 schema-300 rows checked against technique_crystaltechnique.csv (center, prerequisite IDs/levels, relation). Relation 0 uses AND; relation 1 uses OR, based on lc_research.dat: Upgrade any of these techs to level ... to unlock. OR applies to Barbarian Bounties levels 1, 5, 8, 10 and Call to Arms II level 8. Manual upgrade, downgrade, automatic unlocks, path expansion, sequence and UI use the same predicate. Automatic paths prefer an already satisfied alternative, otherwise the cheapest feasible additional base-cost branch (local choice, not global optimization). Live-game OR behavior still needs confirmation.

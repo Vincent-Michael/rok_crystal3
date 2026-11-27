@@ -63,3 +63,7 @@ for kind, seconds in [("mine", 1214599), ("center", 3644604)]:
     assert sum(r["seconds"] for r in entries) == seconds
     assert sum(r["crystals"] for r in entries[:20]) == 770000
 print("Building schema 122 verified: 50 levels, both buildings 1,800,000 crystals each.")
+
+assert sorted((t["id"], r["level"]) for t in data for r in t["rows"] if r["relation"] == 1) == [(1011, 1), (1011, 5), (1011, 8), (1011, 10), (1014, 8)]
+assert all(r["relation"] in (0, 1) for r in rows)
+print("Dependency relation audit: 416 AND/default rows, 5 OR rows.")

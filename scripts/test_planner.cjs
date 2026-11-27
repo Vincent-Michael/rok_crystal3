@@ -81,3 +81,45 @@ assert.deepEqual(JSON.parse(JSON.stringify(visible(0,5556,21,264,32,213))),{firs
 assert.deepEqual(JSON.parse(JSON.stringify(visible(0,220,21,264,32,213))),{first:1,last:1});
 assert.equal(visible(0,0,21,264,32,213),null);
 console.log("Navigation tests passed: initial, final, full-width and mobile visible column ranges.");
+
+const orCases=T.flatMap(t=>t.rows.filter(r=>r.relation===1).map(r=>[t.id,r.level]));
+assert.deepEqual(orCases,[[1011,1],[1011,5],[1011,8],[1011,10],[1014,8]]);
+for(const t of T)for(const r of t.rows){
+  const none={...empty};
+  assert.equal(ctx.requirementsMet(r,none),r.pr.length===0);
+  const all={...empty};for(const [id,n] of r.pr)all[id]=n;
+  assert.equal(ctx.requirementsMet(r,all),true);
+  for(const [id,n] of r.pr){
+    const one={...empty,[id]:n};
+    assert.equal(ctx.requirementsMet(r,one),r.relation===1||r.pr.length===1,t.name+" Lv."+r.level);
+  }
+  if(r.relation!==1&&r.pr.length>1)for(const [id,n] of r.pr)assert.equal(ctx.requirementsMet(r,{...all,[id]:n-1}),false);
+}
+for(const [id,level] of orCases){
+  const row=by[id].rows[level-1],prev={...empty,[id]:level-1},base={...prev};
+  assert.equal(upgrade(prev,empty,id,level,25,true).ok,false);
+  for(const [req,n] of row.pr){
+    const one={...base,[req]:n};
+    assert.equal(upgrade(one,empty,id,level,25,true).ok,true);
+    const path=expand(empty,empty,req,n,25,true).plan;
+    const seeded=expand(path,empty,id,level,25,true);
+    assert.equal(seeded.ok,true);
+    assert.equal(order(seeded.plan,empty,25,[1012,1017]).blocked.length,0);
+    const done={...empty};
+    for(const s of order(seeded.plan,empty,25,[]).steps){assert.ok(ctx.requirementsMet(by[s.id].rows[s.level-1],done));done[s.id]=s.level}
+    // Check isolated OR row, with earlier research treated as completed.
+    const floors={...empty,[id]:level-1};
+    const plan={...one,[id]:level};
+    assert.equal(downgrade(plan,floors,req,n-1,true).ok,false);
+    const alt=row.pr.find(p=>p[0]!==req);
+    assert.equal(downgrade({...plan,[alt[0]]:alt[1]},floors,req,n-1,true).ok,true);
+  }
+  const single=expand(empty,empty,id,level,25,true);
+  assert.equal(single.ok,true);
+  assert.equal(order(single.plan,empty,25,[1012,1017]).blocked.length,0);
+  // A priority path may only choose branches already selected in the plan.
+  const [lastId,lastLv]=row.pr.at(-1),seed=expand(empty,empty,lastId,lastLv,25,true).plan;
+  const preferred=expand(seed,empty,id,level,25,true).plan;
+  assert.equal(expand(empty,empty,id,level,25,true,preferred).ok,true);
+}
+console.log("Prerequisite tests passed: all 421 rows, all 5 OR gates, every alternative, last-branch removal and valid research order.");
