@@ -73,3 +73,11 @@ assert.equal(ctx.adjustedBuildingTime(19800,0),19800);
 assert.equal(Math.floor(ctx.adjustedBuildingTime(1214597,98)/60),10223);
 assert.equal(Math.floor(ctx.adjustedBuildingTime(3644602,98)/60),30678);
 console.log("Building speed tests passed: separate +98% bonus and KingsCodex adjusted totals.");
+
+const visible=ctx.visibleColumns;
+assert.deepEqual(JSON.parse(JSON.stringify(visible(0,1350,21,264,32,213))),{first:1,last:5});
+assert.deepEqual(JSON.parse(JSON.stringify(visible(4206,1350,21,264,32,213))),{first:17,last:21});
+assert.deepEqual(JSON.parse(JSON.stringify(visible(0,5556,21,264,32,213))),{first:1,last:21});
+assert.deepEqual(JSON.parse(JSON.stringify(visible(0,220,21,264,32,213))),{first:1,last:1});
+assert.equal(visible(0,0,21,264,32,213),null);
+console.log("Navigation tests passed: initial, final, full-width and mobile visible column ranges.");
