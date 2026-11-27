@@ -54,3 +54,10 @@ assert.equal(buildingTotals(buildingData,1,25,false,true).seconds,1214599);
 assert.equal(buildingTotals(buildingData,1,25,true,true).seconds,4859201);
 assert.equal(buildingTotals(buildingData,1,25,false,false).crystals,0);
 console.log("Building calculation tests passed: toggles, target levels, completed levels and construction times.");
+
+assert.equal(ctx.centerDiscount(1),0.001);
+assert.equal(ctx.centerDiscount(25),0.05);
+assert.equal(ctx.researchNet(1000000,ctx.researchDiscount(25,0),0.15),800000);
+assert.equal(ctx.researchNet(1000000,ctx.researchDiscount(25,0),0),950000);
+assert.equal(ctx.researchNet(1000000,ctx.researchDiscount(25,2),0.15),780000);
+console.log("Research Center discount tests passed: Lv.1, Lv.25, Cutting Corners and additional discounts.");

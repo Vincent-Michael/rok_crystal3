@@ -35,3 +35,7 @@ Blue/gold cards with horizontal − / level / + controls and a green information
 ## v1.4 Building costs and construction time
 
 Uses all 50 rows for Types 43 and 44 from building_Building.csv, schema 122. The selected Research Center target level and existing center level determine remaining costs. Crystal Mine includes all levels through 25. Both toggles add verified raw building crystal costs and construction duration to the live totals. The data source is separate from tech schema 300; the schema association is not confirmed. No editable building-cost inputs or building discounts. The research speed bonus does not reduce construction time.
+
+## v1.4.7 Research Center discount
+
+Automatic target-center discount applied to research only, independently of building cost inclusion. Community-reported endpoints: 0.1% at level 1 and 5% at level 25 (https://rokhub.app/tools/kvk/crystal-tech and https://rokbuilder.com/tools/kvk/crystal-tech/). Intermediate levels are explicitly interpolated estimates pending game-data confirmation. Target center is assumed completed before research starts. Cutting Corners bonuses are applied sequentially and additively. Additional discount is separate. Buildings are not discounted.
