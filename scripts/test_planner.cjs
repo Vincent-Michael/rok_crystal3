@@ -148,3 +148,13 @@ assert.equal(ctx.awakeningBuff({...empty,1044:1}).total,3);
 assert.equal(ctx.awakeningBuff(full).total,10);
 assert.equal(ctx.awakeningBuff(full).unlocked,4);
 console.log("Live awakening tests passed: 0%, 4%, 3% and 10% additive estimates without double-counting raw buff fields.");
+
+const rec=ctx.recordGuideChange,price=ctx.priceGuide,group=ctx.groupGuideSteps;
+const g1={...empty,1001:1},g2={...g1,1001:2};
+let recording=rec([],empty,g1,25,0,true);recording=rec(recording,g1,g2,25,0,true);
+assert.equal(price(recording,empty,25,0,true).ok,true);
+assert.equal(group(price(recording,empty,25,0,true).steps).length,1);
+assert.equal(group(price(recording,empty,25,0,true).steps)[0].to,2);
+recording=rec(recording,g2,g1,25,0,true);assert.equal(recording.length,1);
+assert.equal(price([{id:1011,level:1}],empty,25,0,true).ok,false);
+console.log("Guide recorder tests passed: click order, grouping, removal and invalid path rejection.");
