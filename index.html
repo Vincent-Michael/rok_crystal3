@@ -135,7 +135,7 @@ main{max-width:1480px;padding:24px 24px 32px}.hero{padding:1px 0 12px;margin:0 0
 .frame .nav{justify-content:flex-end;gap:8px;margin-top:8px}
 .frame .nav #stage{margin-left:4px}
 </style></head><body><main>
-<header class="hero"><div class="hero-badges"><span class="hero-tag"><span class="tag-dot"></span> KvK Tool</span><span class="hero-tag beta">Beta</span><small>Schema 300 · v1.4.33</small></div><div class="hero-title"><svg viewBox="0 0 42 55" class="hero-crystal" aria-hidden="true"><defs><linearGradient id="heroGem" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#b5f7ff"/><stop offset=".4" stop-color="#36bbff"/><stop offset="1" stop-color="#1645b8"/></linearGradient></defs><path d="M22 2 37 10 34 27 15 52 5 35 6 15Z" fill="url(#heroGem)" stroke="#6be7ff" stroke-width="1.5"/><path d="M22 2 19 24 6 15 5 35 19 24 15 52 34 27 19 24 37 10 22 2" fill="none" stroke="#bcefff" stroke-width="1.1"/><path d="M22 2 19 24 37 10Z" fill="#e2fcff" opacity=".65"/></svg><h1>Crystal Tech Simulator</h1></div><p>Plan your Crystal Technology research ahead of your next KvK. Choose a mode, assign research levels and track speedups, Season Coins and crystals live.</p></header>
+<header class="hero"><div class="hero-badges"><span class="hero-tag"><span class="tag-dot"></span> KvK Tool</span><span class="hero-tag beta">Beta</span><small>Schema 300 · v1.4.34</small></div><div class="hero-title"><svg viewBox="0 0 42 55" class="hero-crystal" aria-hidden="true"><defs><linearGradient id="heroGem" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#b5f7ff"/><stop offset=".4" stop-color="#36bbff"/><stop offset="1" stop-color="#1645b8"/></linearGradient></defs><path d="M22 2 37 10 34 27 15 52 5 35 6 15Z" fill="url(#heroGem)" stroke="#6be7ff" stroke-width="1.5"/><path d="M22 2 19 24 6 15 5 35 19 24 15 52 34 27 19 24 37 10 22 2" fill="none" stroke="#bcefff" stroke-width="1.1"/><path d="M22 2 19 24 37 10Z" fill="#e2fcff" opacity=".65"/></svg><h1>Crystal Tech Simulator</h1></div><p>Plan your Crystal Technology research ahead of your next KvK. Choose a mode, assign research levels and track speedups, Season Coins and crystals live.</p></header>
 <section class="top-controls dash-panel" aria-label="Research Center and buildings"><div class="center-control"><label for="targetCenter">Research Center Level</label><select id="targetCenter"><option value="1">Level 1</option><option value="2">Level 2</option><option value="3">Level 3</option><option value="4">Level 4</option><option value="5">Level 5</option><option value="6">Level 6</option><option value="7">Level 7</option><option value="8">Level 8</option><option value="9">Level 9</option><option value="10">Level 10</option><option value="11">Level 11</option><option value="12">Level 12</option><option value="13">Level 13</option><option value="14">Level 14</option><option value="15">Level 15</option><option value="16">Level 16</option><option value="17">Level 17</option><option value="18">Level 18</option><option value="19">Level 19</option><option value="20">Level 20</option><option value="21">Level 21</option><option value="22">Level 22</option><option value="23">Level 23</option><option value="24">Level 24</option><option value="25" selected>Level 25</option></select><small id="rcDiscountLabel">Research crystal discount: 5%</small></div><div class="building-control"><label class="switch-label" for="includeRC"><span>Include Research Center crystal cost</span><input type="checkbox" class="toggle" id="includeRC" checked></label><small id="rcCostLabel">1,800,000 crystals</small></div><div class="building-control"><label class="switch-label" for="includeMine"><span>Include Crystal Mine cost (Lv.25)</span><input type="checkbox" class="toggle" id="includeMine" checked></label><small id="mineCostLabel">1,800,000 crystals</small></div></section>
 <div class="planner-totals hero-totals"><div class="metric speedup-metric"><small>⏩ RESEARCH SPEEDUPS</small><b id="rawSpeedups">0.00 Days</b><small id="effectiveTime">0 with research speed bonus</small><small>Excludes alliance help.</small></div><div class="metric building-speedup-metric"><small>⚒ BUILDING SPEEDUPS</small><b id="rawBuildingSpeedups">0.00 Days</b><small id="buildingSpeedupNote">Selected building upgrades only</small><small id="buildingRawNote">Base construction time: 0.00 Days</small></div><div class="metric coin-metric"><small>◉ TOTAL SEASON COINS</small><b id="seasonCoins">0</b><small>Rewards from planned research</small></div><div class="metric crystal-metric"><small>◆ TOTAL CRYSTALS USED</small><b id="overallCrystals">0</b><small class="crystal-full">Full cost: <span id="overallFull">0</span></small><table class="crystal-breakdown" aria-label="Selected crystal cost breakdown"><thead><tr><th>Cost</th><th>Full</th><th>Reduced</th></tr></thead><tbody><tr><td>Research</td><td id="crystalResearchFull">0</td><td id="crystalResearchReduced">0</td></tr><tr><td>Buildings</td><td id="crystalBuildingFull">0</td><td class="building-no-discount" aria-label="No building discount">—</td></tr></tbody></table><div class="crystal-savings"><div><span>Research Center saved</span><strong id="centerCrystalsSaved">0</strong></div><div><span>Cutting Corners saved</span><strong id="techCrystalsSaved">0</strong></div><div id="extraSavingsRow" class="hidden"><span>Additional discount saved</span><strong id="extraCrystalsSaved">0</strong></div><div class="crystal-savings-total"><span>Total saved</span><strong id="totalCrystalsSaved">0</strong></div></div><small id="overallNote">Selected upgrades · before and after discounts</small></div></div><div class="toolbar primary-toolbar"><button id="treeBtn" class="active">Research Tree</button><button id="tableBtn">Table View</button><input id="search" type="search" placeholder="Find technology"><button id="clearPlan">Clear</button><button id="undoPlan" disabled>Undo</button><button id="maxAll">Max All</button><button id="buffToggle" aria-expanded="false">Buff Overview ▾</button><button id="guideToggle" aria-expanded="false">● Guide Recorder</button><button id="advancedToggle" aria-expanded="false">Import &amp; Export ▾</button></div>
 
@@ -363,6 +363,69 @@ function makeResearchOrder(plan,floors,cap,priorityIds){
     done[t.id]++;
   }
   return {steps,blocked:[{id:0,level:0}]};
+}
+// Enumerate minimal prerequisite closures for the next discount level.
+function discountClosures(state,id,level,cap,ceiling){
+  const key=p=>T.map(t=>p[t.id]||0).join(",");
+  const unique=items=>[...new Map(items.map(p=>[key(p),p])).values()];
+  function visit(p,id,want,trail){
+    const t=by[id],old=p[id]||0;
+    if(want<=old)return [p];
+    if(!t||want>(ceiling[id]||0)||want>t.rows.length||trail.has(id))return [];
+    const active=new Set(trail);active.add(id);
+    let paths=[p];
+    for(let i=old;i<want;i++){
+      const row=t.rows[i];
+      if(row.center>cap)return [];
+      paths=unique(paths.flatMap(q=>{
+        if((q[id]||0)>i)return [q];
+        if(requirementsMet(row,q))return [{...q,[id]:i+1}];
+        let choices;
+        if(row.relation===1)choices=row.pr.flatMap(([req,n])=>visit(q,req,n,active));
+        else choices=row.pr.reduce((ps,[req,n])=>unique(ps.flatMap(x=>visit(x,req,n,active))),[q]);
+        return choices.filter(x=>requirementsMet(row,x)).map(x=>({...x,[id]:i+1}));
+      }));
+      if(!paths.length)return [];
+    }
+    return paths;
+  }
+  return visit(state,id,level,new Set());
+}
+function optimizedResearchOrder(plan,floors,cap,priorityIds,flat){
+  const baseline=makeResearchOrder(plan,floors,cap,priorityIds);
+  if(baseline.blocked.length||!priorityIds.length)return baseline;
+  const price=steps=>steps.reduce((n,r)=>n+researchNet(r.cost,flat,r.priorDiscount),0);
+  const initial=Object.fromEntries(T.map(t=>[t.id,floors[t.id]||0]));
+  const ids=[...new Set(priorityIds)].filter(id=>id===1012||id===1017);
+  const count=ids.reduce((n,id)=>n+Math.max(0,(plan[id]||0)-initial[id]),0);
+  if(!count)return baseline;
+  const stateKey=p=>T.map(t=>p[t.id]||0).join(",");
+  let frontier=[{levels:initial,steps:[],cost:0}];
+  for(let i=0;i<count;i++){
+    const next=new Map();
+    for(const state of frontier)for(const id of ids){
+      const level=(state.levels[id]||0)+1;
+      if(level>(plan[id]||0))continue;
+      for(const path of discountClosures(state.levels,id,level,cap,plan)){
+        const part=makeResearchOrder(path,state.levels,cap,[id]);
+        if(part.blocked.length)continue;
+        // Current schema's discount technologies do not require each other.
+        if(part.steps.filter(r=>ids.includes(r.id)).length!==1)continue;
+        const cost=state.cost+price(part.steps),key=stateKey(path),previous=next.get(key);
+        if(!previous||cost<previous.cost)next.set(key,{levels:path,steps:state.steps.concat(part.steps),cost});
+      }
+    }
+    if(!next.size||next.size>2000)return baseline;
+    frontier=[...next.values()];
+  }
+  let best=baseline,bestCost=price(baseline.steps);
+  for(const state of frontier){
+    const tail=makeResearchOrder(plan,state.levels,cap,[]);
+    if(tail.blocked.length)continue;
+    const cost=state.cost+price(tail.steps);
+    if(cost<bestCost||cost===bestCost&&best===baseline){bestCost=cost;best={steps:state.steps.concat(tail.steps),blocked:[],discountOptimized:true}}
+  }
+  return best;
 }
 /* PLANNER_MODEL_END */
 function sectionIndex(col){return sections.findIndex(s=>col>=s.start&&col<=s.end)}
@@ -639,7 +702,7 @@ function renderSequence(){
   const rawTime=sum(T.flatMap(t=>slice(t).map(r=>r.seconds))),season=sum(T.flatMap(t=>slice(t).map(r=>r.coin))),flat=researchDiscount(center("targetCenter"),$("discount").value),seq=$("sequenceDiscount").checked;
   const rcLevel=center("targetCenter"),rcPct=+(centerDiscount(rcLevel)*100).toFixed(1);
   $("rcDiscountLabel").textContent="Research crystal discount: "+rcPct+"% · target center reached first";
-  const order=makeResearchOrder(target,current,center("targetCenter"),selectedPriorities()),building=buildingTotals(buildingData,center("center"),center("targetCenter"),$("includeRC").checked,$("includeMine").checked),build=building.crystals;
+  const order=seq?optimizedResearchOrder(target,current,rcLevel,selectedPriorities(),flat):makeResearchOrder(target,current,rcLevel,[]),building=buildingTotals(buildingData,center("center"),center("targetCenter"),$("includeRC").checked,$("includeMine").checked),build=building.crystals;
   renderBuildings(building);
   let cumulative=0;
   lastSequence=order.steps.map((s,i)=>{const reduction=Math.min(.99,flat+(seq?s.priorDiscount:0)),net=researchNet(s.cost,flat,seq?s.priorDiscount:0);cumulative+=net;return {...s,index:i+1,net,cumulative,reduction}});
@@ -671,7 +734,7 @@ function renderSequence(){
   $("balance").classList.toggle("budget-negative",balance<0);
   $("balance").classList.toggle("budget-positive",balance>=0);
   $("budgetDetail").textContent=(balance<0?"Shortfall":"Remaining")+" · Total required: "+fmt(overall)+" ◆";
-  $("overallNote").textContent=seq&&!complete?"Incomplete sequence · Cutting Corners not applied":!seq?"Cutting Corners simulation disabled":"Selected upgrades · buildings undiscounted";
+  $("overallNote").textContent=seq&&!complete?"Incomplete sequence · Cutting Corners not applied":!seq?"Cutting Corners simulation disabled":(order.discountOptimized?"Crystal-saving research order · buildings undiscounted":"Selected upgrades · buildings undiscounted");
 
 }
 $("clearPlan").onclick=()=>{snapshot();assignPlan(current);render();notice("Planned upgrades cleared. Current levels preserved.")};
@@ -680,7 +743,7 @@ $("addPriority").onclick=()=>{let ids=selectedPriorities(),next={...target},cap=
 ["noPrereqs","priorityI","priorityII","sequenceDiscount","includeRC","includeMine"].forEach(id=>$(id).onchange=render);
 
 
-$("maxAll").onclick=()=>{snapshot();T.forEach(t=>target[t.id]=t.rows.length);$("targetCenter").value=25;render();notice("All technologies selected at maximum levels.")};$("reset").onclick=()=>{snapshot();assignPlan(current);$("targetCenter").value=center("center");render();notice("Targets reset to current levels and current Research Center.")};$("clear").onclick=()=>{snapshot();T.forEach(t=>current[t.id]=0);$("center").value=1;render();notice("Current levels cleared; targets preserved.")};
+ $("maxAll").onclick=()=>{snapshot();T.forEach(t=>target[t.id]=t.rows.length);$("targetCenter").value=25;$("sequenceDiscount").checked=true;$("priorityI").checked=true;$("priorityII").checked=true;render();notice("All technologies maximized · crystal-saving research order applied.")};$("reset").onclick=()=>{snapshot();assignPlan(current);$("targetCenter").value=center("center");render();notice("Targets reset to current levels and current Research Center.")};$("clear").onclick=()=>{snapshot();T.forEach(t=>current[t.id]=0);$("center").value=1;render();notice("Current levels cleared; targets preserved.")};
 ["center","targetCenter","discount","speed","buildingSpeed","budget"].forEach(id=>$(id).onchange=()=>{$("center").value=center("center");$("targetCenter").value=Math.max(center("center"),center("targetCenter"));render()});
 function view(tree){$("frame").classList.toggle("hidden",!tree);$("list").classList.toggle("hidden",tree);$("treeBtn").classList.toggle("active",tree);$("tableBtn").classList.toggle("active",!tree)}
 $("treeBtn").onclick=()=>view(true);$("tableBtn").onclick=()=>view(false);$("search").oninput=()=>{renderTree();renderList()};$("search").onkeydown=e=>{if(e.key==="Enter"){let t=T.find(match);if(t){view(true);choose(t.id);viewport.scrollLeft=Math.max(0,positions[t.id].x-40)}}};
