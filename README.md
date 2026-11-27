@@ -11,3 +11,7 @@ Open the deployed site and click **Save HTML** to obtain a self-contained offlin
 v0.6: all 45 research cards now have game image references, including the three uploaded original PNGs. Actual build coverage is recorded in asset-status.json.
 
 Unofficial datamine. Raw base costs exclude buildings, discounts and recurring utility costs. Research layout is reconstructed; provisional labels and icon substitutes are identified.
+
+## v0.7 Section crystal requirements
+
+Five non-overlapping sections split at the four Awakening positions. Displays full base cost, full cumulative base, selected remaining base, discounted remaining and discounted cumulative cost; per-column amounts are displayed beneath the tree. Section costs are full-section totals, not minimum unlock paths. No research data changes.

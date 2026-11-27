@@ -22,3 +22,16 @@ for key, path in manifest.get("local", {}).items():
     assert p.stem == key and p.is_file(), f"Missing required local icon: {key}"
     assert p.read_bytes().startswith(b"\x89PNG\r\n\x1a\n"), f"Invalid PNG: {p}"
 print("Required original local PNG files verified.")
+
+sections = json.loads(re.search(r'const sections=(\[.*?\]);\s*const full=', html, re.S).group(1))
+assert len(sections) == 5
+ids = [i for s in sections for i in s["ids"]]
+assert sorted(ids) == sorted(t["id"] for t in data)
+totals = {t["id"]: sum(r["cost"] for r in t["rows"]) for t in data}
+running = 0
+for s in sections:
+    assert s["base"] == sum(totals[i] for i in s["ids"])
+    running += s["base"]
+    assert s["cumulative"] == running
+assert running == 150600900
+print("Section costs verified:", [s["base"] for s in sections])
