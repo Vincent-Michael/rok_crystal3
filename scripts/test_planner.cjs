@@ -141,3 +141,10 @@ assert.equal(actualSplit.net,actualSteps.reduce((s,r)=>s+ctx.researchNet(r.cost,
 assert.equal(actualSplit.saved,actualSplit.centerSaved+actualSplit.extraSaved+actualSplit.techSaved);
 assert.equal(actualSplit.full-actualSplit.net,actualSplit.saved);
 console.log("Crystal breakdown tests passed: full/reduced research, unchanged buildings, savings allocation and incomplete sequence fallback.");
+
+assert.equal(ctx.awakeningBuff(empty).total,0);
+assert.equal(ctx.awakeningBuff({...empty,1042:1,1043:1}).total,4);
+assert.equal(ctx.awakeningBuff({...empty,1044:1}).total,3);
+assert.equal(ctx.awakeningBuff(full).total,10);
+assert.equal(ctx.awakeningBuff(full).unlocked,4);
+console.log("Live awakening tests passed: 0%, 4%, 3% and 10% additive estimates without double-counting raw buff fields.");
