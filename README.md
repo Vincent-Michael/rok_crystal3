@@ -19,3 +19,7 @@ Five non-overlapping sections split at the four Awakening positions. Displays fu
 ## v0.8 Research simulator
 
 Starts with an empty research plan. Add one level, Max Path, Remove one, Remove All, Inspect, Clear Plan and Undo. The automatic path uses all configured prerequisite pairs, conservatively including relation 1. Max paths respect the target Research Center cap. Removing a prerequisite trims dependent planned targets but never completed levels. No Prereqs allows independent hypothetical targets. Cutting Corners priorities order selected paths; optional detours can be added explicitly. Research order, raw speedups, Season Coins and crystal totals update immediately. Building costs are manual; optional sequential discounts are an unverified additive model. UI interaction inspired by https://infocat-rok.com/tech-simulator.
+
+## v0.9 Manual research controls
+
+Every non-awakening research card, table row and detail panel includes minus/plus controls. Plus validates prerequisites and target Research Center without automatically adding other research; minus refuses to break another selected upgrade. Errors identify the missing technology, required level and current planned level. Max Path remains an explicit automatic path option. No Prereqs is an optional technology requirement bypass. Awakenings remain automatic. All source data and icons are unchanged.
