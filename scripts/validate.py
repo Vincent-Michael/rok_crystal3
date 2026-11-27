@@ -35,3 +35,6 @@ for s in sections:
     assert s["cumulative"] == running
 assert running == 150600900
 print("Section costs verified:", [s["base"] for s in sections])
+
+assert all(t.get("description") and t.get("descriptionKey") and t.get("buffLabels") for t in data)
+print("Technology descriptions verified: 45/45")

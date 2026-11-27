@@ -23,3 +23,7 @@ Starts with an empty research plan. Add one level, Max Path, Remove one, Remove 
 ## v0.9 Manual research controls
 
 Every non-awakening research card, table row and detail panel includes minus/plus controls. Plus validates prerequisites and target Research Center without automatically adding other research; minus refuses to break another selected upgrade. Errors identify the missing technology, required level and current planned level. Max Path remains an explicit automatic path option. No Prereqs is an optional technology requirement bypass. Awakenings remain automatic. All source data and icons are unchanged.
+
+## v1.0 Technology descriptions
+
+All 45 technologies have English descriptions from the extracted Research localization/catalog, effect names, current/target/max configured buff values, and original description keys. Type 1034 (Emergency Support) is a provisional localization mapping. Dual-effect labels with unresolved mappings are identified; raw utility unlock values are not interpreted as Gem prices. Hover a technology or click Inspect to see the description.

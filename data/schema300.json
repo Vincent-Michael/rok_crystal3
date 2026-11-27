@@ -157,7 +157,13 @@
         "relation": 0,
         "pr": []
       }
-    ]
+    ],
+    "description": "Increases the Unit Capacity of your commanders.",
+    "descriptionKey": "LC_RESEARCH_NEW_CRYSTAL_DESC09",
+    "buffLabels": [
+      "Unit Capacity"
+    ],
+    "descriptionNote": ""
   },
   {
     "id": 1002,
@@ -247,7 +253,13 @@
         "relation": 0,
         "pr": []
       }
-    ]
+    ],
+    "description": "Increases the Unit Capacity of alliance rallied armies you initiate.",
+    "descriptionKey": "LC_RESEARCH_NEW_CRYSTAL_DESC11",
+    "buffLabels": [
+      "Rallied Army Capacity"
+    ],
+    "descriptionNote": ""
   },
   {
     "id": 1003,
@@ -412,7 +424,13 @@
         "relation": 0,
         "pr": []
       }
-    ]
+    ],
+    "description": "Increases the March Speed of your infantry units.",
+    "descriptionKey": "LC_RESEARCH_NEW_CRYSTAL_DESC05",
+    "buffLabels": [
+      "Infantry March Speed"
+    ],
+    "descriptionNote": ""
   },
   {
     "id": 1004,
@@ -577,7 +595,13 @@
         "relation": 0,
         "pr": []
       }
-    ]
+    ],
+    "description": "Increases the March Speed of your cavalry units.",
+    "descriptionKey": "LC_RESEARCH_NEW_CRYSTAL_DESC07",
+    "buffLabels": [
+      "Cavalry March Speed"
+    ],
+    "descriptionNote": ""
   },
   {
     "id": 1005,
@@ -742,7 +766,13 @@
         "relation": 0,
         "pr": []
       }
-    ]
+    ],
+    "description": "Increases the March Speed of your archer units.",
+    "descriptionKey": "LC_RESEARCH_NEW_CRYSTAL_DESC06",
+    "buffLabels": [
+      "Archer March Speed"
+    ],
+    "descriptionNote": ""
   },
   {
     "id": 1006,
@@ -907,7 +937,13 @@
         "relation": 0,
         "pr": []
       }
-    ]
+    ],
+    "description": "Increases the March Speed of your siege units.",
+    "descriptionKey": "LC_RESEARCH_NEW_CRYSTAL_DESC08",
+    "buffLabels": [
+      "Siege Unit March Speed"
+    ],
+    "descriptionNote": ""
   },
   {
     "id": 1007,
@@ -1175,7 +1211,13 @@
           ]
         ]
       }
-    ]
+    ],
+    "description": "Increases the Defense of your infantry units.",
+    "descriptionKey": "LC_RESEARCH_NEW_CRYSTAL_DESC22",
+    "buffLabels": [
+      "Infantry Defense"
+    ],
+    "descriptionNote": ""
   },
   {
     "id": 1008,
@@ -1443,7 +1485,13 @@
           ]
         ]
       }
-    ]
+    ],
+    "description": "Increases the Defense of your cavalry units.",
+    "descriptionKey": "LC_RESEARCH_NEW_CRYSTAL_DESC24",
+    "buffLabels": [
+      "Cavalry Defense"
+    ],
+    "descriptionNote": ""
   },
   {
     "id": 1009,
@@ -1711,7 +1759,13 @@
           ]
         ]
       }
-    ]
+    ],
+    "description": "Increases the Defense of your archer units.",
+    "descriptionKey": "LC_RESEARCH_NEW_CRYSTAL_DESC23",
+    "buffLabels": [
+      "Archer Defense"
+    ],
+    "descriptionNote": ""
   },
   {
     "id": 1010,
@@ -1979,7 +2033,13 @@
           ]
         ]
       }
-    ]
+    ],
+    "description": "Increases the Defense of your siege units.",
+    "descriptionKey": "LC_RESEARCH_NEW_CRYSTAL_DESC25",
+    "buffLabels": [
+      "Siege Unit Defense"
+    ],
+    "descriptionNote": ""
   },
   {
     "id": 1011,
@@ -2282,7 +2342,14 @@
         "relation": 0,
         "pr": []
       }
-    ]
+    ],
+    "description": "Increases damage dealt to Barbarian Patrols and Barbarian Forts in the Lost Kingdom. Increases Crystals earned from defeating them.",
+    "descriptionKey": "LC_RESEARCH_NEW_CRYSTAL_DESC13",
+    "buffLabels": [
+      "Crystals Earned (inferred)",
+      "Damage vs Barbarians (inferred)"
+    ],
+    "descriptionNote": ""
   },
   {
     "id": 1012,
@@ -2376,7 +2443,13 @@
         "relation": 0,
         "pr": []
       }
-    ]
+    ],
+    "description": "Reduces the number of Crystals required to research Crystal Research Center technologies.",
+    "descriptionKey": "LC_RESEARCH_NEW_CRYSTAL_DESC10",
+    "buffLabels": [
+      "Crystal Cost Reduction"
+    ],
+    "descriptionNote": ""
   },
   {
     "id": 1013,
@@ -2616,7 +2689,14 @@
         "relation": 0,
         "pr": []
       }
-    ]
+    ],
+    "description": "Increases damage dealt to all Karaku warriors and Crystals earned per hour in the Trial of Kau Karuak event.",
+    "descriptionKey": "LC_RESEARCH_NEW_CRYSTAL_DESC14",
+    "buffLabels": [
+      "Crystal Income (inferred)",
+      "Damage to Karaku Warriors (inferred)"
+    ],
+    "descriptionNote": ""
   },
   {
     "id": 1014,
@@ -2803,7 +2883,13 @@
         "relation": 0,
         "pr": []
       }
-    ]
+    ],
+    "description": "Further increases the Unit Capacity of your commanders.",
+    "descriptionKey": "LC_RESEARCH_NEW_CRYSTAL_DESC15",
+    "buffLabels": [
+      "Unit Capacity"
+    ],
+    "descriptionNote": ""
   },
   {
     "id": 1015,
@@ -2977,7 +3063,13 @@
         "relation": 0,
         "pr": []
       }
-    ]
+    ],
+    "description": "Increases the Unit Capacity of alliance rallied armies you initiate.",
+    "descriptionKey": "LC_RESEARCH_NEW_CRYSTAL_DESC17",
+    "buffLabels": [
+      "Rallied Army Capacity"
+    ],
+    "descriptionNote": ""
   },
   {
     "id": 1016,
@@ -3278,7 +3370,13 @@
         "relation": 0,
         "pr": []
       }
-    ]
+    ],
+    "description": "Increases the Health of all unit types.",
+    "descriptionKey": "LC_RESEARCH_NEW_CRYSTAL3_NAME05_DESC",
+    "buffLabels": [
+      "All Unit Health"
+    ],
+    "descriptionNote": ""
   },
   {
     "id": 1017,
@@ -3447,7 +3545,13 @@
         "relation": 0,
         "pr": []
       }
-    ]
+    ],
+    "description": "Further reduces the number of Crystals required to research Crystal Research Center technologies.",
+    "descriptionKey": "LC_RESEARCH_NEW_CRYSTAL_DESC16",
+    "buffLabels": [
+      "Crystal Cost Reduction"
+    ],
+    "descriptionNote": ""
   },
   {
     "id": 1018,
@@ -3702,7 +3806,14 @@
         "relation": 0,
         "pr": []
       }
-    ]
+    ],
+    "description": "Increases Favor and Crystals gained from completing Bastion quests.",
+    "descriptionKey": "LC_RESEARCH_NEW_CRYSTAL_DESC12",
+    "buffLabels": [
+      "Bastion Quest Bonus (raw 16005)",
+      "Bastion Quest Bonus (raw 16004)"
+    ],
+    "descriptionNote": "Both configured bonuses are shown without guessing which is Favor and which is Crystals."
   },
   {
     "id": 1019,
@@ -3797,7 +3908,13 @@
           ]
         ]
       }
-    ]
+    ],
+    "description": "Increases your city's reinforcement capacity.",
+    "descriptionKey": "LC_RESEARCH_NEW_CRYSTAL_DESC30",
+    "buffLabels": [
+      "Reinforcement Capacity"
+    ],
+    "descriptionNote": ""
   },
   {
     "id": 1020,
@@ -3857,7 +3974,13 @@
         "relation": 0,
         "pr": []
       }
-    ]
+    ],
+    "description": "Unlocks automatic alliance help.",
+    "descriptionKey": "LC_RESEARCH_NEW_CRYSTAL_DESC45",
+    "buffLabels": [
+      "Auto Help Count"
+    ],
+    "descriptionNote": ""
   },
   {
     "id": 1021,
@@ -3891,7 +4014,13 @@
           ]
         ]
       }
-    ]
+    ],
+    "description": "Increases your troop dispatch limit by 1.",
+    "descriptionKey": "LC_RESEARCH_NEW_CRYSTAL_DESC32",
+    "buffLabels": [
+      "Troop Dispatch Limit"
+    ],
+    "descriptionNote": ""
   },
   {
     "id": 1022,
@@ -4165,7 +4294,13 @@
           ]
         ]
       }
-    ]
+    ],
+    "description": "Increases the Attack of your infantry units.",
+    "descriptionKey": "LC_RESEARCH_NEW_CRYSTAL_DESC01",
+    "buffLabels": [
+      "Infantry Attack"
+    ],
+    "descriptionNote": ""
   },
   {
     "id": 1023,
@@ -4439,7 +4574,13 @@
           ]
         ]
       }
-    ]
+    ],
+    "description": "Increases the Attack of your cavalry units.",
+    "descriptionKey": "LC_RESEARCH_NEW_CRYSTAL_DESC03",
+    "buffLabels": [
+      "Cavalry Attack"
+    ],
+    "descriptionNote": ""
   },
   {
     "id": 1024,
@@ -4713,7 +4854,13 @@
           ]
         ]
       }
-    ]
+    ],
+    "description": "Increases the Attack of your archer units.",
+    "descriptionKey": "LC_RESEARCH_NEW_CRYSTAL_DESC02",
+    "buffLabels": [
+      "Archer Attack"
+    ],
+    "descriptionNote": ""
   },
   {
     "id": 1025,
@@ -4987,7 +5134,13 @@
           ]
         ]
       }
-    ]
+    ],
+    "description": "Increases the Attack of your siege units.",
+    "descriptionKey": "LC_RESEARCH_NEW_CRYSTAL_DESC04",
+    "buffLabels": [
+      "Siege Unit Attack"
+    ],
+    "descriptionNote": ""
   },
   {
     "id": 1026,
@@ -5181,7 +5334,13 @@
         "relation": 0,
         "pr": []
       }
-    ]
+    ],
+    "description": "Reduces the resource cost of healing Tier 5 troops.",
+    "descriptionKey": "LC_RESEARCH_NEW_CRYSTAL_DESC33",
+    "buffLabels": [
+      "T5 Healing Cost Reduction"
+    ],
+    "descriptionNote": ""
   },
   {
     "id": 1027,
@@ -5356,7 +5515,13 @@
         "relation": 0,
         "pr": []
       }
-    ]
+    ],
+    "description": "Further increases the March Speed of your infantry units.",
+    "descriptionKey": "LC_RESEARCH_NEW_CRYSTAL_DESC26",
+    "buffLabels": [
+      "Infantry March Speed"
+    ],
+    "descriptionNote": ""
   },
   {
     "id": 1028,
@@ -5531,7 +5696,13 @@
         "relation": 0,
         "pr": []
       }
-    ]
+    ],
+    "description": "Further increases the March Speed of your cavalry units.",
+    "descriptionKey": "LC_RESEARCH_NEW_CRYSTAL_DESC28",
+    "buffLabels": [
+      "Cavalry March Speed"
+    ],
+    "descriptionNote": ""
   },
   {
     "id": 1029,
@@ -5706,7 +5877,13 @@
         "relation": 0,
         "pr": []
       }
-    ]
+    ],
+    "description": "Further increases the March Speed of your archer units.",
+    "descriptionKey": "LC_RESEARCH_NEW_CRYSTAL_DESC27",
+    "buffLabels": [
+      "Archer March Speed"
+    ],
+    "descriptionNote": ""
   },
   {
     "id": 1030,
@@ -5881,7 +6058,13 @@
         "relation": 0,
         "pr": []
       }
-    ]
+    ],
+    "description": "Further increases the March Speed of your siege units.",
+    "descriptionKey": "LC_RESEARCH_NEW_CRYSTAL_DESC29",
+    "buffLabels": [
+      "Siege Unit March Speed"
+    ],
+    "descriptionNote": ""
   },
   {
     "id": 1031,
@@ -6170,7 +6353,13 @@
         "relation": 0,
         "pr": []
       }
-    ]
+    ],
+    "description": "Your troops deal more damage.",
+    "descriptionKey": "LC_RESEARCH_NEW_CRYSTAL3_NAME06_DESC",
+    "buffLabels": [
+      "Damage Bonus"
+    ],
+    "descriptionNote": ""
   },
   {
     "id": 1032,
@@ -6200,7 +6389,13 @@
           ]
         ]
       }
-    ]
+    ],
+    "description": "1. After researching this tech, you can use the Crystal Research Center to summon a rune of your choice near your city.\n2. You can summon runes for free 2 times per day, and spend Crystals to summon 3 times per day. After all summon chances are used up, the summon feature will enter cooldown.",
+    "descriptionKey": "LC_RESEARCH_NEW_CRYSTAL_DESC31",
+    "buffLabels": [
+      "Configured Summon Limit"
+    ],
+    "descriptionNote": ""
   },
   {
     "id": 1033,
@@ -6230,11 +6425,17 @@
           ]
         ]
       }
-    ]
+    ],
+    "description": "Unlocks the ability to use Gems to instantly return defeated troops to your city. Automatic mode turns off at 00:00 UTC.",
+    "descriptionKey": "LC_RESEARCH_NEW_CRYSTAL_DESC35",
+    "buffLabels": [
+      "Raw Unlock Parameter"
+    ],
+    "descriptionNote": "The raw configured value is not a verified Gem price."
   },
   {
     "id": 1034,
-    "name": "Technology 1034",
+    "name": "Emergency Support *",
     "icon": "⚑",
     "key": "LC_RESEARCH_NEW_CRYSTAL_NAME34",
     "pic": "img_icon_Research81",
@@ -6412,7 +6613,13 @@
         "relation": 0,
         "pr": []
       }
-    ]
+    ],
+    "description": "Increases your Hospital Capacity.",
+    "descriptionKey": "LC_RESEARCH_NEW_CRYSTAL_DESC34",
+    "buffLabels": [
+      "Hospital Capacity (provisional)"
+    ],
+    "descriptionNote": "Provisional name/description mapping for Type 1034; exact localization key binding not verified."
   },
   {
     "id": 1035,
@@ -6587,7 +6794,13 @@
         "relation": 0,
         "pr": []
       }
-    ]
+    ],
+    "description": "Your units take less damage from and deal more damage to infantry units.",
+    "descriptionKey": "LC_RESEARCH_NEW_CRYSTAL3_NAME07_DESC",
+    "buffLabels": [
+      "Damage Bonus / Reduction vs Infantry"
+    ],
+    "descriptionNote": ""
   },
   {
     "id": 1036,
@@ -6762,7 +6975,13 @@
         "relation": 0,
         "pr": []
       }
-    ]
+    ],
+    "description": "Your units take less damage from and deal more damage to cavalry units.",
+    "descriptionKey": "LC_RESEARCH_NEW_CRYSTAL3_NAME08_DESC",
+    "buffLabels": [
+      "Damage Bonus / Reduction vs Cavalry"
+    ],
+    "descriptionNote": ""
   },
   {
     "id": 1037,
@@ -6937,7 +7156,13 @@
         "relation": 0,
         "pr": []
       }
-    ]
+    ],
+    "description": "Your units take less damage from and deal more damage to archer units.",
+    "descriptionKey": "LC_RESEARCH_NEW_CRYSTAL3_NAME09_DESC",
+    "buffLabels": [
+      "Damage Bonus / Reduction vs Archers"
+    ],
+    "descriptionNote": ""
   },
   {
     "id": 1038,
@@ -7112,7 +7337,13 @@
         "relation": 0,
         "pr": []
       }
-    ]
+    ],
+    "description": "Your units take less damage from and deal more damage to siege units.",
+    "descriptionKey": "LC_RESEARCH_NEW_CRYSTAL3_NAME10_DESC",
+    "buffLabels": [
+      "Damage Bonus / Reduction vs Siege Units"
+    ],
+    "descriptionNote": ""
   },
   {
     "id": 1039,
@@ -7299,7 +7530,13 @@
         "relation": 0,
         "pr": []
       }
-    ]
+    ],
+    "description": "Further reduces the resource cost of healing Tier 5 troops.",
+    "descriptionKey": "LC_RESEARCH_NEW_CRYSTAL_DESC44",
+    "buffLabels": [
+      "T5 Healing Cost Reduction"
+    ],
+    "descriptionNote": ""
   },
   {
     "id": 1040,
@@ -7329,7 +7566,13 @@
           ]
         ]
       }
-    ]
+    ],
+    "description": "Increases your troop dispatch limit by 1.",
+    "descriptionKey": "LC_RESEARCH_NEW_CRYSTAL_DESC46",
+    "buffLabels": [
+      "Troop Dispatch Limit"
+    ],
+    "descriptionNote": ""
   },
   {
     "id": 1041,
@@ -7555,7 +7798,13 @@
         "relation": 0,
         "pr": []
       }
-    ]
+    ],
+    "description": "Increases damage your field troops deal to enemy rallied armies and garrisons in the Lost Kingdom.",
+    "descriptionKey": "LC_RESEARCH_NEW_CRYSTAL_DESC51",
+    "buffLabels": [
+      "Damage vs Rallies and Garrisons"
+    ],
+    "descriptionNote": ""
   },
   {
     "id": 1042,
@@ -7597,7 +7846,13 @@
           ]
         ]
       }
-    ]
+    ],
+    "description": "Take less skill/combo attack/smite damage of all types.",
+    "descriptionKey": "LC_RESEARCH_NEW_CRYSTAL3_AWAKEN_TIPS",
+    "buffLabels": [
+      "Skill / Combo Attack / Smite Damage Reduction"
+    ],
+    "descriptionNote": "Automatically unlocks when its conditions are met. The two identical raw magnitudes are not added together."
   },
   {
     "id": 1043,
@@ -7627,7 +7882,13 @@
           ]
         ]
       }
-    ]
+    ],
+    "description": "Take less skill/combo attack/smite damage of all types.",
+    "descriptionKey": "LC_RESEARCH_NEW_CRYSTAL3_AWAKEN_TIPS",
+    "buffLabels": [
+      "Skill / Combo Attack / Smite Damage Reduction"
+    ],
+    "descriptionNote": "Automatically unlocks when its conditions are met. The two identical raw magnitudes are not added together."
   },
   {
     "id": 1044,
@@ -7657,7 +7918,13 @@
           ]
         ]
       }
-    ]
+    ],
+    "description": "Take less skill/combo attack/smite damage of all types.",
+    "descriptionKey": "LC_RESEARCH_NEW_CRYSTAL3_AWAKEN_TIPS",
+    "buffLabels": [
+      "Skill / Combo Attack / Smite Damage Reduction"
+    ],
+    "descriptionNote": "Automatically unlocks when its conditions are met. The two identical raw magnitudes are not added together."
   },
   {
     "id": 1045,
@@ -7699,6 +7966,12 @@
           ]
         ]
       }
-    ]
+    ],
+    "description": "Take less skill/combo attack/smite damage of all types.",
+    "descriptionKey": "LC_RESEARCH_NEW_CRYSTAL3_AWAKEN_TIPS",
+    "buffLabels": [
+      "Skill / Combo Attack / Smite Damage Reduction"
+    ],
+    "descriptionNote": "Automatically unlocks when its conditions are met. The two identical raw magnitudes are not added together."
   }
 ]
