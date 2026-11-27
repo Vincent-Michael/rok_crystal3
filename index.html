@@ -432,7 +432,7 @@ const buffGroups=[
 ];
 function overviewValue(spec,levels,rc){
   const [,ids,kind="percent",channel=0]=spec;
-  if(kind==="center")return centerDiscount(rc);
+  if(kind==="center")return Math.round(centerDiscount(rc)*10000)/100;
   if(kind==="unlock")return ids.some(id=>(levels[id]||0)>0)?1:0;
   const raw=ids.reduce((total,id)=>{
     const row=by[id].rows[(levels[id]||0)-1];
