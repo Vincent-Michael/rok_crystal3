@@ -31,3 +31,7 @@ All 45 technologies have English descriptions from the extracted Research locali
 ## v1.1 Compact interface
 
 Blue/gold cards with horizontal − / level / + controls and a green information button. Descriptions and per-level costs appear in a closable dialog. Settings, detailed totals, research sequence and Awakening summary are collapsed by default. Existing Schema 300 data, prerequisites, exports and original artwork are preserved. The layout is inspired by the supplied InfoCat screenshot, not a pixel-identical reproduction.
+
+## v1.4 Building costs and construction time
+
+Uses all 50 rows for Types 43 and 44 from building_Building.csv, schema 122. The selected Research Center target level and existing center level determine remaining costs. Crystal Mine includes all levels through 25. Both toggles add verified raw building crystal costs and construction duration to the live totals. The data source is separate from tech schema 300; the schema association is not confirmed. No editable building-cost inputs or building discounts. The research speed bonus does not reduce construction time.

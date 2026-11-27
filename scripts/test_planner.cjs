@@ -42,3 +42,15 @@ assert.equal(downgrade(valid.plan,empty,dependent.id,0,true).ok,true);
 assert.equal(upgrade(empty,empty,dependent.id,1,25,false).ok,true);
 assert.equal(upgrade(empty,empty,1041,1,1,false).ok,false);
 console.log("Manual +/- tests passed: unmet prerequisites blocked, valid add, blocked dependent removal, No Prereqs override, Research Center limit.");
+
+const buildingData=JSON.parse(html.match(/<script type="application\/json" id="buildingDataset">([\s\S]*?)<\/script>/)[1]);
+vm.runInContext(html.split("/* BUILDING_MODEL_START */")[1].split("/* BUILDING_MODEL_END */")[0],ctx);
+const buildingTotals=ctx.buildingTotals;
+assert.equal(buildingTotals(buildingData,1,25,true,true).crystals,3600000);
+assert.equal(buildingTotals(buildingData,1,20,true,false).crystals,770000);
+assert.equal(buildingTotals(buildingData,20,25,true,false).crystals,1030000);
+assert.equal(buildingTotals(buildingData,25,25,true,false).seconds,0);
+assert.equal(buildingTotals(buildingData,1,25,false,true).seconds,1214599);
+assert.equal(buildingTotals(buildingData,1,25,true,true).seconds,4859201);
+assert.equal(buildingTotals(buildingData,1,25,false,false).crystals,0);
+console.log("Building calculation tests passed: toggles, target levels, completed levels and construction times.");

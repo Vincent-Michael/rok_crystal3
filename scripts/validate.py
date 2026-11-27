@@ -52,3 +52,14 @@ assert len(page.ids) == len(set(page.ids)), "Duplicate page IDs"
 assert set(re.findall(r'\$\("([^"]+)"\)', script)) <= set(page.ids), "Missing JS element IDs"
 assert '<dialog id="techDialog"' in html
 print("Compact layout verified: unique HTML IDs, all JS references present, technology dialog.")
+
+building = json.loads(re.search(r'<script type="application/json" id="buildingDataset">(.*?)</script>', html, re.S).group(1))
+assert building == json.loads(Path("data/buildings122.json").read_text(encoding="utf-8"))
+assert building["schema"] == 122
+for kind, seconds in [("mine", 1214599), ("center", 3644604)]:
+    entries = building[kind]
+    assert [r["level"] for r in entries] == list(range(1, 26))
+    assert sum(r["crystals"] for r in entries) == 1800000
+    assert sum(r["seconds"] for r in entries) == seconds
+    assert sum(r["crystals"] for r in entries[:20]) == 770000
+print("Building schema 122 verified: 50 levels, both buildings 1,800,000 crystals each.")
