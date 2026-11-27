@@ -3810,10 +3810,10 @@
     "description": "Increases Favor and Crystals gained from completing Bastion quests.",
     "descriptionKey": "LC_RESEARCH_NEW_CRYSTAL_DESC12",
     "buffLabels": [
-      "Bastion Quest Bonus (raw 16005)",
-      "Bastion Quest Bonus (raw 16004)"
+      "Bastion Quest Favor",
+      "Bastion Quest Crystals"
     ],
-    "descriptionNote": "Two distinct reward effects (16005 and 16004) have equal values at every level. Exact Favor/Crystal channel mapping is not resolved in the export."
+    "descriptionNote": "Cultural Exchange increases both Favor and Crystals from Bastion quests equally at every level. Display labels represent these two rewards; the exact mapping to raw IDs 16005 and 16004 remains unverified."
   },
   {
     "id": 1019,
