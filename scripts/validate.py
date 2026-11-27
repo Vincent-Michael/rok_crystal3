@@ -67,3 +67,11 @@ print("Building schema 122 verified: 50 levels, both buildings 1,800,000 crystal
 assert sorted((t["id"], r["level"]) for t in data for r in t["rows"] if r["relation"] == 1) == [(1011, 1), (1011, 5), (1011, 8), (1011, 10), (1014, 8)]
 assert all(r["relation"] in (0, 1) for r in rows)
 print("Dependency relation audit: 416 AND/default rows, 5 OR rows.")
+
+# Prevent the old expandable technology-popup panels from returning.
+dialog = re.search(r'<dialog id="techDialog"[^>]*>(.*?)</dialog>', html, re.S).group(1)
+assert not re.search(r'<(?:details|summary|select)\b', dialog), "Technology popup must not contain expandable panels or level editors"
+assert '<h3>Requirements</h3>' in dialog and 'id="requirements"' in dialog
+assert re.search(r'<section class="popup-requirements"[^>]*>.*?</section>\s*$', dialog, re.S), "Requirements must be visible at the end of the popup"
+assert 'id="levelRows"' in dialog and dialog.index('id="levelRows"') < dialog.index('id="requirements"')
+print("Technology popup verified: level table followed by visible requirements only; no expandable editors.")
