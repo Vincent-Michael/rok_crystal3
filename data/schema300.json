@@ -2349,7 +2349,7 @@
       "Crystals Earned (inferred)",
       "Damage vs Barbarians (inferred)"
     ],
-    "descriptionNote": ""
+    "descriptionNote": "Two distinct effects (BuffType 16008 and 10016). English effect-to-ID mapping is inferred; the export contains localization keys, not resolved text."
   },
   {
     "id": 1012,
@@ -2696,7 +2696,7 @@
       "Crystal Income (inferred)",
       "Damage to Karaku Warriors (inferred)"
     ],
-    "descriptionNote": ""
+    "descriptionNote": "Two distinct effects (BuffType 16009 and 7006), with equal values at every level. English effect-to-ID mapping remains inferred."
   },
   {
     "id": 1014,
@@ -3813,7 +3813,7 @@
       "Bastion Quest Bonus (raw 16005)",
       "Bastion Quest Bonus (raw 16004)"
     ],
-    "descriptionNote": "Both configured bonuses are shown without guessing which is Favor and which is Crystals."
+    "descriptionNote": "Two distinct reward effects (16005 and 16004) have equal values at every level. Exact Favor/Crystal channel mapping is not resolved in the export."
   },
   {
     "id": 1019,
@@ -3975,12 +3975,12 @@
         "pr": []
       }
     ],
-    "description": "Unlocks automatic alliance help.",
+    "description": "Unlocks automatic alliance help and increases the configured help count.",
     "descriptionKey": "LC_RESEARCH_NEW_CRYSTAL_DESC45",
     "buffLabels": [
       "Auto Help Count"
     ],
-    "descriptionNote": ""
+    "descriptionNote": "Configured count: 10 / 20 / 30. The export does not specify the reset interval."
   },
   {
     "id": 1021,
@@ -6395,7 +6395,7 @@
     "buffLabels": [
       "Configured Summon Limit"
     ],
-    "descriptionNote": ""
+    "descriptionNote": "The export confirms a configured limit of 5; the free/paid split and reset rules in the existing description are not independently verified by this export."
   },
   {
     "id": 1033,
@@ -6431,7 +6431,7 @@
     "buffLabels": [
       "Raw Unlock Parameter"
     ],
-    "descriptionNote": "The raw configured value is not a verified Gem price."
+    "descriptionNote": "The export confirms the raw unlock parameter 6, not a Gem price. Timing and automatic-mode rules in the existing description are not independently verified by this export."
   },
   {
     "id": 1034,
@@ -6795,10 +6795,10 @@
         "pr": []
       }
     ],
-    "description": "Your units take less damage from and deal more damage to infantry units.",
+    "description": "Your units take less damage from infantry units.",
     "descriptionKey": "LC_RESEARCH_NEW_CRYSTAL3_NAME07_DESC",
     "buffLabels": [
-      "Damage Bonus / Reduction vs Infantry"
+      "Damage Reduction vs Infantry"
     ],
     "descriptionNote": ""
   },
@@ -6976,10 +6976,10 @@
         "pr": []
       }
     ],
-    "description": "Your units take less damage from and deal more damage to cavalry units.",
+    "description": "Your units take less damage from cavalry units.",
     "descriptionKey": "LC_RESEARCH_NEW_CRYSTAL3_NAME08_DESC",
     "buffLabels": [
-      "Damage Bonus / Reduction vs Cavalry"
+      "Damage Reduction vs Cavalry"
     ],
     "descriptionNote": ""
   },
@@ -7157,10 +7157,10 @@
         "pr": []
       }
     ],
-    "description": "Your units take less damage from and deal more damage to archer units.",
+    "description": "Your units take less damage from archer units.",
     "descriptionKey": "LC_RESEARCH_NEW_CRYSTAL3_NAME09_DESC",
     "buffLabels": [
-      "Damage Bonus / Reduction vs Archers"
+      "Damage Reduction vs Archers"
     ],
     "descriptionNote": ""
   },
@@ -7338,10 +7338,10 @@
         "pr": []
       }
     ],
-    "description": "Your units take less damage from and deal more damage to siege units.",
+    "description": "Your units take less damage from siege units.",
     "descriptionKey": "LC_RESEARCH_NEW_CRYSTAL3_NAME10_DESC",
     "buffLabels": [
-      "Damage Bonus / Reduction vs Siege Units"
+      "Damage Reduction vs Siege Units"
     ],
     "descriptionNote": ""
   },
@@ -7804,7 +7804,7 @@
     "buffLabels": [
       "Damage vs Rallies and Garrisons"
     ],
-    "descriptionNote": ""
+    "descriptionNote": "Existing English interpretation; exact scope (field troops, rallies and garrisons) cannot be independently confirmed from the numeric export."
   },
   {
     "id": 1042,
@@ -7852,7 +7852,7 @@
     "buffLabels": [
       "Skill / Combo Attack / Smite Damage Reduction"
     ],
-    "descriptionNote": "Automatically unlocks when its conditions are met. The two identical raw magnitudes are not added together."
+    "descriptionNote": "Automatically unlocks when its conditions are met. BuffType 10063 and 10067 share one localization key and equal magnitudes; displayed as one value, not added together. The cumulative total uses an additive simulation."
   },
   {
     "id": 1043,
@@ -7888,7 +7888,7 @@
     "buffLabels": [
       "Skill / Combo Attack / Smite Damage Reduction"
     ],
-    "descriptionNote": "Automatically unlocks when its conditions are met. The two identical raw magnitudes are not added together."
+    "descriptionNote": "Automatically unlocks when its conditions are met. BuffType 10063 and 10067 share one localization key and equal magnitudes; displayed as one value, not added together. The cumulative total uses an additive simulation."
   },
   {
     "id": 1044,
@@ -7924,7 +7924,7 @@
     "buffLabels": [
       "Skill / Combo Attack / Smite Damage Reduction"
     ],
-    "descriptionNote": "Automatically unlocks when its conditions are met. The two identical raw magnitudes are not added together."
+    "descriptionNote": "Automatically unlocks when its conditions are met. BuffType 10063 and 10067 share one localization key and equal magnitudes; displayed as one value, not added together. The cumulative total uses an additive simulation."
   },
   {
     "id": 1045,
@@ -7972,6 +7972,6 @@
     "buffLabels": [
       "Skill / Combo Attack / Smite Damage Reduction"
     ],
-    "descriptionNote": "Automatically unlocks when its conditions are met. The two identical raw magnitudes are not added together."
+    "descriptionNote": "Automatically unlocks when its conditions are met. BuffType 10063 and 10067 share one localization key and equal magnitudes; displayed as one value, not added together. The cumulative total uses an additive simulation."
   }
 ]
