@@ -67,3 +67,9 @@ verifiedCenterRates.forEach((pct,i)=>assert.equal(ctx.centerDiscount(i+1),pct/10
 assert.equal(ctx.researchNet(1000000,ctx.researchDiscount(15,0),0),980000);
 assert.equal(ctx.researchNet(1000000,ctx.researchDiscount(20,0),0.15),820000);
 console.log("All 25 in-game Research Center discount rates verified.");
+
+assert.equal(ctx.adjustedBuildingTime(19800,98),10000);
+assert.equal(ctx.adjustedBuildingTime(19800,0),19800);
+assert.equal(Math.floor(ctx.adjustedBuildingTime(1214597,98)/60),10223);
+assert.equal(Math.floor(ctx.adjustedBuildingTime(3644602,98)/60),30678);
+console.log("Building speed tests passed: separate +98% bonus and KingsCodex adjusted totals.");

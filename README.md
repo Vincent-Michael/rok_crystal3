@@ -43,3 +43,7 @@ Automatic target-center discount applied to research only, independently of buil
 ## v1.4.8 Verified Research Center discounts
 
 Replaces the v1.4.7 interpolated estimates with all 25 rates transcribed from the supplied in-game Crystal Research Cost Reduction screenshots. The rates are also displayed in the building breakdown. The target-center-first and additive-stacking assumptions remain unchanged.
+
+## v1.4.9 Building speedups
+
+The supplied November 2026 KingsCodex Crystal Buildings graphic matches the existing schema 122 level 2–25 costs and times at displayed minute precision. CSV exact seconds retained. Building speed bonus defaults to +98% and is independently adjustable in Settings. Main building KPI shows adjusted time with base time also visible. Research speed and crystal costs are unaffected.
