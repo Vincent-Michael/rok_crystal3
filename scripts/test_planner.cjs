@@ -50,10 +50,20 @@ assert.equal(buildingTotals(buildingData,1,25,true,true).crystals,3600000);
 assert.equal(buildingTotals(buildingData,1,20,true,false).crystals,770000);
 assert.equal(buildingTotals(buildingData,20,25,true,false).crystals,1030000);
 assert.equal(buildingTotals(buildingData,25,25,true,false).seconds,0);
-assert.equal(buildingTotals(buildingData,1,25,false,true).seconds,1214599);
-assert.equal(buildingTotals(buildingData,1,25,true,true).seconds,4859201);
+// Current level 1 means the initial 2-second construction has already finished.
+assert.equal(buildingTotals(buildingData,1,25,false,true).seconds,1214597);
+assert.equal(buildingTotals(buildingData,1,25,true,true).seconds,4859199);
 assert.equal(buildingTotals(buildingData,1,25,false,false).crystals,0);
-console.log("Building calculation tests passed: toggles, target levels, completed levels and construction times.");
+assert.deepEqual(JSON.parse(JSON.stringify(buildingTotals(buildingData,20,25,true,true,24,25))),{
+  center:{crystals:1030000,seconds:1784550},mine:{crystals:300000,seconds:142619},
+  selectedCenter:{crystals:1030000,seconds:1784550},selectedMine:{crystals:300000,seconds:142619},
+  crystals:1330000,seconds:1927169
+});
+assert.equal(buildingTotals(buildingData,25,25,true,true,25,25).seconds,0);
+assert.equal(buildingTotals(buildingData,25,25,false,true,20,25).crystals,1030000);
+assert.equal(buildingTotals(buildingData,1,25,true,false,1,25).seconds,3644602);
+assert.equal(buildingTotals(buildingData,25,25,false,true,24,24).crystals,0);
+console.log("Building calculation tests passed: toggles, independent level ranges, completed levels and construction times.");
 
 assert.equal(ctx.centerDiscount(1),0.001);
 assert.equal(ctx.centerDiscount(25),0.05);
