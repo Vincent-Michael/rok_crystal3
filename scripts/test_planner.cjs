@@ -123,3 +123,21 @@ for(const [id,level] of orCases){
   assert.equal(expand(empty,empty,id,level,25,true,preferred).ok,true);
 }
 console.log("Prerequisite tests passed: all 421 rows, all 5 OR gates, every alternative, last-branch removal and valid research order.");
+
+const split=ctx.crystalBreakdown;
+const example=split(1000000,3600000,[{cost:1000000,priorDiscount:0.15}],25,0,true,true);
+assert.equal(example.full,4600000);
+assert.equal(example.net,4400000);
+assert.equal(example.centerSaved,50000);
+assert.equal(example.techSaved,150000);
+assert.equal(example.saved,200000);
+assert.equal(example.build,3600000);
+assert.equal(split(1000000,0,[],25,0,true,false).techSaved,0);
+assert.equal(split(1000000,0,[],25,0,true,false).net,950000);
+assert.equal(split(0,3600000,[],25,0,true,true).net,3600000);
+const actualSteps=order(full,empty,25,[1012,1017]).steps;
+const actualSplit=split(150600900,3600000,actualSteps,25,2,true,true);
+assert.equal(actualSplit.net,actualSteps.reduce((s,r)=>s+ctx.researchNet(r.cost,ctx.researchDiscount(25,2),r.priorDiscount),3600000));
+assert.equal(actualSplit.saved,actualSplit.centerSaved+actualSplit.extraSaved+actualSplit.techSaved);
+assert.equal(actualSplit.full-actualSplit.net,actualSplit.saved);
+console.log("Crystal breakdown tests passed: full/reduced research, unchanged buildings, savings allocation and incomplete sequence fallback.");
