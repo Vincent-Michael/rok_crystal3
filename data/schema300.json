@@ -1,0 +1,7704 @@
+[
+  {
+    "id": 1001,
+    "name": "Call to Arms I",
+    "icon": "🛡",
+    "key": "LC_RESEARCH_NEW_CRYSTAL_NAME09",
+    "pic": "img_icon_Research49",
+    "awake": false,
+    "rows": [
+      {
+        "level": 1,
+        "cost": 76400,
+        "seconds": 5000,
+        "coin": 1100,
+        "center": 1,
+        "buff": 0.025,
+        "buff2": 0,
+        "buffType": 12005,
+        "buffType2": 0,
+        "judge": 1,
+        "judge2": 1,
+        "relation": 0,
+        "pr": []
+      },
+      {
+        "level": 2,
+        "cost": 152800,
+        "seconds": 10000,
+        "coin": 1200,
+        "center": 2,
+        "buff": 0.05,
+        "buff2": 0,
+        "buffType": 12005,
+        "buffType2": 0,
+        "judge": 1,
+        "judge2": 1,
+        "relation": 0,
+        "pr": []
+      },
+      {
+        "level": 3,
+        "cost": 229200,
+        "seconds": 20000,
+        "coin": 1300,
+        "center": 3,
+        "buff": 0.075,
+        "buff2": 0,
+        "buffType": 12005,
+        "buffType2": 0,
+        "judge": 1,
+        "judge2": 1,
+        "relation": 0,
+        "pr": []
+      },
+      {
+        "level": 4,
+        "cost": 305700,
+        "seconds": 40000,
+        "coin": 1400,
+        "center": 4,
+        "buff": 0.1,
+        "buff2": 0,
+        "buffType": 12005,
+        "buffType2": 0,
+        "judge": 1,
+        "judge2": 1,
+        "relation": 0,
+        "pr": []
+      },
+      {
+        "level": 5,
+        "cost": 382100,
+        "seconds": 80000,
+        "coin": 1500,
+        "center": 5,
+        "buff": 0.125,
+        "buff2": 0,
+        "buffType": 12005,
+        "buffType2": 0,
+        "judge": 1,
+        "judge2": 1,
+        "relation": 0,
+        "pr": []
+      },
+      {
+        "level": 6,
+        "cost": 457400,
+        "seconds": 80000,
+        "coin": 1600,
+        "center": 6,
+        "buff": 0.15,
+        "buff2": 0,
+        "buffType": 12005,
+        "buffType2": 0,
+        "judge": 1,
+        "judge2": 1,
+        "relation": 0,
+        "pr": []
+      },
+      {
+        "level": 7,
+        "cost": 533800,
+        "seconds": 80000,
+        "coin": 1700,
+        "center": 7,
+        "buff": 0.175,
+        "buff2": 0,
+        "buffType": 12005,
+        "buffType2": 0,
+        "judge": 1,
+        "judge2": 1,
+        "relation": 0,
+        "pr": []
+      },
+      {
+        "level": 8,
+        "cost": 610200,
+        "seconds": 80000,
+        "coin": 1900,
+        "center": 8,
+        "buff": 0.2,
+        "buff2": 0,
+        "buffType": 12005,
+        "buffType2": 0,
+        "judge": 1,
+        "judge2": 1,
+        "relation": 0,
+        "pr": []
+      },
+      {
+        "level": 9,
+        "cost": 686600,
+        "seconds": 80000,
+        "coin": 2000,
+        "center": 9,
+        "buff": 0.225,
+        "buff2": 0,
+        "buffType": 12005,
+        "buffType2": 0,
+        "judge": 1,
+        "judge2": 1,
+        "relation": 0,
+        "pr": []
+      },
+      {
+        "level": 10,
+        "cost": 763000,
+        "seconds": 80000,
+        "coin": 2100,
+        "center": 10,
+        "buff": 0.25,
+        "buff2": 0,
+        "buffType": 12005,
+        "buffType2": 0,
+        "judge": 1,
+        "judge2": 1,
+        "relation": 0,
+        "pr": []
+      }
+    ]
+  },
+  {
+    "id": 1002,
+    "name": "Leadership I",
+    "icon": "⚑",
+    "key": "LC_RESEARCH_NEW_CRYSTAL_NAME11",
+    "pic": "img_iconAlliResearch1",
+    "awake": false,
+    "rows": [
+      {
+        "level": 1,
+        "cost": 57000,
+        "seconds": 5000,
+        "coin": 500,
+        "center": 2,
+        "buff": 0.03,
+        "buff2": 0,
+        "buffType": 14014,
+        "buffType2": 0,
+        "judge": 1,
+        "judge2": 1,
+        "relation": 0,
+        "pr": [
+          [
+            1001,
+            1
+          ]
+        ]
+      },
+      {
+        "level": 2,
+        "cost": 114100,
+        "seconds": 10000,
+        "coin": 600,
+        "center": 4,
+        "buff": 0.06,
+        "buff2": 0,
+        "buffType": 14014,
+        "buffType2": 0,
+        "judge": 1,
+        "judge2": 1,
+        "relation": 0,
+        "pr": []
+      },
+      {
+        "level": 3,
+        "cost": 171100,
+        "seconds": 20000,
+        "coin": 700,
+        "center": 6,
+        "buff": 0.09,
+        "buff2": 0,
+        "buffType": 14014,
+        "buffType2": 0,
+        "judge": 1,
+        "judge2": 1,
+        "relation": 0,
+        "pr": []
+      },
+      {
+        "level": 4,
+        "cost": 228100,
+        "seconds": 40000,
+        "coin": 800,
+        "center": 8,
+        "buff": 0.12,
+        "buff2": 0,
+        "buffType": 14014,
+        "buffType2": 0,
+        "judge": 1,
+        "judge2": 1,
+        "relation": 0,
+        "pr": []
+      },
+      {
+        "level": 5,
+        "cost": 285100,
+        "seconds": 80000,
+        "coin": 1000,
+        "center": 10,
+        "buff": 0.15,
+        "buff2": 0,
+        "buffType": 14014,
+        "buffType2": 0,
+        "judge": 1,
+        "judge2": 1,
+        "relation": 0,
+        "pr": []
+      }
+    ]
+  },
+  {
+    "id": 1003,
+    "name": "Swift Marching I",
+    "icon": "🥾",
+    "key": "LC_RESEARCH_NEW_CRYSTAL_NAME05",
+    "pic": "img_iconAlliResearch2",
+    "awake": false,
+    "rows": [
+      {
+        "level": 1,
+        "cost": 22800,
+        "seconds": 1500,
+        "coin": 800,
+        "center": 2,
+        "buff": 0.005,
+        "buff2": 0,
+        "buffType": 6001,
+        "buffType2": 0,
+        "judge": 1,
+        "judge2": 1,
+        "relation": 0,
+        "pr": [
+          [
+            1001,
+            1
+          ]
+        ]
+      },
+      {
+        "level": 2,
+        "cost": 45600,
+        "seconds": 5200,
+        "coin": 900,
+        "center": 3,
+        "buff": 0.01,
+        "buff2": 0,
+        "buffType": 6001,
+        "buffType2": 0,
+        "judge": 1,
+        "judge2": 1,
+        "relation": 0,
+        "pr": []
+      },
+      {
+        "level": 3,
+        "cost": 68400,
+        "seconds": 11000,
+        "coin": 900,
+        "center": 4,
+        "buff": 0.015,
+        "buff2": 0,
+        "buffType": 6001,
+        "buffType2": 0,
+        "judge": 1,
+        "judge2": 1,
+        "relation": 0,
+        "pr": []
+      },
+      {
+        "level": 4,
+        "cost": 91200,
+        "seconds": 20000,
+        "coin": 900,
+        "center": 4,
+        "buff": 0.02,
+        "buff2": 0,
+        "buffType": 6001,
+        "buffType2": 0,
+        "judge": 1,
+        "judge2": 1,
+        "relation": 0,
+        "pr": []
+      },
+      {
+        "level": 5,
+        "cost": 114100,
+        "seconds": 31000,
+        "coin": 1000,
+        "center": 5,
+        "buff": 0.025,
+        "buff2": 0,
+        "buffType": 6001,
+        "buffType2": 0,
+        "judge": 1,
+        "judge2": 1,
+        "relation": 0,
+        "pr": []
+      },
+      {
+        "level": 6,
+        "cost": 136900,
+        "seconds": 44000,
+        "coin": 1100,
+        "center": 6,
+        "buff": 0.035,
+        "buff2": 0,
+        "buffType": 6001,
+        "buffType2": 0,
+        "judge": 1,
+        "judge2": 1,
+        "relation": 0,
+        "pr": []
+      },
+      {
+        "level": 7,
+        "cost": 159700,
+        "seconds": 60000,
+        "coin": 1200,
+        "center": 7,
+        "buff": 0.045,
+        "buff2": 0,
+        "buffType": 6001,
+        "buffType2": 0,
+        "judge": 1,
+        "judge2": 1,
+        "relation": 0,
+        "pr": []
+      },
+      {
+        "level": 8,
+        "cost": 182500,
+        "seconds": 100000,
+        "coin": 1200,
+        "center": 8,
+        "buff": 0.055,
+        "buff2": 0,
+        "buffType": 6001,
+        "buffType2": 0,
+        "judge": 1,
+        "judge2": 1,
+        "relation": 0,
+        "pr": []
+      },
+      {
+        "level": 9,
+        "cost": 205300,
+        "seconds": 100000,
+        "coin": 1200,
+        "center": 8,
+        "buff": 0.07,
+        "buff2": 0,
+        "buffType": 6001,
+        "buffType2": 0,
+        "judge": 1,
+        "judge2": 1,
+        "relation": 0,
+        "pr": []
+      },
+      {
+        "level": 10,
+        "cost": 228100,
+        "seconds": 100000,
+        "coin": 1300,
+        "center": 9,
+        "buff": 0.1,
+        "buff2": 0,
+        "buffType": 6001,
+        "buffType2": 0,
+        "judge": 1,
+        "judge2": 1,
+        "relation": 0,
+        "pr": []
+      }
+    ]
+  },
+  {
+    "id": 1004,
+    "name": "Swift Steeds I",
+    "icon": "♞",
+    "key": "LC_RESEARCH_NEW_CRYSTAL_NAME07",
+    "pic": "img_icon_CrystalResearch13",
+    "awake": false,
+    "rows": [
+      {
+        "level": 1,
+        "cost": 22800,
+        "seconds": 1500,
+        "coin": 800,
+        "center": 2,
+        "buff": 0.005,
+        "buff2": 0,
+        "buffType": 6002,
+        "buffType2": 0,
+        "judge": 1,
+        "judge2": 1,
+        "relation": 0,
+        "pr": [
+          [
+            1001,
+            1
+          ]
+        ]
+      },
+      {
+        "level": 2,
+        "cost": 45600,
+        "seconds": 5200,
+        "coin": 900,
+        "center": 3,
+        "buff": 0.01,
+        "buff2": 0,
+        "buffType": 6002,
+        "buffType2": 0,
+        "judge": 1,
+        "judge2": 1,
+        "relation": 0,
+        "pr": []
+      },
+      {
+        "level": 3,
+        "cost": 68400,
+        "seconds": 11000,
+        "coin": 900,
+        "center": 4,
+        "buff": 0.015,
+        "buff2": 0,
+        "buffType": 6002,
+        "buffType2": 0,
+        "judge": 1,
+        "judge2": 1,
+        "relation": 0,
+        "pr": []
+      },
+      {
+        "level": 4,
+        "cost": 91200,
+        "seconds": 20000,
+        "coin": 900,
+        "center": 4,
+        "buff": 0.02,
+        "buff2": 0,
+        "buffType": 6002,
+        "buffType2": 0,
+        "judge": 1,
+        "judge2": 1,
+        "relation": 0,
+        "pr": []
+      },
+      {
+        "level": 5,
+        "cost": 114100,
+        "seconds": 31000,
+        "coin": 1000,
+        "center": 5,
+        "buff": 0.025,
+        "buff2": 0,
+        "buffType": 6002,
+        "buffType2": 0,
+        "judge": 1,
+        "judge2": 1,
+        "relation": 0,
+        "pr": []
+      },
+      {
+        "level": 6,
+        "cost": 136900,
+        "seconds": 44000,
+        "coin": 1100,
+        "center": 6,
+        "buff": 0.035,
+        "buff2": 0,
+        "buffType": 6002,
+        "buffType2": 0,
+        "judge": 1,
+        "judge2": 1,
+        "relation": 0,
+        "pr": []
+      },
+      {
+        "level": 7,
+        "cost": 159700,
+        "seconds": 60000,
+        "coin": 1200,
+        "center": 7,
+        "buff": 0.045,
+        "buff2": 0,
+        "buffType": 6002,
+        "buffType2": 0,
+        "judge": 1,
+        "judge2": 1,
+        "relation": 0,
+        "pr": []
+      },
+      {
+        "level": 8,
+        "cost": 182500,
+        "seconds": 100000,
+        "coin": 1200,
+        "center": 8,
+        "buff": 0.055,
+        "buff2": 0,
+        "buffType": 6002,
+        "buffType2": 0,
+        "judge": 1,
+        "judge2": 1,
+        "relation": 0,
+        "pr": []
+      },
+      {
+        "level": 9,
+        "cost": 205300,
+        "seconds": 100000,
+        "coin": 1200,
+        "center": 8,
+        "buff": 0.07,
+        "buff2": 0,
+        "buffType": 6002,
+        "buffType2": 0,
+        "judge": 1,
+        "judge2": 1,
+        "relation": 0,
+        "pr": []
+      },
+      {
+        "level": 10,
+        "cost": 228100,
+        "seconds": 100000,
+        "coin": 1300,
+        "center": 9,
+        "buff": 0.1,
+        "buff2": 0,
+        "buffType": 6002,
+        "buffType2": 0,
+        "judge": 1,
+        "judge2": 1,
+        "relation": 0,
+        "pr": []
+      }
+    ]
+  },
+  {
+    "id": 1005,
+    "name": "Fleet of Foot I",
+    "icon": "➶",
+    "key": "LC_RESEARCH_NEW_CRYSTAL_NAME06",
+    "pic": "img_iconAlliResearch3",
+    "awake": false,
+    "rows": [
+      {
+        "level": 1,
+        "cost": 22800,
+        "seconds": 1500,
+        "coin": 800,
+        "center": 2,
+        "buff": 0.005,
+        "buff2": 0,
+        "buffType": 6003,
+        "buffType2": 0,
+        "judge": 1,
+        "judge2": 1,
+        "relation": 0,
+        "pr": [
+          [
+            1001,
+            1
+          ]
+        ]
+      },
+      {
+        "level": 2,
+        "cost": 45600,
+        "seconds": 5200,
+        "coin": 900,
+        "center": 3,
+        "buff": 0.01,
+        "buff2": 0,
+        "buffType": 6003,
+        "buffType2": 0,
+        "judge": 1,
+        "judge2": 1,
+        "relation": 0,
+        "pr": []
+      },
+      {
+        "level": 3,
+        "cost": 68400,
+        "seconds": 11000,
+        "coin": 900,
+        "center": 4,
+        "buff": 0.015,
+        "buff2": 0,
+        "buffType": 6003,
+        "buffType2": 0,
+        "judge": 1,
+        "judge2": 1,
+        "relation": 0,
+        "pr": []
+      },
+      {
+        "level": 4,
+        "cost": 91200,
+        "seconds": 20000,
+        "coin": 900,
+        "center": 4,
+        "buff": 0.02,
+        "buff2": 0,
+        "buffType": 6003,
+        "buffType2": 0,
+        "judge": 1,
+        "judge2": 1,
+        "relation": 0,
+        "pr": []
+      },
+      {
+        "level": 5,
+        "cost": 114100,
+        "seconds": 31000,
+        "coin": 1000,
+        "center": 5,
+        "buff": 0.025,
+        "buff2": 0,
+        "buffType": 6003,
+        "buffType2": 0,
+        "judge": 1,
+        "judge2": 1,
+        "relation": 0,
+        "pr": []
+      },
+      {
+        "level": 6,
+        "cost": 136900,
+        "seconds": 44000,
+        "coin": 1100,
+        "center": 6,
+        "buff": 0.035,
+        "buff2": 0,
+        "buffType": 6003,
+        "buffType2": 0,
+        "judge": 1,
+        "judge2": 1,
+        "relation": 0,
+        "pr": []
+      },
+      {
+        "level": 7,
+        "cost": 159700,
+        "seconds": 60000,
+        "coin": 1200,
+        "center": 7,
+        "buff": 0.045,
+        "buff2": 0,
+        "buffType": 6003,
+        "buffType2": 0,
+        "judge": 1,
+        "judge2": 1,
+        "relation": 0,
+        "pr": []
+      },
+      {
+        "level": 8,
+        "cost": 182500,
+        "seconds": 100000,
+        "coin": 1200,
+        "center": 8,
+        "buff": 0.055,
+        "buff2": 0,
+        "buffType": 6003,
+        "buffType2": 0,
+        "judge": 1,
+        "judge2": 1,
+        "relation": 0,
+        "pr": []
+      },
+      {
+        "level": 9,
+        "cost": 205300,
+        "seconds": 100000,
+        "coin": 1200,
+        "center": 8,
+        "buff": 0.07,
+        "buff2": 0,
+        "buffType": 6003,
+        "buffType2": 0,
+        "judge": 1,
+        "judge2": 1,
+        "relation": 0,
+        "pr": []
+      },
+      {
+        "level": 10,
+        "cost": 228100,
+        "seconds": 100000,
+        "coin": 1300,
+        "center": 9,
+        "buff": 0.1,
+        "buff2": 0,
+        "buffType": 6003,
+        "buffType2": 0,
+        "judge": 1,
+        "judge2": 1,
+        "relation": 0,
+        "pr": []
+      }
+    ]
+  },
+  {
+    "id": 1006,
+    "name": "Reinforced Axles I",
+    "icon": "⚙",
+    "key": "LC_RESEARCH_NEW_CRYSTAL_NAME08",
+    "pic": "img_icon_Research77",
+    "awake": false,
+    "rows": [
+      {
+        "level": 1,
+        "cost": 22800,
+        "seconds": 1500,
+        "coin": 800,
+        "center": 2,
+        "buff": 0.005,
+        "buff2": 0,
+        "buffType": 6004,
+        "buffType2": 0,
+        "judge": 1,
+        "judge2": 1,
+        "relation": 0,
+        "pr": [
+          [
+            1001,
+            1
+          ]
+        ]
+      },
+      {
+        "level": 2,
+        "cost": 45600,
+        "seconds": 5200,
+        "coin": 900,
+        "center": 3,
+        "buff": 0.01,
+        "buff2": 0,
+        "buffType": 6004,
+        "buffType2": 0,
+        "judge": 1,
+        "judge2": 1,
+        "relation": 0,
+        "pr": []
+      },
+      {
+        "level": 3,
+        "cost": 68400,
+        "seconds": 11000,
+        "coin": 900,
+        "center": 4,
+        "buff": 0.015,
+        "buff2": 0,
+        "buffType": 6004,
+        "buffType2": 0,
+        "judge": 1,
+        "judge2": 1,
+        "relation": 0,
+        "pr": []
+      },
+      {
+        "level": 4,
+        "cost": 91200,
+        "seconds": 20000,
+        "coin": 900,
+        "center": 4,
+        "buff": 0.02,
+        "buff2": 0,
+        "buffType": 6004,
+        "buffType2": 0,
+        "judge": 1,
+        "judge2": 1,
+        "relation": 0,
+        "pr": []
+      },
+      {
+        "level": 5,
+        "cost": 114100,
+        "seconds": 31000,
+        "coin": 1000,
+        "center": 5,
+        "buff": 0.025,
+        "buff2": 0,
+        "buffType": 6004,
+        "buffType2": 0,
+        "judge": 1,
+        "judge2": 1,
+        "relation": 0,
+        "pr": []
+      },
+      {
+        "level": 6,
+        "cost": 136900,
+        "seconds": 44000,
+        "coin": 1100,
+        "center": 6,
+        "buff": 0.035,
+        "buff2": 0,
+        "buffType": 6004,
+        "buffType2": 0,
+        "judge": 1,
+        "judge2": 1,
+        "relation": 0,
+        "pr": []
+      },
+      {
+        "level": 7,
+        "cost": 159700,
+        "seconds": 60000,
+        "coin": 1200,
+        "center": 7,
+        "buff": 0.045,
+        "buff2": 0,
+        "buffType": 6004,
+        "buffType2": 0,
+        "judge": 1,
+        "judge2": 1,
+        "relation": 0,
+        "pr": []
+      },
+      {
+        "level": 8,
+        "cost": 182500,
+        "seconds": 100000,
+        "coin": 1200,
+        "center": 8,
+        "buff": 0.055,
+        "buff2": 0,
+        "buffType": 6004,
+        "buffType2": 0,
+        "judge": 1,
+        "judge2": 1,
+        "relation": 0,
+        "pr": []
+      },
+      {
+        "level": 9,
+        "cost": 205300,
+        "seconds": 100000,
+        "coin": 1200,
+        "center": 8,
+        "buff": 0.07,
+        "buff2": 0,
+        "buffType": 6004,
+        "buffType2": 0,
+        "judge": 1,
+        "judge2": 1,
+        "relation": 0,
+        "pr": []
+      },
+      {
+        "level": 10,
+        "cost": 228100,
+        "seconds": 100000,
+        "coin": 1300,
+        "center": 9,
+        "buff": 0.1,
+        "buff2": 0,
+        "buffType": 6004,
+        "buffType2": 0,
+        "judge": 1,
+        "judge2": 1,
+        "relation": 0,
+        "pr": []
+      }
+    ]
+  },
+  {
+    "id": 1007,
+    "name": "Starmetal Shields",
+    "icon": "🛡",
+    "key": "LC_RESEARCH_NEW_CRYSTAL_NAME22",
+    "pic": "img_icon_CrystalResearch8",
+    "awake": false,
+    "rows": [
+      {
+        "level": 1,
+        "cost": 37600,
+        "seconds": 1200,
+        "coin": 500,
+        "center": 2,
+        "buff": 0.01,
+        "buff2": 0,
+        "buffType": 4001,
+        "buffType2": 0,
+        "judge": 1,
+        "judge2": 1,
+        "relation": 0,
+        "pr": [
+          [
+            1003,
+            1
+          ]
+        ]
+      },
+      {
+        "level": 2,
+        "cost": 76400,
+        "seconds": 2000,
+        "coin": 500,
+        "center": 3,
+        "buff": 0.02,
+        "buff2": 0,
+        "buffType": 4001,
+        "buffType2": 0,
+        "judge": 1,
+        "judge2": 1,
+        "relation": 0,
+        "pr": []
+      },
+      {
+        "level": 3,
+        "cost": 114100,
+        "seconds": 3000,
+        "coin": 500,
+        "center": 4,
+        "buff": 0.03,
+        "buff2": 0,
+        "buffType": 4001,
+        "buffType2": 0,
+        "judge": 1,
+        "judge2": 1,
+        "relation": 0,
+        "pr": []
+      },
+      {
+        "level": 4,
+        "cost": 151700,
+        "seconds": 8000,
+        "coin": 600,
+        "center": 4,
+        "buff": 0.04,
+        "buff2": 0,
+        "buffType": 4001,
+        "buffType2": 0,
+        "judge": 1,
+        "judge2": 1,
+        "relation": 0,
+        "pr": []
+      },
+      {
+        "level": 5,
+        "cost": 190500,
+        "seconds": 12000,
+        "coin": 600,
+        "center": 5,
+        "buff": 0.05,
+        "buff2": 0,
+        "buffType": 4001,
+        "buffType2": 0,
+        "judge": 1,
+        "judge2": 1,
+        "relation": 0,
+        "pr": [
+          [
+            1003,
+            5
+          ]
+        ]
+      },
+      {
+        "level": 6,
+        "cost": 228100,
+        "seconds": 18000,
+        "coin": 600,
+        "center": 6,
+        "buff": 0.06,
+        "buff2": 0,
+        "buffType": 4001,
+        "buffType2": 0,
+        "judge": 1,
+        "judge2": 1,
+        "relation": 0,
+        "pr": []
+      },
+      {
+        "level": 7,
+        "cost": 265700,
+        "seconds": 24000,
+        "coin": 600,
+        "center": 7,
+        "buff": 0.07,
+        "buff2": 0,
+        "buffType": 4001,
+        "buffType2": 0,
+        "judge": 1,
+        "judge2": 1,
+        "relation": 0,
+        "pr": []
+      },
+      {
+        "level": 8,
+        "cost": 304500,
+        "seconds": 32000,
+        "coin": 700,
+        "center": 8,
+        "buff": 0.08,
+        "buff2": 0,
+        "buffType": 4001,
+        "buffType2": 0,
+        "judge": 1,
+        "judge2": 1,
+        "relation": 0,
+        "pr": []
+      },
+      {
+        "level": 9,
+        "cost": 342200,
+        "seconds": 41000,
+        "coin": 700,
+        "center": 8,
+        "buff": 0.09,
+        "buff2": 0,
+        "buffType": 4001,
+        "buffType2": 0,
+        "judge": 1,
+        "judge2": 1,
+        "relation": 0,
+        "pr": []
+      },
+      {
+        "level": 10,
+        "cost": 379800,
+        "seconds": 50000,
+        "coin": 700,
+        "center": 9,
+        "buff": 0.1,
+        "buff2": 0,
+        "buffType": 4001,
+        "buffType2": 0,
+        "judge": 1,
+        "judge2": 1,
+        "relation": 0,
+        "pr": [
+          [
+            1014,
+            3
+          ]
+        ]
+      },
+      {
+        "level": 11,
+        "cost": 418600,
+        "seconds": 60000,
+        "coin": 800,
+        "center": 10,
+        "buff": 0.12,
+        "buff2": 0,
+        "buffType": 4001,
+        "buffType2": 0,
+        "judge": 1,
+        "judge2": 1,
+        "relation": 0,
+        "pr": []
+      },
+      {
+        "level": 12,
+        "cost": 456200,
+        "seconds": 72000,
+        "coin": 800,
+        "center": 11,
+        "buff": 0.14,
+        "buff2": 0,
+        "buffType": 4001,
+        "buffType2": 0,
+        "judge": 1,
+        "judge2": 1,
+        "relation": 0,
+        "pr": []
+      },
+      {
+        "level": 13,
+        "cost": 493800,
+        "seconds": 97000,
+        "coin": 800,
+        "center": 11,
+        "buff": 0.16,
+        "buff2": 0,
+        "buffType": 4001,
+        "buffType2": 0,
+        "judge": 1,
+        "judge2": 1,
+        "relation": 0,
+        "pr": [
+          [
+            1001,
+            10
+          ],
+          [
+            1014,
+            5
+          ],
+          [
+            1011,
+            10
+          ]
+        ]
+      },
+      {
+        "level": 14,
+        "cost": 532600,
+        "seconds": 97000,
+        "coin": 800,
+        "center": 12,
+        "buff": 0.18,
+        "buff2": 0,
+        "buffType": 4001,
+        "buffType2": 0,
+        "judge": 1,
+        "judge2": 1,
+        "relation": 0,
+        "pr": []
+      },
+      {
+        "level": 15,
+        "cost": 570300,
+        "seconds": 97000,
+        "coin": 900,
+        "center": 13,
+        "buff": 0.2,
+        "buff2": 0,
+        "buffType": 4001,
+        "buffType2": 0,
+        "judge": 1,
+        "judge2": 1,
+        "relation": 0,
+        "pr": [
+          [
+            1011,
+            15
+          ]
+        ]
+      }
+    ]
+  },
+  {
+    "id": 1008,
+    "name": "Starmetal Barding",
+    "icon": "♞",
+    "key": "LC_RESEARCH_NEW_CRYSTAL_NAME24",
+    "pic": "img_icon_CrystalResearch16",
+    "awake": false,
+    "rows": [
+      {
+        "level": 1,
+        "cost": 37600,
+        "seconds": 1200,
+        "coin": 500,
+        "center": 2,
+        "buff": 0.01,
+        "buff2": 0,
+        "buffType": 4002,
+        "buffType2": 0,
+        "judge": 1,
+        "judge2": 1,
+        "relation": 0,
+        "pr": [
+          [
+            1004,
+            1
+          ]
+        ]
+      },
+      {
+        "level": 2,
+        "cost": 76400,
+        "seconds": 2000,
+        "coin": 500,
+        "center": 3,
+        "buff": 0.02,
+        "buff2": 0,
+        "buffType": 4002,
+        "buffType2": 0,
+        "judge": 1,
+        "judge2": 1,
+        "relation": 0,
+        "pr": []
+      },
+      {
+        "level": 3,
+        "cost": 114100,
+        "seconds": 3000,
+        "coin": 500,
+        "center": 4,
+        "buff": 0.03,
+        "buff2": 0,
+        "buffType": 4002,
+        "buffType2": 0,
+        "judge": 1,
+        "judge2": 1,
+        "relation": 0,
+        "pr": []
+      },
+      {
+        "level": 4,
+        "cost": 151700,
+        "seconds": 8000,
+        "coin": 600,
+        "center": 4,
+        "buff": 0.04,
+        "buff2": 0,
+        "buffType": 4002,
+        "buffType2": 0,
+        "judge": 1,
+        "judge2": 1,
+        "relation": 0,
+        "pr": []
+      },
+      {
+        "level": 5,
+        "cost": 190500,
+        "seconds": 12000,
+        "coin": 600,
+        "center": 5,
+        "buff": 0.05,
+        "buff2": 0,
+        "buffType": 4002,
+        "buffType2": 0,
+        "judge": 1,
+        "judge2": 1,
+        "relation": 0,
+        "pr": [
+          [
+            1004,
+            5
+          ]
+        ]
+      },
+      {
+        "level": 6,
+        "cost": 228100,
+        "seconds": 18000,
+        "coin": 600,
+        "center": 6,
+        "buff": 0.06,
+        "buff2": 0,
+        "buffType": 4002,
+        "buffType2": 0,
+        "judge": 1,
+        "judge2": 1,
+        "relation": 0,
+        "pr": []
+      },
+      {
+        "level": 7,
+        "cost": 265700,
+        "seconds": 24000,
+        "coin": 600,
+        "center": 7,
+        "buff": 0.07,
+        "buff2": 0,
+        "buffType": 4002,
+        "buffType2": 0,
+        "judge": 1,
+        "judge2": 1,
+        "relation": 0,
+        "pr": []
+      },
+      {
+        "level": 8,
+        "cost": 304500,
+        "seconds": 32000,
+        "coin": 700,
+        "center": 8,
+        "buff": 0.08,
+        "buff2": 0,
+        "buffType": 4002,
+        "buffType2": 0,
+        "judge": 1,
+        "judge2": 1,
+        "relation": 0,
+        "pr": []
+      },
+      {
+        "level": 9,
+        "cost": 342200,
+        "seconds": 41000,
+        "coin": 700,
+        "center": 8,
+        "buff": 0.09,
+        "buff2": 0,
+        "buffType": 4002,
+        "buffType2": 0,
+        "judge": 1,
+        "judge2": 1,
+        "relation": 0,
+        "pr": []
+      },
+      {
+        "level": 10,
+        "cost": 379800,
+        "seconds": 50000,
+        "coin": 700,
+        "center": 9,
+        "buff": 0.1,
+        "buff2": 0,
+        "buffType": 4002,
+        "buffType2": 0,
+        "judge": 1,
+        "judge2": 1,
+        "relation": 0,
+        "pr": [
+          [
+            1014,
+            3
+          ]
+        ]
+      },
+      {
+        "level": 11,
+        "cost": 418600,
+        "seconds": 60000,
+        "coin": 800,
+        "center": 10,
+        "buff": 0.12,
+        "buff2": 0,
+        "buffType": 4002,
+        "buffType2": 0,
+        "judge": 1,
+        "judge2": 1,
+        "relation": 0,
+        "pr": []
+      },
+      {
+        "level": 12,
+        "cost": 456200,
+        "seconds": 72000,
+        "coin": 800,
+        "center": 11,
+        "buff": 0.14,
+        "buff2": 0,
+        "buffType": 4002,
+        "buffType2": 0,
+        "judge": 1,
+        "judge2": 1,
+        "relation": 0,
+        "pr": []
+      },
+      {
+        "level": 13,
+        "cost": 493800,
+        "seconds": 97000,
+        "coin": 800,
+        "center": 11,
+        "buff": 0.16,
+        "buff2": 0,
+        "buffType": 4002,
+        "buffType2": 0,
+        "judge": 1,
+        "judge2": 1,
+        "relation": 0,
+        "pr": [
+          [
+            1001,
+            10
+          ],
+          [
+            1014,
+            5
+          ],
+          [
+            1011,
+            10
+          ]
+        ]
+      },
+      {
+        "level": 14,
+        "cost": 532600,
+        "seconds": 97000,
+        "coin": 800,
+        "center": 12,
+        "buff": 0.18,
+        "buff2": 0,
+        "buffType": 4002,
+        "buffType2": 0,
+        "judge": 1,
+        "judge2": 1,
+        "relation": 0,
+        "pr": []
+      },
+      {
+        "level": 15,
+        "cost": 570300,
+        "seconds": 97000,
+        "coin": 900,
+        "center": 13,
+        "buff": 0.2,
+        "buff2": 0,
+        "buffType": 4002,
+        "buffType2": 0,
+        "judge": 1,
+        "judge2": 1,
+        "relation": 0,
+        "pr": [
+          [
+            1011,
+            15
+          ]
+        ]
+      }
+    ]
+  },
+  {
+    "id": 1009,
+    "name": "Starmetal Bracers",
+    "icon": "🏹",
+    "key": "LC_RESEARCH_NEW_CRYSTAL_NAME23",
+    "pic": "img_icon_Research73",
+    "awake": false,
+    "rows": [
+      {
+        "level": 1,
+        "cost": 37600,
+        "seconds": 1200,
+        "coin": 500,
+        "center": 2,
+        "buff": 0.01,
+        "buff2": 0,
+        "buffType": 4003,
+        "buffType2": 0,
+        "judge": 1,
+        "judge2": 1,
+        "relation": 0,
+        "pr": [
+          [
+            1005,
+            1
+          ]
+        ]
+      },
+      {
+        "level": 2,
+        "cost": 76400,
+        "seconds": 2000,
+        "coin": 500,
+        "center": 3,
+        "buff": 0.02,
+        "buff2": 0,
+        "buffType": 4003,
+        "buffType2": 0,
+        "judge": 1,
+        "judge2": 1,
+        "relation": 0,
+        "pr": []
+      },
+      {
+        "level": 3,
+        "cost": 114100,
+        "seconds": 3000,
+        "coin": 500,
+        "center": 4,
+        "buff": 0.03,
+        "buff2": 0,
+        "buffType": 4003,
+        "buffType2": 0,
+        "judge": 1,
+        "judge2": 1,
+        "relation": 0,
+        "pr": []
+      },
+      {
+        "level": 4,
+        "cost": 151700,
+        "seconds": 8000,
+        "coin": 600,
+        "center": 4,
+        "buff": 0.04,
+        "buff2": 0,
+        "buffType": 4003,
+        "buffType2": 0,
+        "judge": 1,
+        "judge2": 1,
+        "relation": 0,
+        "pr": []
+      },
+      {
+        "level": 5,
+        "cost": 190500,
+        "seconds": 12000,
+        "coin": 600,
+        "center": 5,
+        "buff": 0.05,
+        "buff2": 0,
+        "buffType": 4003,
+        "buffType2": 0,
+        "judge": 1,
+        "judge2": 1,
+        "relation": 0,
+        "pr": [
+          [
+            1005,
+            5
+          ]
+        ]
+      },
+      {
+        "level": 6,
+        "cost": 228100,
+        "seconds": 18000,
+        "coin": 600,
+        "center": 6,
+        "buff": 0.06,
+        "buff2": 0,
+        "buffType": 4003,
+        "buffType2": 0,
+        "judge": 1,
+        "judge2": 1,
+        "relation": 0,
+        "pr": []
+      },
+      {
+        "level": 7,
+        "cost": 265700,
+        "seconds": 24000,
+        "coin": 600,
+        "center": 7,
+        "buff": 0.07,
+        "buff2": 0,
+        "buffType": 4003,
+        "buffType2": 0,
+        "judge": 1,
+        "judge2": 1,
+        "relation": 0,
+        "pr": []
+      },
+      {
+        "level": 8,
+        "cost": 304500,
+        "seconds": 32000,
+        "coin": 700,
+        "center": 8,
+        "buff": 0.08,
+        "buff2": 0,
+        "buffType": 4003,
+        "buffType2": 0,
+        "judge": 1,
+        "judge2": 1,
+        "relation": 0,
+        "pr": []
+      },
+      {
+        "level": 9,
+        "cost": 342200,
+        "seconds": 41000,
+        "coin": 700,
+        "center": 8,
+        "buff": 0.09,
+        "buff2": 0,
+        "buffType": 4003,
+        "buffType2": 0,
+        "judge": 1,
+        "judge2": 1,
+        "relation": 0,
+        "pr": []
+      },
+      {
+        "level": 10,
+        "cost": 379800,
+        "seconds": 50000,
+        "coin": 700,
+        "center": 9,
+        "buff": 0.1,
+        "buff2": 0,
+        "buffType": 4003,
+        "buffType2": 0,
+        "judge": 1,
+        "judge2": 1,
+        "relation": 0,
+        "pr": [
+          [
+            1014,
+            3
+          ]
+        ]
+      },
+      {
+        "level": 11,
+        "cost": 418600,
+        "seconds": 60000,
+        "coin": 800,
+        "center": 10,
+        "buff": 0.12,
+        "buff2": 0,
+        "buffType": 4003,
+        "buffType2": 0,
+        "judge": 1,
+        "judge2": 1,
+        "relation": 0,
+        "pr": []
+      },
+      {
+        "level": 12,
+        "cost": 456200,
+        "seconds": 72000,
+        "coin": 800,
+        "center": 11,
+        "buff": 0.14,
+        "buff2": 0,
+        "buffType": 4003,
+        "buffType2": 0,
+        "judge": 1,
+        "judge2": 1,
+        "relation": 0,
+        "pr": []
+      },
+      {
+        "level": 13,
+        "cost": 493800,
+        "seconds": 97000,
+        "coin": 800,
+        "center": 11,
+        "buff": 0.16,
+        "buff2": 0,
+        "buffType": 4003,
+        "buffType2": 0,
+        "judge": 1,
+        "judge2": 1,
+        "relation": 0,
+        "pr": [
+          [
+            1001,
+            10
+          ],
+          [
+            1014,
+            5
+          ],
+          [
+            1011,
+            10
+          ]
+        ]
+      },
+      {
+        "level": 14,
+        "cost": 532600,
+        "seconds": 97000,
+        "coin": 800,
+        "center": 12,
+        "buff": 0.18,
+        "buff2": 0,
+        "buffType": 4003,
+        "buffType2": 0,
+        "judge": 1,
+        "judge2": 1,
+        "relation": 0,
+        "pr": []
+      },
+      {
+        "level": 15,
+        "cost": 570300,
+        "seconds": 97000,
+        "coin": 900,
+        "center": 13,
+        "buff": 0.2,
+        "buff2": 0,
+        "buffType": 4003,
+        "buffType2": 0,
+        "judge": 1,
+        "judge2": 1,
+        "relation": 0,
+        "pr": [
+          [
+            1011,
+            15
+          ]
+        ]
+      }
+    ]
+  },
+  {
+    "id": 1010,
+    "name": "Starmetal Axles",
+    "icon": "⚙",
+    "key": "LC_RESEARCH_NEW_CRYSTAL_NAME25",
+    "pic": "img_icon_Research24",
+    "awake": false,
+    "rows": [
+      {
+        "level": 1,
+        "cost": 37600,
+        "seconds": 1200,
+        "coin": 500,
+        "center": 2,
+        "buff": 0.01,
+        "buff2": 0,
+        "buffType": 4004,
+        "buffType2": 0,
+        "judge": 1,
+        "judge2": 1,
+        "relation": 0,
+        "pr": [
+          [
+            1006,
+            1
+          ]
+        ]
+      },
+      {
+        "level": 2,
+        "cost": 76400,
+        "seconds": 2000,
+        "coin": 500,
+        "center": 3,
+        "buff": 0.02,
+        "buff2": 0,
+        "buffType": 4004,
+        "buffType2": 0,
+        "judge": 1,
+        "judge2": 1,
+        "relation": 0,
+        "pr": []
+      },
+      {
+        "level": 3,
+        "cost": 114100,
+        "seconds": 3000,
+        "coin": 500,
+        "center": 4,
+        "buff": 0.03,
+        "buff2": 0,
+        "buffType": 4004,
+        "buffType2": 0,
+        "judge": 1,
+        "judge2": 1,
+        "relation": 0,
+        "pr": []
+      },
+      {
+        "level": 4,
+        "cost": 151700,
+        "seconds": 8000,
+        "coin": 600,
+        "center": 4,
+        "buff": 0.04,
+        "buff2": 0,
+        "buffType": 4004,
+        "buffType2": 0,
+        "judge": 1,
+        "judge2": 1,
+        "relation": 0,
+        "pr": []
+      },
+      {
+        "level": 5,
+        "cost": 190500,
+        "seconds": 12000,
+        "coin": 600,
+        "center": 5,
+        "buff": 0.05,
+        "buff2": 0,
+        "buffType": 4004,
+        "buffType2": 0,
+        "judge": 1,
+        "judge2": 1,
+        "relation": 0,
+        "pr": [
+          [
+            1006,
+            5
+          ]
+        ]
+      },
+      {
+        "level": 6,
+        "cost": 228100,
+        "seconds": 18000,
+        "coin": 600,
+        "center": 6,
+        "buff": 0.06,
+        "buff2": 0,
+        "buffType": 4004,
+        "buffType2": 0,
+        "judge": 1,
+        "judge2": 1,
+        "relation": 0,
+        "pr": []
+      },
+      {
+        "level": 7,
+        "cost": 265700,
+        "seconds": 24000,
+        "coin": 600,
+        "center": 7,
+        "buff": 0.07,
+        "buff2": 0,
+        "buffType": 4004,
+        "buffType2": 0,
+        "judge": 1,
+        "judge2": 1,
+        "relation": 0,
+        "pr": []
+      },
+      {
+        "level": 8,
+        "cost": 304500,
+        "seconds": 32000,
+        "coin": 700,
+        "center": 8,
+        "buff": 0.08,
+        "buff2": 0,
+        "buffType": 4004,
+        "buffType2": 0,
+        "judge": 1,
+        "judge2": 1,
+        "relation": 0,
+        "pr": []
+      },
+      {
+        "level": 9,
+        "cost": 342200,
+        "seconds": 41000,
+        "coin": 700,
+        "center": 8,
+        "buff": 0.09,
+        "buff2": 0,
+        "buffType": 4004,
+        "buffType2": 0,
+        "judge": 1,
+        "judge2": 1,
+        "relation": 0,
+        "pr": []
+      },
+      {
+        "level": 10,
+        "cost": 379800,
+        "seconds": 50000,
+        "coin": 700,
+        "center": 9,
+        "buff": 0.1,
+        "buff2": 0,
+        "buffType": 4004,
+        "buffType2": 0,
+        "judge": 1,
+        "judge2": 1,
+        "relation": 0,
+        "pr": [
+          [
+            1014,
+            3
+          ]
+        ]
+      },
+      {
+        "level": 11,
+        "cost": 418600,
+        "seconds": 60000,
+        "coin": 800,
+        "center": 10,
+        "buff": 0.12,
+        "buff2": 0,
+        "buffType": 4004,
+        "buffType2": 0,
+        "judge": 1,
+        "judge2": 1,
+        "relation": 0,
+        "pr": []
+      },
+      {
+        "level": 12,
+        "cost": 456200,
+        "seconds": 72000,
+        "coin": 800,
+        "center": 11,
+        "buff": 0.14,
+        "buff2": 0,
+        "buffType": 4004,
+        "buffType2": 0,
+        "judge": 1,
+        "judge2": 1,
+        "relation": 0,
+        "pr": []
+      },
+      {
+        "level": 13,
+        "cost": 493800,
+        "seconds": 97000,
+        "coin": 800,
+        "center": 11,
+        "buff": 0.16,
+        "buff2": 0,
+        "buffType": 4004,
+        "buffType2": 0,
+        "judge": 1,
+        "judge2": 1,
+        "relation": 0,
+        "pr": [
+          [
+            1001,
+            10
+          ],
+          [
+            1014,
+            5
+          ],
+          [
+            1011,
+            10
+          ]
+        ]
+      },
+      {
+        "level": 14,
+        "cost": 532600,
+        "seconds": 97000,
+        "coin": 800,
+        "center": 12,
+        "buff": 0.18,
+        "buff2": 0,
+        "buffType": 4004,
+        "buffType2": 0,
+        "judge": 1,
+        "judge2": 1,
+        "relation": 0,
+        "pr": []
+      },
+      {
+        "level": 15,
+        "cost": 570300,
+        "seconds": 97000,
+        "coin": 900,
+        "center": 13,
+        "buff": 0.2,
+        "buff2": 0,
+        "buffType": 4004,
+        "buffType2": 0,
+        "judge": 1,
+        "judge2": 1,
+        "relation": 0,
+        "pr": [
+          [
+            1011,
+            15
+          ]
+        ]
+      }
+    ]
+  },
+  {
+    "id": 1011,
+    "name": "Barbarian Bounties",
+    "icon": "♜",
+    "key": "LC_RESEARCH_NEW_CRYSTAL_NAME13",
+    "pic": "img_icon_CrystalResearch17",
+    "awake": false,
+    "rows": [
+      {
+        "level": 1,
+        "cost": 20000,
+        "seconds": 5000,
+        "coin": 1000,
+        "center": 3,
+        "buff": 0.01,
+        "buff2": 0.05,
+        "buffType": 16008,
+        "buffType2": 10016,
+        "judge": 1,
+        "judge2": 1,
+        "relation": 1,
+        "pr": [
+          [
+            1007,
+            1
+          ],
+          [
+            1008,
+            1
+          ],
+          [
+            1009,
+            1
+          ],
+          [
+            1010,
+            1
+          ]
+        ]
+      },
+      {
+        "level": 2,
+        "cost": 40000,
+        "seconds": 10000,
+        "coin": 1100,
+        "center": 4,
+        "buff": 0.02,
+        "buff2": 0.1,
+        "buffType": 16008,
+        "buffType2": 10016,
+        "judge": 1,
+        "judge2": 1,
+        "relation": 0,
+        "pr": []
+      },
+      {
+        "level": 3,
+        "cost": 60000,
+        "seconds": 20000,
+        "coin": 1200,
+        "center": 5,
+        "buff": 0.03,
+        "buff2": 0.15,
+        "buffType": 16008,
+        "buffType2": 10016,
+        "judge": 1,
+        "judge2": 1,
+        "relation": 0,
+        "pr": []
+      },
+      {
+        "level": 4,
+        "cost": 80000,
+        "seconds": 40000,
+        "coin": 1300,
+        "center": 6,
+        "buff": 0.04,
+        "buff2": 0.2,
+        "buffType": 16008,
+        "buffType2": 10016,
+        "judge": 1,
+        "judge2": 1,
+        "relation": 0,
+        "pr": []
+      },
+      {
+        "level": 5,
+        "cost": 100000,
+        "seconds": 80000,
+        "coin": 1400,
+        "center": 7,
+        "buff": 0.05,
+        "buff2": 0.25,
+        "buffType": 16008,
+        "buffType2": 10016,
+        "judge": 1,
+        "judge2": 1,
+        "relation": 1,
+        "pr": [
+          [
+            1007,
+            5
+          ],
+          [
+            1008,
+            5
+          ],
+          [
+            1009,
+            5
+          ],
+          [
+            1010,
+            5
+          ]
+        ]
+      },
+      {
+        "level": 6,
+        "cost": 120000,
+        "seconds": 80000,
+        "coin": 1500,
+        "center": 8,
+        "buff": 0.07,
+        "buff2": 0.3,
+        "buffType": 16008,
+        "buffType2": 10016,
+        "judge": 1,
+        "judge2": 1,
+        "relation": 0,
+        "pr": []
+      },
+      {
+        "level": 7,
+        "cost": 140000,
+        "seconds": 80000,
+        "coin": 1600,
+        "center": 9,
+        "buff": 0.09,
+        "buff2": 0.35,
+        "buffType": 16008,
+        "buffType2": 10016,
+        "judge": 1,
+        "judge2": 1,
+        "relation": 0,
+        "pr": []
+      },
+      {
+        "level": 8,
+        "cost": 160000,
+        "seconds": 80000,
+        "coin": 1700,
+        "center": 9,
+        "buff": 0.11,
+        "buff2": 0.4,
+        "buffType": 16008,
+        "buffType2": 10016,
+        "judge": 1,
+        "judge2": 1,
+        "relation": 1,
+        "pr": [
+          [
+            1007,
+            8
+          ],
+          [
+            1008,
+            8
+          ],
+          [
+            1009,
+            8
+          ],
+          [
+            1010,
+            8
+          ]
+        ]
+      },
+      {
+        "level": 9,
+        "cost": 180000,
+        "seconds": 80000,
+        "coin": 1800,
+        "center": 10,
+        "buff": 0.13,
+        "buff2": 0.45,
+        "buffType": 16008,
+        "buffType2": 10016,
+        "judge": 1,
+        "judge2": 1,
+        "relation": 0,
+        "pr": []
+      },
+      {
+        "level": 10,
+        "cost": 200000,
+        "seconds": 80000,
+        "coin": 2000,
+        "center": 11,
+        "buff": 0.15,
+        "buff2": 0.5,
+        "buffType": 16008,
+        "buffType2": 10016,
+        "judge": 1,
+        "judge2": 1,
+        "relation": 1,
+        "pr": [
+          [
+            1007,
+            10
+          ],
+          [
+            1008,
+            10
+          ],
+          [
+            1009,
+            10
+          ],
+          [
+            1010,
+            10
+          ]
+        ]
+      },
+      {
+        "level": 11,
+        "cost": 220000,
+        "seconds": 80000,
+        "coin": 2100,
+        "center": 12,
+        "buff": 0.17,
+        "buff2": 0.6,
+        "buffType": 16008,
+        "buffType2": 10016,
+        "judge": 1,
+        "judge2": 1,
+        "relation": 0,
+        "pr": []
+      },
+      {
+        "level": 12,
+        "cost": 240000,
+        "seconds": 80000,
+        "coin": 2200,
+        "center": 13,
+        "buff": 0.19,
+        "buff2": 0.7,
+        "buffType": 16008,
+        "buffType2": 10016,
+        "judge": 1,
+        "judge2": 1,
+        "relation": 0,
+        "pr": []
+      },
+      {
+        "level": 13,
+        "cost": 260000,
+        "seconds": 80000,
+        "coin": 2300,
+        "center": 14,
+        "buff": 0.21,
+        "buff2": 0.8,
+        "buffType": 16008,
+        "buffType2": 10016,
+        "judge": 1,
+        "judge2": 1,
+        "relation": 0,
+        "pr": []
+      },
+      {
+        "level": 14,
+        "cost": 280000,
+        "seconds": 80000,
+        "coin": 2400,
+        "center": 15,
+        "buff": 0.23,
+        "buff2": 0.9,
+        "buffType": 16008,
+        "buffType2": 10016,
+        "judge": 1,
+        "judge2": 1,
+        "relation": 0,
+        "pr": []
+      },
+      {
+        "level": 15,
+        "cost": 300000,
+        "seconds": 80000,
+        "coin": 2500,
+        "center": 16,
+        "buff": 0.25,
+        "buff2": 1,
+        "buffType": 16008,
+        "buffType2": 10016,
+        "judge": 1,
+        "judge2": 1,
+        "relation": 0,
+        "pr": []
+      }
+    ]
+  },
+  {
+    "id": 1012,
+    "name": "Cutting Corners I",
+    "icon": "⚒",
+    "key": "LC_RESEARCH_NEW_CRYSTAL_NAME10",
+    "pic": "img_icon_CrystalResearch5",
+    "awake": false,
+    "rows": [
+      {
+        "level": 1,
+        "cost": 50000,
+        "seconds": 5000,
+        "coin": 500,
+        "center": 4,
+        "buff": 0.01,
+        "buff2": 0,
+        "buffType": 16006,
+        "buffType2": 0,
+        "judge": 1,
+        "judge2": 1,
+        "relation": 0,
+        "pr": [
+          [
+            1011,
+            1
+          ],
+          [
+            1001,
+            5
+          ]
+        ]
+      },
+      {
+        "level": 2,
+        "cost": 100000,
+        "seconds": 10000,
+        "coin": 600,
+        "center": 6,
+        "buff": 0.02,
+        "buff2": 0,
+        "buffType": 16006,
+        "buffType2": 0,
+        "judge": 1,
+        "judge2": 1,
+        "relation": 0,
+        "pr": []
+      },
+      {
+        "level": 3,
+        "cost": 150000,
+        "seconds": 20000,
+        "coin": 700,
+        "center": 8,
+        "buff": 0.03,
+        "buff2": 0,
+        "buffType": 16006,
+        "buffType2": 0,
+        "judge": 1,
+        "judge2": 1,
+        "relation": 0,
+        "pr": []
+      },
+      {
+        "level": 4,
+        "cost": 200000,
+        "seconds": 40000,
+        "coin": 800,
+        "center": 10,
+        "buff": 0.04,
+        "buff2": 0,
+        "buffType": 16006,
+        "buffType2": 0,
+        "judge": 1,
+        "judge2": 1,
+        "relation": 0,
+        "pr": []
+      },
+      {
+        "level": 5,
+        "cost": 250000,
+        "seconds": 80000,
+        "coin": 1000,
+        "center": 12,
+        "buff": 0.05,
+        "buff2": 0,
+        "buffType": 16006,
+        "buffType2": 0,
+        "judge": 1,
+        "judge2": 1,
+        "relation": 0,
+        "pr": []
+      }
+    ]
+  },
+  {
+    "id": 1013,
+    "name": "Karaku Reports",
+    "icon": "📜",
+    "key": "LC_RESEARCH_NEW_CRYSTAL_NAME14",
+    "pic": "img_icon_CrystalResearch25",
+    "awake": false,
+    "rows": [
+      {
+        "level": 1,
+        "cost": 20000,
+        "seconds": 5000,
+        "coin": 1000,
+        "center": 6,
+        "buff": 0.05,
+        "buff2": 0.05,
+        "buffType": 16009,
+        "buffType2": 7006,
+        "judge": 1,
+        "judge2": 1,
+        "relation": 0,
+        "pr": [
+          [
+            1011,
+            1
+          ]
+        ]
+      },
+      {
+        "level": 2,
+        "cost": 40000,
+        "seconds": 10000,
+        "coin": 1100,
+        "center": 7,
+        "buff": 0.1,
+        "buff2": 0.1,
+        "buffType": 16009,
+        "buffType2": 7006,
+        "judge": 1,
+        "judge2": 1,
+        "relation": 0,
+        "pr": []
+      },
+      {
+        "level": 3,
+        "cost": 60000,
+        "seconds": 20000,
+        "coin": 1200,
+        "center": 8,
+        "buff": 0.15,
+        "buff2": 0.15,
+        "buffType": 16009,
+        "buffType2": 7006,
+        "judge": 1,
+        "judge2": 1,
+        "relation": 0,
+        "pr": []
+      },
+      {
+        "level": 4,
+        "cost": 80000,
+        "seconds": 40000,
+        "coin": 1300,
+        "center": 9,
+        "buff": 0.2,
+        "buff2": 0.2,
+        "buffType": 16009,
+        "buffType2": 7006,
+        "judge": 1,
+        "judge2": 1,
+        "relation": 0,
+        "pr": []
+      },
+      {
+        "level": 5,
+        "cost": 100000,
+        "seconds": 80000,
+        "coin": 1400,
+        "center": 9,
+        "buff": 0.25,
+        "buff2": 0.25,
+        "buffType": 16009,
+        "buffType2": 7006,
+        "judge": 1,
+        "judge2": 1,
+        "relation": 0,
+        "pr": []
+      },
+      {
+        "level": 6,
+        "cost": 120000,
+        "seconds": 80000,
+        "coin": 1500,
+        "center": 10,
+        "buff": 0.3,
+        "buff2": 0.3,
+        "buffType": 16009,
+        "buffType2": 7006,
+        "judge": 1,
+        "judge2": 1,
+        "relation": 0,
+        "pr": []
+      },
+      {
+        "level": 7,
+        "cost": 140000,
+        "seconds": 80000,
+        "coin": 1600,
+        "center": 11,
+        "buff": 0.35,
+        "buff2": 0.35,
+        "buffType": 16009,
+        "buffType2": 7006,
+        "judge": 1,
+        "judge2": 1,
+        "relation": 0,
+        "pr": []
+      },
+      {
+        "level": 8,
+        "cost": 160000,
+        "seconds": 80000,
+        "coin": 1700,
+        "center": 12,
+        "buff": 0.4,
+        "buff2": 0.4,
+        "buffType": 16009,
+        "buffType2": 7006,
+        "judge": 1,
+        "judge2": 1,
+        "relation": 0,
+        "pr": []
+      },
+      {
+        "level": 9,
+        "cost": 180000,
+        "seconds": 80000,
+        "coin": 1800,
+        "center": 13,
+        "buff": 0.45,
+        "buff2": 0.45,
+        "buffType": 16009,
+        "buffType2": 7006,
+        "judge": 1,
+        "judge2": 1,
+        "relation": 0,
+        "pr": []
+      },
+      {
+        "level": 10,
+        "cost": 200000,
+        "seconds": 80000,
+        "coin": 2000,
+        "center": 14,
+        "buff": 0.5,
+        "buff2": 0.5,
+        "buffType": 16009,
+        "buffType2": 7006,
+        "judge": 1,
+        "judge2": 1,
+        "relation": 0,
+        "pr": []
+      },
+      {
+        "level": 11,
+        "cost": 220000,
+        "seconds": 80000,
+        "coin": 2100,
+        "center": 15,
+        "buff": 0.6,
+        "buff2": 0.6,
+        "buffType": 16009,
+        "buffType2": 7006,
+        "judge": 1,
+        "judge2": 1,
+        "relation": 0,
+        "pr": []
+      },
+      {
+        "level": 12,
+        "cost": 240000,
+        "seconds": 80000,
+        "coin": 2200,
+        "center": 15,
+        "buff": 0.7,
+        "buff2": 0.7,
+        "buffType": 16009,
+        "buffType2": 7006,
+        "judge": 1,
+        "judge2": 1,
+        "relation": 0,
+        "pr": []
+      },
+      {
+        "level": 13,
+        "cost": 260000,
+        "seconds": 80000,
+        "coin": 2300,
+        "center": 16,
+        "buff": 0.8,
+        "buff2": 0.8,
+        "buffType": 16009,
+        "buffType2": 7006,
+        "judge": 1,
+        "judge2": 1,
+        "relation": 0,
+        "pr": []
+      },
+      {
+        "level": 14,
+        "cost": 280000,
+        "seconds": 80000,
+        "coin": 2400,
+        "center": 17,
+        "buff": 0.9,
+        "buff2": 0.9,
+        "buffType": 16009,
+        "buffType2": 7006,
+        "judge": 1,
+        "judge2": 1,
+        "relation": 0,
+        "pr": []
+      },
+      {
+        "level": 15,
+        "cost": 300000,
+        "seconds": 80000,
+        "coin": 2500,
+        "center": 18,
+        "buff": 1,
+        "buff2": 1,
+        "buffType": 16009,
+        "buffType2": 7006,
+        "judge": 1,
+        "judge2": 1,
+        "relation": 0,
+        "pr": []
+      }
+    ]
+  },
+  {
+    "id": 1014,
+    "name": "Call to Arms II",
+    "icon": "🛡",
+    "key": "LC_RESEARCH_NEW_CRYSTAL_NAME15",
+    "pic": "img_icon_Research49",
+    "awake": false,
+    "rows": [
+      {
+        "level": 1,
+        "cost": 76400,
+        "seconds": 5000,
+        "coin": 1100,
+        "center": 5,
+        "buff": 0.025,
+        "buff2": 0,
+        "buffType": 12005,
+        "buffType2": 0,
+        "judge": 1,
+        "judge2": 1,
+        "relation": 0,
+        "pr": [
+          [
+            1011,
+            1
+          ]
+        ]
+      },
+      {
+        "level": 2,
+        "cost": 152800,
+        "seconds": 10000,
+        "coin": 1200,
+        "center": 6,
+        "buff": 0.05,
+        "buff2": 0,
+        "buffType": 12005,
+        "buffType2": 0,
+        "judge": 1,
+        "judge2": 1,
+        "relation": 0,
+        "pr": []
+      },
+      {
+        "level": 3,
+        "cost": 229200,
+        "seconds": 20000,
+        "coin": 1300,
+        "center": 8,
+        "buff": 0.075,
+        "buff2": 0,
+        "buffType": 12005,
+        "buffType2": 0,
+        "judge": 1,
+        "judge2": 1,
+        "relation": 0,
+        "pr": []
+      },
+      {
+        "level": 4,
+        "cost": 305700,
+        "seconds": 40000,
+        "coin": 1400,
+        "center": 9,
+        "buff": 0.1,
+        "buff2": 0,
+        "buffType": 12005,
+        "buffType2": 0,
+        "judge": 1,
+        "judge2": 1,
+        "relation": 0,
+        "pr": []
+      },
+      {
+        "level": 5,
+        "cost": 382100,
+        "seconds": 80000,
+        "coin": 1500,
+        "center": 11,
+        "buff": 0.125,
+        "buff2": 0,
+        "buffType": 12005,
+        "buffType2": 0,
+        "judge": 1,
+        "judge2": 1,
+        "relation": 0,
+        "pr": [
+          [
+            1011,
+            5
+          ]
+        ]
+      },
+      {
+        "level": 6,
+        "cost": 457400,
+        "seconds": 80000,
+        "coin": 1600,
+        "center": 12,
+        "buff": 0.15,
+        "buff2": 0,
+        "buffType": 12005,
+        "buffType2": 0,
+        "judge": 1,
+        "judge2": 1,
+        "relation": 0,
+        "pr": []
+      },
+      {
+        "level": 7,
+        "cost": 533800,
+        "seconds": 80000,
+        "coin": 1700,
+        "center": 14,
+        "buff": 0.175,
+        "buff2": 0,
+        "buffType": 12005,
+        "buffType2": 0,
+        "judge": 1,
+        "judge2": 1,
+        "relation": 0,
+        "pr": []
+      },
+      {
+        "level": 8,
+        "cost": 610200,
+        "seconds": 80000,
+        "coin": 1900,
+        "center": 15,
+        "buff": 0.2,
+        "buff2": 0,
+        "buffType": 12005,
+        "buffType2": 0,
+        "judge": 1,
+        "judge2": 1,
+        "relation": 1,
+        "pr": [
+          [
+            1007,
+            15
+          ],
+          [
+            1008,
+            15
+          ],
+          [
+            1009,
+            15
+          ],
+          [
+            1010,
+            15
+          ]
+        ]
+      },
+      {
+        "level": 9,
+        "cost": 686600,
+        "seconds": 80000,
+        "coin": 2000,
+        "center": 17,
+        "buff": 0.225,
+        "buff2": 0,
+        "buffType": 12005,
+        "buffType2": 0,
+        "judge": 1,
+        "judge2": 1,
+        "relation": 0,
+        "pr": []
+      },
+      {
+        "level": 10,
+        "cost": 763000,
+        "seconds": 80000,
+        "coin": 2100,
+        "center": 18,
+        "buff": 0.25,
+        "buff2": 0,
+        "buffType": 12005,
+        "buffType2": 0,
+        "judge": 1,
+        "judge2": 1,
+        "relation": 0,
+        "pr": []
+      }
+    ]
+  },
+  {
+    "id": 1015,
+    "name": "Leadership II",
+    "icon": "⚑",
+    "key": "LC_RESEARCH_NEW_CRYSTAL_NAME17",
+    "pic": "img_iconAlliResearch1",
+    "awake": false,
+    "rows": [
+      {
+        "level": 1,
+        "cost": 57000,
+        "seconds": 5000,
+        "coin": 1000,
+        "center": 6,
+        "buff": 0.01,
+        "buff2": 0,
+        "buffType": 14014,
+        "buffType2": 0,
+        "judge": 1,
+        "judge2": 1,
+        "relation": 0,
+        "pr": [
+          [
+            1014,
+            1
+          ],
+          [
+            1002,
+            5
+          ]
+        ]
+      },
+      {
+        "level": 2,
+        "cost": 114100,
+        "seconds": 10000,
+        "coin": 1100,
+        "center": 7,
+        "buff": 0.03,
+        "buff2": 0,
+        "buffType": 14014,
+        "buffType2": 0,
+        "judge": 1,
+        "judge2": 1,
+        "relation": 0,
+        "pr": []
+      },
+      {
+        "level": 3,
+        "cost": 171100,
+        "seconds": 20000,
+        "coin": 1200,
+        "center": 9,
+        "buff": 0.05,
+        "buff2": 0,
+        "buffType": 14014,
+        "buffType2": 0,
+        "judge": 1,
+        "judge2": 1,
+        "relation": 0,
+        "pr": []
+      },
+      {
+        "level": 4,
+        "cost": 228100,
+        "seconds": 40000,
+        "coin": 1300,
+        "center": 10,
+        "buff": 0.08,
+        "buff2": 0,
+        "buffType": 14014,
+        "buffType2": 0,
+        "judge": 1,
+        "judge2": 1,
+        "relation": 0,
+        "pr": []
+      },
+      {
+        "level": 5,
+        "cost": 285100,
+        "seconds": 80000,
+        "coin": 1400,
+        "center": 11,
+        "buff": 0.11,
+        "buff2": 0,
+        "buffType": 14014,
+        "buffType2": 0,
+        "judge": 1,
+        "judge2": 1,
+        "relation": 0,
+        "pr": []
+      },
+      {
+        "level": 6,
+        "cost": 342200,
+        "seconds": 80000,
+        "coin": 1500,
+        "center": 13,
+        "buff": 0.14,
+        "buff2": 0,
+        "buffType": 14014,
+        "buffType2": 0,
+        "judge": 1,
+        "judge2": 1,
+        "relation": 0,
+        "pr": [
+          [
+            1002,
+            5
+          ]
+        ]
+      },
+      {
+        "level": 7,
+        "cost": 456200,
+        "seconds": 80000,
+        "coin": 1600,
+        "center": 14,
+        "buff": 0.18,
+        "buff2": 0,
+        "buffType": 14014,
+        "buffType2": 0,
+        "judge": 1,
+        "judge2": 1,
+        "relation": 0,
+        "pr": []
+      },
+      {
+        "level": 8,
+        "cost": 684300,
+        "seconds": 80000,
+        "coin": 1700,
+        "center": 15,
+        "buff": 0.22,
+        "buff2": 0,
+        "buffType": 14014,
+        "buffType2": 0,
+        "judge": 1,
+        "judge2": 1,
+        "relation": 0,
+        "pr": []
+      },
+      {
+        "level": 9,
+        "cost": 1026500,
+        "seconds": 80000,
+        "coin": 1800,
+        "center": 17,
+        "buff": 0.27,
+        "buff2": 0,
+        "buffType": 14014,
+        "buffType2": 0,
+        "judge": 1,
+        "judge2": 1,
+        "relation": 0,
+        "pr": []
+      },
+      {
+        "level": 10,
+        "cost": 1710800,
+        "seconds": 80000,
+        "coin": 2000,
+        "center": 18,
+        "buff": 0.35,
+        "buff2": 0,
+        "buffType": 14014,
+        "buffType2": 0,
+        "judge": 1,
+        "judge2": 1,
+        "relation": 0,
+        "pr": []
+      }
+    ]
+  },
+  {
+    "id": 1016,
+    "name": "Tough Skin",
+    "icon": "♥",
+    "key": "LC_RESEARCH_NEW_CRYSTAL3_NAME05_NEW",
+    "pic": "img_icon_CrystalResearch37",
+    "awake": false,
+    "rows": [
+      {
+        "level": 1,
+        "cost": 167000,
+        "seconds": 5600,
+        "coin": 1900,
+        "center": 7,
+        "buff": 0.01,
+        "buff2": 0,
+        "buffType": 5000,
+        "buffType2": 0,
+        "judge": 1,
+        "judge2": 1,
+        "relation": 0,
+        "pr": [
+          [
+            1014,
+            1
+          ]
+        ]
+      },
+      {
+        "level": 2,
+        "cost": 333000,
+        "seconds": 8000,
+        "coin": 2000,
+        "center": 8,
+        "buff": 0.02,
+        "buff2": 0,
+        "buffType": 5000,
+        "buffType2": 0,
+        "judge": 1,
+        "judge2": 1,
+        "relation": 0,
+        "pr": []
+      },
+      {
+        "level": 3,
+        "cost": 500000,
+        "seconds": 12000,
+        "coin": 2100,
+        "center": 9,
+        "buff": 0.03,
+        "buff2": 0,
+        "buffType": 5000,
+        "buffType2": 0,
+        "judge": 1,
+        "judge2": 1,
+        "relation": 0,
+        "pr": []
+      },
+      {
+        "level": 4,
+        "cost": 667000,
+        "seconds": 32000,
+        "coin": 2200,
+        "center": 10,
+        "buff": 0.04,
+        "buff2": 0,
+        "buffType": 5000,
+        "buffType2": 0,
+        "judge": 1,
+        "judge2": 1,
+        "relation": 0,
+        "pr": []
+      },
+      {
+        "level": 5,
+        "cost": 833000,
+        "seconds": 48000,
+        "coin": 2300,
+        "center": 11,
+        "buff": 0.05,
+        "buff2": 0,
+        "buffType": 5000,
+        "buffType2": 0,
+        "judge": 1,
+        "judge2": 1,
+        "relation": 0,
+        "pr": [
+          [
+            1007,
+            5
+          ],
+          [
+            1008,
+            5
+          ],
+          [
+            1009,
+            5
+          ],
+          [
+            1010,
+            5
+          ]
+        ]
+      },
+      {
+        "level": 6,
+        "cost": 1000000,
+        "seconds": 72000,
+        "coin": 2500,
+        "center": 12,
+        "buff": 0.06,
+        "buff2": 0,
+        "buffType": 5000,
+        "buffType2": 0,
+        "judge": 1,
+        "judge2": 1,
+        "relation": 0,
+        "pr": [
+          [
+            1014,
+            10
+          ]
+        ]
+      },
+      {
+        "level": 7,
+        "cost": 1167000,
+        "seconds": 96000,
+        "coin": 2600,
+        "center": 13,
+        "buff": 0.07,
+        "buff2": 0,
+        "buffType": 5000,
+        "buffType2": 0,
+        "judge": 1,
+        "judge2": 1,
+        "relation": 0,
+        "pr": []
+      },
+      {
+        "level": 8,
+        "cost": 1333000,
+        "seconds": 128000,
+        "coin": 2700,
+        "center": 13,
+        "buff": 0.08,
+        "buff2": 0,
+        "buffType": 5000,
+        "buffType2": 0,
+        "judge": 1,
+        "judge2": 1,
+        "relation": 0,
+        "pr": [
+          [
+            1007,
+            8
+          ],
+          [
+            1008,
+            8
+          ],
+          [
+            1009,
+            8
+          ],
+          [
+            1010,
+            8
+          ]
+        ]
+      },
+      {
+        "level": 9,
+        "cost": 1500000,
+        "seconds": 164000,
+        "coin": 2800,
+        "center": 14,
+        "buff": 0.09,
+        "buff2": 0,
+        "buffType": 5000,
+        "buffType2": 0,
+        "judge": 1,
+        "judge2": 1,
+        "relation": 0,
+        "pr": []
+      },
+      {
+        "level": 10,
+        "cost": 1667000,
+        "seconds": 200000,
+        "coin": 2900,
+        "center": 15,
+        "buff": 0.1,
+        "buff2": 0,
+        "buffType": 5000,
+        "buffType2": 0,
+        "judge": 1,
+        "judge2": 1,
+        "relation": 0,
+        "pr": [
+          [
+            1011,
+            15
+          ]
+        ]
+      },
+      {
+        "level": 11,
+        "cost": 1833000,
+        "seconds": 240000,
+        "coin": 3000,
+        "center": 16,
+        "buff": 0.12,
+        "buff2": 0,
+        "buffType": 5000,
+        "buffType2": 0,
+        "judge": 1,
+        "judge2": 1,
+        "relation": 0,
+        "pr": []
+      },
+      {
+        "level": 12,
+        "cost": 2000000,
+        "seconds": 288000,
+        "coin": 3200,
+        "center": 17,
+        "buff": 0.14,
+        "buff2": 0,
+        "buffType": 5000,
+        "buffType2": 0,
+        "judge": 1,
+        "judge2": 1,
+        "relation": 0,
+        "pr": []
+      },
+      {
+        "level": 13,
+        "cost": 2167000,
+        "seconds": 388000,
+        "coin": 3300,
+        "center": 18,
+        "buff": 0.16,
+        "buff2": 0,
+        "buffType": 5000,
+        "buffType2": 0,
+        "judge": 1,
+        "judge2": 1,
+        "relation": 0,
+        "pr": [
+          [
+            1007,
+            15
+          ],
+          [
+            1008,
+            15
+          ],
+          [
+            1009,
+            15
+          ],
+          [
+            1010,
+            15
+          ]
+        ]
+      },
+      {
+        "level": 14,
+        "cost": 2333000,
+        "seconds": 388000,
+        "coin": 3400,
+        "center": 19,
+        "buff": 0.18,
+        "buff2": 0,
+        "buffType": 5000,
+        "buffType2": 0,
+        "judge": 1,
+        "judge2": 1,
+        "relation": 0,
+        "pr": []
+      },
+      {
+        "level": 15,
+        "cost": 2500000,
+        "seconds": 388000,
+        "coin": 3500,
+        "center": 20,
+        "buff": 0.2,
+        "buff2": 0,
+        "buffType": 5000,
+        "buffType2": 0,
+        "judge": 1,
+        "judge2": 1,
+        "relation": 0,
+        "pr": []
+      }
+    ]
+  },
+  {
+    "id": 1017,
+    "name": "Cutting Corners II",
+    "icon": "⚒",
+    "key": "LC_RESEARCH_NEW_CRYSTAL_NAME16",
+    "pic": "img_icon_CrystalResearch5",
+    "awake": false,
+    "rows": [
+      {
+        "level": 1,
+        "cost": 30000,
+        "seconds": 5000,
+        "coin": 500,
+        "center": 8,
+        "buff": 0.01,
+        "buff2": 0,
+        "buffType": 16006,
+        "buffType2": 0,
+        "judge": 1,
+        "judge2": 1,
+        "relation": 0,
+        "pr": [
+          [
+            1014,
+            7
+          ],
+          [
+            1016,
+            1
+          ]
+        ]
+      },
+      {
+        "level": 2,
+        "cost": 60000,
+        "seconds": 10000,
+        "coin": 600,
+        "center": 9,
+        "buff": 0.02,
+        "buff2": 0,
+        "buffType": 16006,
+        "buffType2": 0,
+        "judge": 1,
+        "judge2": 1,
+        "relation": 0,
+        "pr": []
+      },
+      {
+        "level": 3,
+        "cost": 90000,
+        "seconds": 20000,
+        "coin": 700,
+        "center": 10,
+        "buff": 0.03,
+        "buff2": 0,
+        "buffType": 16006,
+        "buffType2": 0,
+        "judge": 1,
+        "judge2": 1,
+        "relation": 0,
+        "pr": []
+      },
+      {
+        "level": 4,
+        "cost": 120000,
+        "seconds": 40000,
+        "coin": 800,
+        "center": 12,
+        "buff": 0.04,
+        "buff2": 0,
+        "buffType": 16006,
+        "buffType2": 0,
+        "judge": 1,
+        "judge2": 1,
+        "relation": 0,
+        "pr": []
+      },
+      {
+        "level": 5,
+        "cost": 150000,
+        "seconds": 80000,
+        "coin": 1000,
+        "center": 13,
+        "buff": 0.05,
+        "buff2": 0,
+        "buffType": 16006,
+        "buffType2": 0,
+        "judge": 1,
+        "judge2": 1,
+        "relation": 0,
+        "pr": []
+      },
+      {
+        "level": 6,
+        "cost": 200000,
+        "seconds": 80000,
+        "coin": 1100,
+        "center": 14,
+        "buff": 0.06,
+        "buff2": 0,
+        "buffType": 16006,
+        "buffType2": 0,
+        "judge": 1,
+        "judge2": 1,
+        "relation": 0,
+        "pr": []
+      },
+      {
+        "level": 7,
+        "cost": 250000,
+        "seconds": 80000,
+        "coin": 1200,
+        "center": 15,
+        "buff": 0.07,
+        "buff2": 0,
+        "buffType": 16006,
+        "buffType2": 0,
+        "judge": 1,
+        "judge2": 1,
+        "relation": 0,
+        "pr": []
+      },
+      {
+        "level": 8,
+        "cost": 300000,
+        "seconds": 80000,
+        "coin": 1300,
+        "center": 17,
+        "buff": 0.08,
+        "buff2": 0,
+        "buffType": 16006,
+        "buffType2": 0,
+        "judge": 1,
+        "judge2": 1,
+        "relation": 0,
+        "pr": []
+      },
+      {
+        "level": 9,
+        "cost": 400000,
+        "seconds": 80000,
+        "coin": 1400,
+        "center": 18,
+        "buff": 0.09,
+        "buff2": 0,
+        "buffType": 16006,
+        "buffType2": 0,
+        "judge": 1,
+        "judge2": 1,
+        "relation": 0,
+        "pr": []
+      },
+      {
+        "level": 10,
+        "cost": 500000,
+        "seconds": 80000,
+        "coin": 1500,
+        "center": 19,
+        "buff": 0.1,
+        "buff2": 0,
+        "buffType": 16006,
+        "buffType2": 0,
+        "judge": 1,
+        "judge2": 1,
+        "relation": 0,
+        "pr": []
+      }
+    ]
+  },
+  {
+    "id": 1018,
+    "name": "Cultural Exchange",
+    "icon": "📖",
+    "key": "LC_RESEARCH_NEW_CRYSTAL_NAME12",
+    "pic": "img_icon_CrystalResearch10",
+    "awake": false,
+    "rows": [
+      {
+        "level": 1,
+        "cost": 20000,
+        "seconds": 5000,
+        "coin": 1000,
+        "center": 9,
+        "buff": 0.05,
+        "buff2": 0.05,
+        "buffType": 16005,
+        "buffType2": 16004,
+        "judge": 1,
+        "judge2": 1,
+        "relation": 0,
+        "pr": [
+          [
+            1016,
+            1
+          ]
+        ]
+      },
+      {
+        "level": 2,
+        "cost": 40000,
+        "seconds": 10000,
+        "coin": 1100,
+        "center": 10,
+        "buff": 0.1,
+        "buff2": 0.1,
+        "buffType": 16005,
+        "buffType2": 16004,
+        "judge": 1,
+        "judge2": 1,
+        "relation": 0,
+        "pr": []
+      },
+      {
+        "level": 3,
+        "cost": 60000,
+        "seconds": 20000,
+        "coin": 1200,
+        "center": 11,
+        "buff": 0.15,
+        "buff2": 0.15,
+        "buffType": 16005,
+        "buffType2": 16004,
+        "judge": 1,
+        "judge2": 1,
+        "relation": 0,
+        "pr": []
+      },
+      {
+        "level": 4,
+        "cost": 80000,
+        "seconds": 40000,
+        "coin": 1300,
+        "center": 12,
+        "buff": 0.2,
+        "buff2": 0.2,
+        "buffType": 16005,
+        "buffType2": 16004,
+        "judge": 1,
+        "judge2": 1,
+        "relation": 0,
+        "pr": []
+      },
+      {
+        "level": 5,
+        "cost": 100000,
+        "seconds": 80000,
+        "coin": 1400,
+        "center": 12,
+        "buff": 0.25,
+        "buff2": 0.25,
+        "buffType": 16005,
+        "buffType2": 16004,
+        "judge": 1,
+        "judge2": 1,
+        "relation": 0,
+        "pr": [
+          [
+            1014,
+            5
+          ]
+        ]
+      },
+      {
+        "level": 6,
+        "cost": 120000,
+        "seconds": 80000,
+        "coin": 1500,
+        "center": 13,
+        "buff": 0.3,
+        "buff2": 0.3,
+        "buffType": 16005,
+        "buffType2": 16004,
+        "judge": 1,
+        "judge2": 1,
+        "relation": 0,
+        "pr": []
+      },
+      {
+        "level": 7,
+        "cost": 140000,
+        "seconds": 80000,
+        "coin": 1600,
+        "center": 14,
+        "buff": 0.35,
+        "buff2": 0.35,
+        "buffType": 16005,
+        "buffType2": 16004,
+        "judge": 1,
+        "judge2": 1,
+        "relation": 0,
+        "pr": []
+      },
+      {
+        "level": 8,
+        "cost": 160000,
+        "seconds": 80000,
+        "coin": 1700,
+        "center": 15,
+        "buff": 0.4,
+        "buff2": 0.4,
+        "buffType": 16005,
+        "buffType2": 16004,
+        "judge": 1,
+        "judge2": 1,
+        "relation": 0,
+        "pr": [
+          [
+            1014,
+            8
+          ]
+        ]
+      },
+      {
+        "level": 9,
+        "cost": 180000,
+        "seconds": 80000,
+        "coin": 1800,
+        "center": 16,
+        "buff": 0.45,
+        "buff2": 0.45,
+        "buffType": 16005,
+        "buffType2": 16004,
+        "judge": 1,
+        "judge2": 1,
+        "relation": 0,
+        "pr": []
+      },
+      {
+        "level": 10,
+        "cost": 200000,
+        "seconds": 80000,
+        "coin": 2000,
+        "center": 17,
+        "buff": 0.5,
+        "buff2": 0.5,
+        "buffType": 16005,
+        "buffType2": 16004,
+        "judge": 1,
+        "judge2": 1,
+        "relation": 0,
+        "pr": [
+          [
+            1014,
+            10
+          ]
+        ]
+      },
+      {
+        "level": 11,
+        "cost": 220000,
+        "seconds": 80000,
+        "coin": 2100,
+        "center": 18,
+        "buff": 0.6,
+        "buff2": 0.6,
+        "buffType": 16005,
+        "buffType2": 16004,
+        "judge": 1,
+        "judge2": 1,
+        "relation": 0,
+        "pr": []
+      },
+      {
+        "level": 12,
+        "cost": 240000,
+        "seconds": 80000,
+        "coin": 2200,
+        "center": 18,
+        "buff": 0.7,
+        "buff2": 0.7,
+        "buffType": 16005,
+        "buffType2": 16004,
+        "judge": 1,
+        "judge2": 1,
+        "relation": 0,
+        "pr": []
+      },
+      {
+        "level": 13,
+        "cost": 260000,
+        "seconds": 80000,
+        "coin": 2300,
+        "center": 19,
+        "buff": 0.8,
+        "buff2": 0.8,
+        "buffType": 16005,
+        "buffType2": 16004,
+        "judge": 1,
+        "judge2": 1,
+        "relation": 0,
+        "pr": []
+      },
+      {
+        "level": 14,
+        "cost": 280000,
+        "seconds": 80000,
+        "coin": 2400,
+        "center": 20,
+        "buff": 0.9,
+        "buff2": 0.9,
+        "buffType": 16005,
+        "buffType2": 16004,
+        "judge": 1,
+        "judge2": 1,
+        "relation": 0,
+        "pr": []
+      },
+      {
+        "level": 15,
+        "cost": 300000,
+        "seconds": 80000,
+        "coin": 2500,
+        "center": 21,
+        "buff": 1,
+        "buff2": 1,
+        "buffType": 16005,
+        "buffType2": 16004,
+        "judge": 1,
+        "judge2": 1,
+        "relation": 0,
+        "pr": []
+      }
+    ]
+  },
+  {
+    "id": 1019,
+    "name": "Emergency Support",
+    "icon": "⛺",
+    "key": "LC_RESEARCH_NEW_CRYSTAL_NAME30",
+    "pic": "img_icon_Research12",
+    "awake": false,
+    "rows": [
+      {
+        "level": 1,
+        "cost": 50000,
+        "seconds": 5000,
+        "coin": 500,
+        "center": 9,
+        "buff": 0.1,
+        "buff2": 0,
+        "buffType": 12014,
+        "buffType2": 0,
+        "judge": 1,
+        "judge2": 1,
+        "relation": 0,
+        "pr": [
+          [
+            1016,
+            1
+          ]
+        ]
+      },
+      {
+        "level": 2,
+        "cost": 100000,
+        "seconds": 10000,
+        "coin": 600,
+        "center": 11,
+        "buff": 0.25,
+        "buff2": 0,
+        "buffType": 12014,
+        "buffType2": 0,
+        "judge": 1,
+        "judge2": 1,
+        "relation": 0,
+        "pr": []
+      },
+      {
+        "level": 3,
+        "cost": 150000,
+        "seconds": 20000,
+        "coin": 700,
+        "center": 14,
+        "buff": 0.4,
+        "buff2": 0,
+        "buffType": 12014,
+        "buffType2": 0,
+        "judge": 1,
+        "judge2": 1,
+        "relation": 0,
+        "pr": []
+      },
+      {
+        "level": 4,
+        "cost": 250000,
+        "seconds": 40000,
+        "coin": 800,
+        "center": 17,
+        "buff": 0.65,
+        "buff2": 0,
+        "buffType": 12014,
+        "buffType2": 0,
+        "judge": 1,
+        "judge2": 1,
+        "relation": 0,
+        "pr": []
+      },
+      {
+        "level": 5,
+        "cost": 500000,
+        "seconds": 80000,
+        "coin": 1000,
+        "center": 19,
+        "buff": 1,
+        "buff2": 0,
+        "buffType": 12014,
+        "buffType2": 0,
+        "judge": 1,
+        "judge2": 1,
+        "relation": 0,
+        "pr": [
+          [
+            1016,
+            5
+          ]
+        ]
+      }
+    ]
+  },
+  {
+    "id": 1020,
+    "name": "Celestial Guidance",
+    "icon": "🤝",
+    "key": "LC_RESEARCH_NEW_CRYSTAL_NAME45",
+    "pic": "img_icon_CrystalResearch9",
+    "awake": false,
+    "rows": [
+      {
+        "level": 1,
+        "cost": 300000,
+        "seconds": 100000,
+        "coin": 1000,
+        "center": 10,
+        "buff": 10,
+        "buff2": 0,
+        "buffType": 7011,
+        "buffType2": 0,
+        "judge": 2,
+        "judge2": 1,
+        "relation": 0,
+        "pr": [
+          [
+            1019,
+            1
+          ]
+        ]
+      },
+      {
+        "level": 2,
+        "cost": 500000,
+        "seconds": 200000,
+        "coin": 1500,
+        "center": 13,
+        "buff": 20,
+        "buff2": 0,
+        "buffType": 7011,
+        "buffType2": 0,
+        "judge": 2,
+        "judge2": 1,
+        "relation": 0,
+        "pr": []
+      },
+      {
+        "level": 3,
+        "cost": 800000,
+        "seconds": 300000,
+        "coin": 2000,
+        "center": 16,
+        "buff": 30,
+        "buff2": 0,
+        "buffType": 7011,
+        "buffType2": 0,
+        "judge": 2,
+        "judge2": 1,
+        "relation": 0,
+        "pr": []
+      }
+    ]
+  },
+  {
+    "id": 1021,
+    "name": "Expanded Formations I",
+    "icon": "♟",
+    "key": "LC_RESEARCH_NEW_CRYSTAL_NAME32",
+    "pic": "img_iconAlliResearch4",
+    "awake": false,
+    "rows": [
+      {
+        "level": 1,
+        "cost": 3000000,
+        "seconds": 1500000,
+        "coin": 2000,
+        "center": 16,
+        "buff": 1,
+        "buff2": 0,
+        "buffType": 5052,
+        "buffType2": 0,
+        "judge": 2,
+        "judge2": 2,
+        "relation": 0,
+        "pr": [
+          [
+            1016,
+            12
+          ],
+          [
+            1019,
+            5
+          ]
+        ]
+      }
+    ]
+  },
+  {
+    "id": 1022,
+    "name": "Quenched Blades I",
+    "icon": "⚔",
+    "key": "LC_RESEARCH_NEW_CRYSTAL_NAME01",
+    "pic": "img_iconAlliResearch6",
+    "awake": false,
+    "rows": [
+      {
+        "level": 1,
+        "cost": 33000,
+        "seconds": 1100,
+        "coin": 600,
+        "center": 10,
+        "buff": 0.01,
+        "buff2": 0,
+        "buffType": 3001,
+        "buffType2": 0,
+        "judge": 1,
+        "judge2": 1,
+        "relation": 0,
+        "pr": [
+          [
+            1019,
+            1
+          ]
+        ]
+      },
+      {
+        "level": 2,
+        "cost": 67000,
+        "seconds": 2000,
+        "coin": 600,
+        "center": 11,
+        "buff": 0.02,
+        "buff2": 0,
+        "buffType": 3001,
+        "buffType2": 0,
+        "judge": 1,
+        "judge2": 1,
+        "relation": 0,
+        "pr": []
+      },
+      {
+        "level": 3,
+        "cost": 102000,
+        "seconds": 3000,
+        "coin": 600,
+        "center": 12,
+        "buff": 0.03,
+        "buff2": 0,
+        "buffType": 3001,
+        "buffType2": 0,
+        "judge": 1,
+        "judge2": 1,
+        "relation": 0,
+        "pr": [
+          [
+            1013,
+            5
+          ]
+        ]
+      },
+      {
+        "level": 4,
+        "cost": 136000,
+        "seconds": 8000,
+        "coin": 700,
+        "center": 12,
+        "buff": 0.04,
+        "buff2": 0,
+        "buffType": 3001,
+        "buffType2": 0,
+        "judge": 1,
+        "judge2": 1,
+        "relation": 0,
+        "pr": []
+      },
+      {
+        "level": 5,
+        "cost": 169000,
+        "seconds": 12000,
+        "coin": 700,
+        "center": 13,
+        "buff": 0.05,
+        "buff2": 0,
+        "buffType": 3001,
+        "buffType2": 0,
+        "judge": 1,
+        "judge2": 1,
+        "relation": 0,
+        "pr": [
+          [
+            1019,
+            5
+          ]
+        ]
+      },
+      {
+        "level": 6,
+        "cost": 202000,
+        "seconds": 18000,
+        "coin": 700,
+        "center": 14,
+        "buff": 0.06,
+        "buff2": 0,
+        "buffType": 3001,
+        "buffType2": 0,
+        "judge": 1,
+        "judge2": 1,
+        "relation": 0,
+        "pr": []
+      },
+      {
+        "level": 7,
+        "cost": 238000,
+        "seconds": 24000,
+        "coin": 800,
+        "center": 15,
+        "buff": 0.07,
+        "buff2": 0,
+        "buffType": 3001,
+        "buffType2": 0,
+        "judge": 1,
+        "judge2": 1,
+        "relation": 0,
+        "pr": [
+          [
+            1013,
+            10
+          ]
+        ]
+      },
+      {
+        "level": 8,
+        "cost": 271000,
+        "seconds": 32000,
+        "coin": 800,
+        "center": 16,
+        "buff": 0.08,
+        "buff2": 0,
+        "buffType": 3001,
+        "buffType2": 0,
+        "judge": 1,
+        "judge2": 1,
+        "relation": 0,
+        "pr": []
+      },
+      {
+        "level": 9,
+        "cost": 304000,
+        "seconds": 41000,
+        "coin": 800,
+        "center": 16,
+        "buff": 0.09,
+        "buff2": 0,
+        "buffType": 3001,
+        "buffType2": 0,
+        "judge": 1,
+        "judge2": 1,
+        "relation": 0,
+        "pr": []
+      },
+      {
+        "level": 10,
+        "cost": 340000,
+        "seconds": 50000,
+        "coin": 900,
+        "center": 17,
+        "buff": 0.1,
+        "buff2": 0,
+        "buffType": 3001,
+        "buffType2": 0,
+        "judge": 1,
+        "judge2": 1,
+        "relation": 0,
+        "pr": [
+          [
+            1016,
+            8
+          ]
+        ]
+      },
+      {
+        "level": 11,
+        "cost": 373000,
+        "seconds": 60000,
+        "coin": 900,
+        "center": 18,
+        "buff": 0.115,
+        "buff2": 0,
+        "buffType": 3001,
+        "buffType2": 0,
+        "judge": 1,
+        "judge2": 1,
+        "relation": 0,
+        "pr": []
+      },
+      {
+        "level": 12,
+        "cost": 407000,
+        "seconds": 72000,
+        "coin": 1000,
+        "center": 19,
+        "buff": 0.13,
+        "buff2": 0,
+        "buffType": 3001,
+        "buffType2": 0,
+        "judge": 1,
+        "judge2": 1,
+        "relation": 0,
+        "pr": []
+      },
+      {
+        "level": 13,
+        "cost": 440000,
+        "seconds": 97000,
+        "coin": 1000,
+        "center": 19,
+        "buff": 0.145,
+        "buff2": 0,
+        "buffType": 3001,
+        "buffType2": 0,
+        "judge": 1,
+        "judge2": 1,
+        "relation": 0,
+        "pr": [
+          [
+            1007,
+            15
+          ],
+          [
+            1013,
+            15
+          ]
+        ]
+      },
+      {
+        "level": 14,
+        "cost": 475000,
+        "seconds": 97000,
+        "coin": 1000,
+        "center": 20,
+        "buff": 0.16,
+        "buff2": 0,
+        "buffType": 3001,
+        "buffType2": 0,
+        "judge": 1,
+        "judge2": 1,
+        "relation": 0,
+        "pr": []
+      },
+      {
+        "level": 15,
+        "cost": 509900,
+        "seconds": 97000,
+        "coin": 1100,
+        "center": 21,
+        "buff": 0.2,
+        "buff2": 0,
+        "buffType": 3001,
+        "buffType2": 0,
+        "judge": 1,
+        "judge2": 1,
+        "relation": 0,
+        "pr": [
+          [
+            1016,
+            15
+          ]
+        ]
+      }
+    ]
+  },
+  {
+    "id": 1023,
+    "name": "Mounted Combat Techniques I",
+    "icon": "♞",
+    "key": "LC_RESEARCH_NEW_CRYSTAL_NAME03",
+    "pic": "img_icon_CrystalResearch13",
+    "awake": false,
+    "rows": [
+      {
+        "level": 1,
+        "cost": 33000,
+        "seconds": 1100,
+        "coin": 600,
+        "center": 10,
+        "buff": 0.01,
+        "buff2": 0,
+        "buffType": 3002,
+        "buffType2": 0,
+        "judge": 1,
+        "judge2": 1,
+        "relation": 0,
+        "pr": [
+          [
+            1019,
+            1
+          ]
+        ]
+      },
+      {
+        "level": 2,
+        "cost": 67000,
+        "seconds": 2000,
+        "coin": 600,
+        "center": 11,
+        "buff": 0.02,
+        "buff2": 0,
+        "buffType": 3002,
+        "buffType2": 0,
+        "judge": 1,
+        "judge2": 1,
+        "relation": 0,
+        "pr": []
+      },
+      {
+        "level": 3,
+        "cost": 102000,
+        "seconds": 3000,
+        "coin": 600,
+        "center": 12,
+        "buff": 0.03,
+        "buff2": 0,
+        "buffType": 3002,
+        "buffType2": 0,
+        "judge": 1,
+        "judge2": 1,
+        "relation": 0,
+        "pr": [
+          [
+            1013,
+            5
+          ]
+        ]
+      },
+      {
+        "level": 4,
+        "cost": 136000,
+        "seconds": 8000,
+        "coin": 700,
+        "center": 12,
+        "buff": 0.04,
+        "buff2": 0,
+        "buffType": 3002,
+        "buffType2": 0,
+        "judge": 1,
+        "judge2": 1,
+        "relation": 0,
+        "pr": []
+      },
+      {
+        "level": 5,
+        "cost": 169000,
+        "seconds": 12000,
+        "coin": 700,
+        "center": 13,
+        "buff": 0.05,
+        "buff2": 0,
+        "buffType": 3002,
+        "buffType2": 0,
+        "judge": 1,
+        "judge2": 1,
+        "relation": 0,
+        "pr": [
+          [
+            1019,
+            5
+          ]
+        ]
+      },
+      {
+        "level": 6,
+        "cost": 202000,
+        "seconds": 18000,
+        "coin": 700,
+        "center": 14,
+        "buff": 0.06,
+        "buff2": 0,
+        "buffType": 3002,
+        "buffType2": 0,
+        "judge": 1,
+        "judge2": 1,
+        "relation": 0,
+        "pr": []
+      },
+      {
+        "level": 7,
+        "cost": 238000,
+        "seconds": 24000,
+        "coin": 800,
+        "center": 15,
+        "buff": 0.07,
+        "buff2": 0,
+        "buffType": 3002,
+        "buffType2": 0,
+        "judge": 1,
+        "judge2": 1,
+        "relation": 0,
+        "pr": [
+          [
+            1013,
+            10
+          ]
+        ]
+      },
+      {
+        "level": 8,
+        "cost": 271000,
+        "seconds": 32000,
+        "coin": 800,
+        "center": 16,
+        "buff": 0.08,
+        "buff2": 0,
+        "buffType": 3002,
+        "buffType2": 0,
+        "judge": 1,
+        "judge2": 1,
+        "relation": 0,
+        "pr": []
+      },
+      {
+        "level": 9,
+        "cost": 304000,
+        "seconds": 41000,
+        "coin": 800,
+        "center": 16,
+        "buff": 0.09,
+        "buff2": 0,
+        "buffType": 3002,
+        "buffType2": 0,
+        "judge": 1,
+        "judge2": 1,
+        "relation": 0,
+        "pr": []
+      },
+      {
+        "level": 10,
+        "cost": 340000,
+        "seconds": 50000,
+        "coin": 900,
+        "center": 17,
+        "buff": 0.1,
+        "buff2": 0,
+        "buffType": 3002,
+        "buffType2": 0,
+        "judge": 1,
+        "judge2": 1,
+        "relation": 0,
+        "pr": [
+          [
+            1016,
+            8
+          ]
+        ]
+      },
+      {
+        "level": 11,
+        "cost": 373000,
+        "seconds": 60000,
+        "coin": 900,
+        "center": 18,
+        "buff": 0.115,
+        "buff2": 0,
+        "buffType": 3002,
+        "buffType2": 0,
+        "judge": 1,
+        "judge2": 1,
+        "relation": 0,
+        "pr": []
+      },
+      {
+        "level": 12,
+        "cost": 407000,
+        "seconds": 72000,
+        "coin": 1000,
+        "center": 19,
+        "buff": 0.13,
+        "buff2": 0,
+        "buffType": 3002,
+        "buffType2": 0,
+        "judge": 1,
+        "judge2": 1,
+        "relation": 0,
+        "pr": []
+      },
+      {
+        "level": 13,
+        "cost": 440000,
+        "seconds": 97000,
+        "coin": 1000,
+        "center": 19,
+        "buff": 0.145,
+        "buff2": 0,
+        "buffType": 3002,
+        "buffType2": 0,
+        "judge": 1,
+        "judge2": 1,
+        "relation": 0,
+        "pr": [
+          [
+            1008,
+            15
+          ],
+          [
+            1013,
+            15
+          ]
+        ]
+      },
+      {
+        "level": 14,
+        "cost": 475000,
+        "seconds": 97000,
+        "coin": 1000,
+        "center": 20,
+        "buff": 0.16,
+        "buff2": 0,
+        "buffType": 3002,
+        "buffType2": 0,
+        "judge": 1,
+        "judge2": 1,
+        "relation": 0,
+        "pr": []
+      },
+      {
+        "level": 15,
+        "cost": 509900,
+        "seconds": 97000,
+        "coin": 1100,
+        "center": 21,
+        "buff": 0.2,
+        "buff2": 0,
+        "buffType": 3002,
+        "buffType2": 0,
+        "judge": 1,
+        "judge2": 1,
+        "relation": 0,
+        "pr": [
+          [
+            1016,
+            15
+          ]
+        ]
+      }
+    ]
+  },
+  {
+    "id": 1024,
+    "name": "Improved Bows I",
+    "icon": "🏹",
+    "key": "LC_RESEARCH_NEW_CRYSTAL_NAME02",
+    "pic": "img_icon_Research23",
+    "awake": false,
+    "rows": [
+      {
+        "level": 1,
+        "cost": 33000,
+        "seconds": 1100,
+        "coin": 600,
+        "center": 10,
+        "buff": 0.01,
+        "buff2": 0,
+        "buffType": 3003,
+        "buffType2": 0,
+        "judge": 1,
+        "judge2": 1,
+        "relation": 0,
+        "pr": [
+          [
+            1019,
+            1
+          ]
+        ]
+      },
+      {
+        "level": 2,
+        "cost": 67000,
+        "seconds": 2000,
+        "coin": 600,
+        "center": 11,
+        "buff": 0.02,
+        "buff2": 0,
+        "buffType": 3003,
+        "buffType2": 0,
+        "judge": 1,
+        "judge2": 1,
+        "relation": 0,
+        "pr": []
+      },
+      {
+        "level": 3,
+        "cost": 102000,
+        "seconds": 3000,
+        "coin": 600,
+        "center": 12,
+        "buff": 0.03,
+        "buff2": 0,
+        "buffType": 3003,
+        "buffType2": 0,
+        "judge": 1,
+        "judge2": 1,
+        "relation": 0,
+        "pr": [
+          [
+            1013,
+            5
+          ]
+        ]
+      },
+      {
+        "level": 4,
+        "cost": 136000,
+        "seconds": 8000,
+        "coin": 700,
+        "center": 12,
+        "buff": 0.04,
+        "buff2": 0,
+        "buffType": 3003,
+        "buffType2": 0,
+        "judge": 1,
+        "judge2": 1,
+        "relation": 0,
+        "pr": []
+      },
+      {
+        "level": 5,
+        "cost": 169000,
+        "seconds": 12000,
+        "coin": 700,
+        "center": 13,
+        "buff": 0.05,
+        "buff2": 0,
+        "buffType": 3003,
+        "buffType2": 0,
+        "judge": 1,
+        "judge2": 1,
+        "relation": 0,
+        "pr": [
+          [
+            1019,
+            5
+          ]
+        ]
+      },
+      {
+        "level": 6,
+        "cost": 202000,
+        "seconds": 18000,
+        "coin": 700,
+        "center": 14,
+        "buff": 0.06,
+        "buff2": 0,
+        "buffType": 3003,
+        "buffType2": 0,
+        "judge": 1,
+        "judge2": 1,
+        "relation": 0,
+        "pr": []
+      },
+      {
+        "level": 7,
+        "cost": 238000,
+        "seconds": 24000,
+        "coin": 800,
+        "center": 15,
+        "buff": 0.07,
+        "buff2": 0,
+        "buffType": 3003,
+        "buffType2": 0,
+        "judge": 1,
+        "judge2": 1,
+        "relation": 0,
+        "pr": [
+          [
+            1013,
+            10
+          ]
+        ]
+      },
+      {
+        "level": 8,
+        "cost": 271000,
+        "seconds": 32000,
+        "coin": 800,
+        "center": 16,
+        "buff": 0.08,
+        "buff2": 0,
+        "buffType": 3003,
+        "buffType2": 0,
+        "judge": 1,
+        "judge2": 1,
+        "relation": 0,
+        "pr": []
+      },
+      {
+        "level": 9,
+        "cost": 304000,
+        "seconds": 41000,
+        "coin": 800,
+        "center": 16,
+        "buff": 0.09,
+        "buff2": 0,
+        "buffType": 3003,
+        "buffType2": 0,
+        "judge": 1,
+        "judge2": 1,
+        "relation": 0,
+        "pr": []
+      },
+      {
+        "level": 10,
+        "cost": 340000,
+        "seconds": 50000,
+        "coin": 900,
+        "center": 17,
+        "buff": 0.1,
+        "buff2": 0,
+        "buffType": 3003,
+        "buffType2": 0,
+        "judge": 1,
+        "judge2": 1,
+        "relation": 0,
+        "pr": [
+          [
+            1016,
+            8
+          ]
+        ]
+      },
+      {
+        "level": 11,
+        "cost": 373000,
+        "seconds": 60000,
+        "coin": 900,
+        "center": 18,
+        "buff": 0.115,
+        "buff2": 0,
+        "buffType": 3003,
+        "buffType2": 0,
+        "judge": 1,
+        "judge2": 1,
+        "relation": 0,
+        "pr": []
+      },
+      {
+        "level": 12,
+        "cost": 407000,
+        "seconds": 72000,
+        "coin": 1000,
+        "center": 19,
+        "buff": 0.13,
+        "buff2": 0,
+        "buffType": 3003,
+        "buffType2": 0,
+        "judge": 1,
+        "judge2": 1,
+        "relation": 0,
+        "pr": []
+      },
+      {
+        "level": 13,
+        "cost": 440000,
+        "seconds": 97000,
+        "coin": 1000,
+        "center": 19,
+        "buff": 0.145,
+        "buff2": 0,
+        "buffType": 3003,
+        "buffType2": 0,
+        "judge": 1,
+        "judge2": 1,
+        "relation": 0,
+        "pr": [
+          [
+            1009,
+            15
+          ],
+          [
+            1013,
+            15
+          ]
+        ]
+      },
+      {
+        "level": 14,
+        "cost": 475000,
+        "seconds": 97000,
+        "coin": 1000,
+        "center": 20,
+        "buff": 0.16,
+        "buff2": 0,
+        "buffType": 3003,
+        "buffType2": 0,
+        "judge": 1,
+        "judge2": 1,
+        "relation": 0,
+        "pr": []
+      },
+      {
+        "level": 15,
+        "cost": 509900,
+        "seconds": 97000,
+        "coin": 1100,
+        "center": 21,
+        "buff": 0.2,
+        "buff2": 0,
+        "buffType": 3003,
+        "buffType2": 0,
+        "judge": 1,
+        "judge2": 1,
+        "relation": 0,
+        "pr": [
+          [
+            1016,
+            15
+          ]
+        ]
+      }
+    ]
+  },
+  {
+    "id": 1025,
+    "name": "Improved Projectiles I",
+    "icon": "💣",
+    "key": "LC_RESEARCH_NEW_CRYSTAL_NAME04",
+    "pic": "img_icon_Research44",
+    "awake": false,
+    "rows": [
+      {
+        "level": 1,
+        "cost": 33000,
+        "seconds": 1100,
+        "coin": 600,
+        "center": 10,
+        "buff": 0.01,
+        "buff2": 0,
+        "buffType": 3004,
+        "buffType2": 0,
+        "judge": 1,
+        "judge2": 1,
+        "relation": 0,
+        "pr": [
+          [
+            1019,
+            1
+          ]
+        ]
+      },
+      {
+        "level": 2,
+        "cost": 67000,
+        "seconds": 2000,
+        "coin": 600,
+        "center": 11,
+        "buff": 0.02,
+        "buff2": 0,
+        "buffType": 3004,
+        "buffType2": 0,
+        "judge": 1,
+        "judge2": 1,
+        "relation": 0,
+        "pr": []
+      },
+      {
+        "level": 3,
+        "cost": 102000,
+        "seconds": 3000,
+        "coin": 600,
+        "center": 12,
+        "buff": 0.03,
+        "buff2": 0,
+        "buffType": 3004,
+        "buffType2": 0,
+        "judge": 1,
+        "judge2": 1,
+        "relation": 0,
+        "pr": [
+          [
+            1013,
+            5
+          ]
+        ]
+      },
+      {
+        "level": 4,
+        "cost": 136000,
+        "seconds": 8000,
+        "coin": 700,
+        "center": 12,
+        "buff": 0.04,
+        "buff2": 0,
+        "buffType": 3004,
+        "buffType2": 0,
+        "judge": 1,
+        "judge2": 1,
+        "relation": 0,
+        "pr": []
+      },
+      {
+        "level": 5,
+        "cost": 169000,
+        "seconds": 12000,
+        "coin": 700,
+        "center": 13,
+        "buff": 0.05,
+        "buff2": 0,
+        "buffType": 3004,
+        "buffType2": 0,
+        "judge": 1,
+        "judge2": 1,
+        "relation": 0,
+        "pr": [
+          [
+            1019,
+            5
+          ]
+        ]
+      },
+      {
+        "level": 6,
+        "cost": 202000,
+        "seconds": 18000,
+        "coin": 700,
+        "center": 14,
+        "buff": 0.06,
+        "buff2": 0,
+        "buffType": 3004,
+        "buffType2": 0,
+        "judge": 1,
+        "judge2": 1,
+        "relation": 0,
+        "pr": []
+      },
+      {
+        "level": 7,
+        "cost": 238000,
+        "seconds": 24000,
+        "coin": 800,
+        "center": 15,
+        "buff": 0.07,
+        "buff2": 0,
+        "buffType": 3004,
+        "buffType2": 0,
+        "judge": 1,
+        "judge2": 1,
+        "relation": 0,
+        "pr": [
+          [
+            1013,
+            10
+          ]
+        ]
+      },
+      {
+        "level": 8,
+        "cost": 271000,
+        "seconds": 32000,
+        "coin": 800,
+        "center": 16,
+        "buff": 0.08,
+        "buff2": 0,
+        "buffType": 3004,
+        "buffType2": 0,
+        "judge": 1,
+        "judge2": 1,
+        "relation": 0,
+        "pr": []
+      },
+      {
+        "level": 9,
+        "cost": 304000,
+        "seconds": 41000,
+        "coin": 800,
+        "center": 16,
+        "buff": 0.09,
+        "buff2": 0,
+        "buffType": 3004,
+        "buffType2": 0,
+        "judge": 1,
+        "judge2": 1,
+        "relation": 0,
+        "pr": []
+      },
+      {
+        "level": 10,
+        "cost": 340000,
+        "seconds": 50000,
+        "coin": 900,
+        "center": 17,
+        "buff": 0.1,
+        "buff2": 0,
+        "buffType": 3004,
+        "buffType2": 0,
+        "judge": 1,
+        "judge2": 1,
+        "relation": 0,
+        "pr": [
+          [
+            1016,
+            8
+          ]
+        ]
+      },
+      {
+        "level": 11,
+        "cost": 373000,
+        "seconds": 60000,
+        "coin": 900,
+        "center": 18,
+        "buff": 0.115,
+        "buff2": 0,
+        "buffType": 3004,
+        "buffType2": 0,
+        "judge": 1,
+        "judge2": 1,
+        "relation": 0,
+        "pr": []
+      },
+      {
+        "level": 12,
+        "cost": 407000,
+        "seconds": 72000,
+        "coin": 1000,
+        "center": 19,
+        "buff": 0.13,
+        "buff2": 0,
+        "buffType": 3004,
+        "buffType2": 0,
+        "judge": 1,
+        "judge2": 1,
+        "relation": 0,
+        "pr": []
+      },
+      {
+        "level": 13,
+        "cost": 440000,
+        "seconds": 97000,
+        "coin": 1000,
+        "center": 19,
+        "buff": 0.145,
+        "buff2": 0,
+        "buffType": 3004,
+        "buffType2": 0,
+        "judge": 1,
+        "judge2": 1,
+        "relation": 0,
+        "pr": [
+          [
+            1010,
+            15
+          ],
+          [
+            1013,
+            15
+          ]
+        ]
+      },
+      {
+        "level": 14,
+        "cost": 475000,
+        "seconds": 97000,
+        "coin": 1000,
+        "center": 20,
+        "buff": 0.16,
+        "buff2": 0,
+        "buffType": 3004,
+        "buffType2": 0,
+        "judge": 1,
+        "judge2": 1,
+        "relation": 0,
+        "pr": []
+      },
+      {
+        "level": 15,
+        "cost": 509900,
+        "seconds": 97000,
+        "coin": 1100,
+        "center": 21,
+        "buff": 0.2,
+        "buff2": 0,
+        "buffType": 3004,
+        "buffType2": 0,
+        "judge": 1,
+        "judge2": 1,
+        "relation": 0,
+        "pr": [
+          [
+            1016,
+            15
+          ]
+        ]
+      }
+    ]
+  },
+  {
+    "id": 1026,
+    "name": "Special Medicine I *",
+    "icon": "✚",
+    "key": "LC_RESEARCH_NEW_CRYSTAL_NAME33",
+    "pic": "img_icon_Research1",
+    "awake": false,
+    "rows": [
+      {
+        "level": 1,
+        "cost": 50000,
+        "seconds": 5000,
+        "coin": 500,
+        "center": 12,
+        "buff": 0.005,
+        "buff2": 0,
+        "buffType": 2104,
+        "buffType2": 0,
+        "judge": 1,
+        "judge2": 1,
+        "relation": 0,
+        "pr": [
+          [
+            1022,
+            5
+          ],
+          [
+            1023,
+            5
+          ],
+          [
+            1024,
+            5
+          ],
+          [
+            1025,
+            5
+          ]
+        ]
+      },
+      {
+        "level": 2,
+        "cost": 100000,
+        "seconds": 10000,
+        "coin": 600,
+        "center": 13,
+        "buff": 0.01,
+        "buff2": 0,
+        "buffType": 2104,
+        "buffType2": 0,
+        "judge": 1,
+        "judge2": 1,
+        "relation": 0,
+        "pr": []
+      },
+      {
+        "level": 3,
+        "cost": 150000,
+        "seconds": 20000,
+        "coin": 700,
+        "center": 14,
+        "buff": 0.015,
+        "buff2": 0,
+        "buffType": 2104,
+        "buffType2": 0,
+        "judge": 1,
+        "judge2": 1,
+        "relation": 0,
+        "pr": []
+      },
+      {
+        "level": 4,
+        "cost": 200000,
+        "seconds": 40000,
+        "coin": 800,
+        "center": 15,
+        "buff": 0.02,
+        "buff2": 0,
+        "buffType": 2104,
+        "buffType2": 0,
+        "judge": 1,
+        "judge2": 1,
+        "relation": 0,
+        "pr": []
+      },
+      {
+        "level": 5,
+        "cost": 250000,
+        "seconds": 80000,
+        "coin": 1000,
+        "center": 16,
+        "buff": 0.03,
+        "buff2": 0,
+        "buffType": 2104,
+        "buffType2": 0,
+        "judge": 1,
+        "judge2": 1,
+        "relation": 0,
+        "pr": []
+      },
+      {
+        "level": 6,
+        "cost": 300000,
+        "seconds": 80000,
+        "coin": 1100,
+        "center": 18,
+        "buff": 0.04,
+        "buff2": 0,
+        "buffType": 2104,
+        "buffType2": 0,
+        "judge": 1,
+        "judge2": 1,
+        "relation": 0,
+        "pr": []
+      },
+      {
+        "level": 7,
+        "cost": 400000,
+        "seconds": 80000,
+        "coin": 1200,
+        "center": 19,
+        "buff": 0.06,
+        "buff2": 0,
+        "buffType": 2104,
+        "buffType2": 0,
+        "judge": 1,
+        "judge2": 1,
+        "relation": 0,
+        "pr": []
+      },
+      {
+        "level": 8,
+        "cost": 600000,
+        "seconds": 80000,
+        "coin": 1300,
+        "center": 20,
+        "buff": 0.08,
+        "buff2": 0,
+        "buffType": 2104,
+        "buffType2": 0,
+        "judge": 1,
+        "judge2": 1,
+        "relation": 0,
+        "pr": []
+      },
+      {
+        "level": 9,
+        "cost": 900000,
+        "seconds": 80000,
+        "coin": 1400,
+        "center": 21,
+        "buff": 0.11,
+        "buff2": 0,
+        "buffType": 2104,
+        "buffType2": 0,
+        "judge": 1,
+        "judge2": 1,
+        "relation": 0,
+        "pr": [
+          [
+            1022,
+            15
+          ],
+          [
+            1023,
+            15
+          ],
+          [
+            1024,
+            15
+          ],
+          [
+            1025,
+            15
+          ]
+        ]
+      },
+      {
+        "level": 10,
+        "cost": 1500000,
+        "seconds": 80000,
+        "coin": 1500,
+        "center": 22,
+        "buff": 0.15,
+        "buff2": 0,
+        "buffType": 2104,
+        "buffType2": 0,
+        "judge": 1,
+        "judge2": 1,
+        "relation": 0,
+        "pr": []
+      }
+    ]
+  },
+  {
+    "id": 1027,
+    "name": "Swift Marching II",
+    "icon": "🥾",
+    "key": "LC_RESEARCH_NEW_CRYSTAL_NAME26",
+    "pic": "img_iconAlliResearch2",
+    "awake": false,
+    "rows": [
+      {
+        "level": 1,
+        "cost": 34200,
+        "seconds": 2200,
+        "coin": 1200,
+        "center": 13,
+        "buff": 0.01,
+        "buff2": 0,
+        "buffType": 6001,
+        "buffType2": 0,
+        "judge": 1,
+        "judge2": 1,
+        "relation": 0,
+        "pr": [
+          [
+            1026,
+            1
+          ]
+        ]
+      },
+      {
+        "level": 2,
+        "cost": 68400,
+        "seconds": 7800,
+        "coin": 1300,
+        "center": 14,
+        "buff": 0.02,
+        "buff2": 0,
+        "buffType": 6001,
+        "buffType2": 0,
+        "judge": 1,
+        "judge2": 1,
+        "relation": 0,
+        "pr": []
+      },
+      {
+        "level": 3,
+        "cost": 102600,
+        "seconds": 17000,
+        "coin": 1400,
+        "center": 15,
+        "buff": 0.03,
+        "buff2": 0,
+        "buffType": 6001,
+        "buffType2": 0,
+        "judge": 1,
+        "judge2": 1,
+        "relation": 0,
+        "pr": []
+      },
+      {
+        "level": 4,
+        "cost": 136900,
+        "seconds": 30000,
+        "coin": 1400,
+        "center": 17,
+        "buff": 0.04,
+        "buff2": 0,
+        "buffType": 6001,
+        "buffType2": 0,
+        "judge": 1,
+        "judge2": 1,
+        "relation": 0,
+        "pr": []
+      },
+      {
+        "level": 5,
+        "cost": 171100,
+        "seconds": 46000,
+        "coin": 1500,
+        "center": 17,
+        "buff": 0.05,
+        "buff2": 0,
+        "buffType": 6001,
+        "buffType2": 0,
+        "judge": 1,
+        "judge2": 1,
+        "relation": 0,
+        "pr": [
+          [
+            1022,
+            14
+          ]
+        ]
+      },
+      {
+        "level": 6,
+        "cost": 205300,
+        "seconds": 66000,
+        "coin": 1600,
+        "center": 19,
+        "buff": 0.07,
+        "buff2": 0,
+        "buffType": 6001,
+        "buffType2": 0,
+        "judge": 1,
+        "judge2": 1,
+        "relation": 0,
+        "pr": []
+      },
+      {
+        "level": 7,
+        "cost": 239500,
+        "seconds": 90000,
+        "coin": 1700,
+        "center": 19,
+        "buff": 0.09,
+        "buff2": 0,
+        "buffType": 6001,
+        "buffType2": 0,
+        "judge": 1,
+        "judge2": 1,
+        "relation": 0,
+        "pr": []
+      },
+      {
+        "level": 8,
+        "cost": 273700,
+        "seconds": 150000,
+        "coin": 1800,
+        "center": 21,
+        "buff": 0.11,
+        "buff2": 0,
+        "buffType": 6001,
+        "buffType2": 0,
+        "judge": 1,
+        "judge2": 1,
+        "relation": 0,
+        "pr": []
+      },
+      {
+        "level": 9,
+        "cost": 307900,
+        "seconds": 150000,
+        "coin": 1900,
+        "center": 22,
+        "buff": 0.13,
+        "buff2": 0,
+        "buffType": 6001,
+        "buffType2": 0,
+        "judge": 1,
+        "judge2": 1,
+        "relation": 0,
+        "pr": [
+          [
+            1022,
+            15
+          ]
+        ]
+      },
+      {
+        "level": 10,
+        "cost": 342200,
+        "seconds": 150000,
+        "coin": 2000,
+        "center": 23,
+        "buff": 0.15,
+        "buff2": 0,
+        "buffType": 6001,
+        "buffType2": 0,
+        "judge": 1,
+        "judge2": 1,
+        "relation": 0,
+        "pr": []
+      }
+    ]
+  },
+  {
+    "id": 1028,
+    "name": "Swift Steeds II",
+    "icon": "♞",
+    "key": "LC_RESEARCH_NEW_CRYSTAL_NAME28",
+    "pic": "img_icon_CrystalResearch13",
+    "awake": false,
+    "rows": [
+      {
+        "level": 1,
+        "cost": 34200,
+        "seconds": 2200,
+        "coin": 1200,
+        "center": 13,
+        "buff": 0.01,
+        "buff2": 0,
+        "buffType": 6002,
+        "buffType2": 0,
+        "judge": 1,
+        "judge2": 1,
+        "relation": 0,
+        "pr": [
+          [
+            1026,
+            1
+          ]
+        ]
+      },
+      {
+        "level": 2,
+        "cost": 68400,
+        "seconds": 7800,
+        "coin": 1300,
+        "center": 14,
+        "buff": 0.02,
+        "buff2": 0,
+        "buffType": 6002,
+        "buffType2": 0,
+        "judge": 1,
+        "judge2": 1,
+        "relation": 0,
+        "pr": []
+      },
+      {
+        "level": 3,
+        "cost": 102600,
+        "seconds": 17000,
+        "coin": 1400,
+        "center": 15,
+        "buff": 0.03,
+        "buff2": 0,
+        "buffType": 6002,
+        "buffType2": 0,
+        "judge": 1,
+        "judge2": 1,
+        "relation": 0,
+        "pr": []
+      },
+      {
+        "level": 4,
+        "cost": 136900,
+        "seconds": 30000,
+        "coin": 1400,
+        "center": 17,
+        "buff": 0.04,
+        "buff2": 0,
+        "buffType": 6002,
+        "buffType2": 0,
+        "judge": 1,
+        "judge2": 1,
+        "relation": 0,
+        "pr": []
+      },
+      {
+        "level": 5,
+        "cost": 171100,
+        "seconds": 46000,
+        "coin": 1500,
+        "center": 17,
+        "buff": 0.05,
+        "buff2": 0,
+        "buffType": 6002,
+        "buffType2": 0,
+        "judge": 1,
+        "judge2": 1,
+        "relation": 0,
+        "pr": [
+          [
+            1023,
+            14
+          ]
+        ]
+      },
+      {
+        "level": 6,
+        "cost": 205300,
+        "seconds": 66000,
+        "coin": 1600,
+        "center": 19,
+        "buff": 0.07,
+        "buff2": 0,
+        "buffType": 6002,
+        "buffType2": 0,
+        "judge": 1,
+        "judge2": 1,
+        "relation": 0,
+        "pr": []
+      },
+      {
+        "level": 7,
+        "cost": 239500,
+        "seconds": 90000,
+        "coin": 1700,
+        "center": 19,
+        "buff": 0.09,
+        "buff2": 0,
+        "buffType": 6002,
+        "buffType2": 0,
+        "judge": 1,
+        "judge2": 1,
+        "relation": 0,
+        "pr": []
+      },
+      {
+        "level": 8,
+        "cost": 273700,
+        "seconds": 150000,
+        "coin": 1800,
+        "center": 21,
+        "buff": 0.11,
+        "buff2": 0,
+        "buffType": 6002,
+        "buffType2": 0,
+        "judge": 1,
+        "judge2": 1,
+        "relation": 0,
+        "pr": []
+      },
+      {
+        "level": 9,
+        "cost": 307900,
+        "seconds": 150000,
+        "coin": 1900,
+        "center": 22,
+        "buff": 0.13,
+        "buff2": 0,
+        "buffType": 6002,
+        "buffType2": 0,
+        "judge": 1,
+        "judge2": 1,
+        "relation": 0,
+        "pr": [
+          [
+            1023,
+            15
+          ]
+        ]
+      },
+      {
+        "level": 10,
+        "cost": 342200,
+        "seconds": 150000,
+        "coin": 2000,
+        "center": 23,
+        "buff": 0.15,
+        "buff2": 0,
+        "buffType": 6002,
+        "buffType2": 0,
+        "judge": 1,
+        "judge2": 1,
+        "relation": 0,
+        "pr": []
+      }
+    ]
+  },
+  {
+    "id": 1029,
+    "name": "Fleet of Foot II",
+    "icon": "➶",
+    "key": "LC_RESEARCH_NEW_CRYSTAL_NAME27",
+    "pic": "img_iconAlliResearch3",
+    "awake": false,
+    "rows": [
+      {
+        "level": 1,
+        "cost": 34200,
+        "seconds": 2200,
+        "coin": 1200,
+        "center": 13,
+        "buff": 0.01,
+        "buff2": 0,
+        "buffType": 6003,
+        "buffType2": 0,
+        "judge": 1,
+        "judge2": 1,
+        "relation": 0,
+        "pr": [
+          [
+            1026,
+            1
+          ]
+        ]
+      },
+      {
+        "level": 2,
+        "cost": 68400,
+        "seconds": 7800,
+        "coin": 1300,
+        "center": 14,
+        "buff": 0.02,
+        "buff2": 0,
+        "buffType": 6003,
+        "buffType2": 0,
+        "judge": 1,
+        "judge2": 1,
+        "relation": 0,
+        "pr": []
+      },
+      {
+        "level": 3,
+        "cost": 102600,
+        "seconds": 17000,
+        "coin": 1400,
+        "center": 15,
+        "buff": 0.03,
+        "buff2": 0,
+        "buffType": 6003,
+        "buffType2": 0,
+        "judge": 1,
+        "judge2": 1,
+        "relation": 0,
+        "pr": []
+      },
+      {
+        "level": 4,
+        "cost": 136900,
+        "seconds": 30000,
+        "coin": 1400,
+        "center": 17,
+        "buff": 0.04,
+        "buff2": 0,
+        "buffType": 6003,
+        "buffType2": 0,
+        "judge": 1,
+        "judge2": 1,
+        "relation": 0,
+        "pr": []
+      },
+      {
+        "level": 5,
+        "cost": 171100,
+        "seconds": 46000,
+        "coin": 1500,
+        "center": 17,
+        "buff": 0.05,
+        "buff2": 0,
+        "buffType": 6003,
+        "buffType2": 0,
+        "judge": 1,
+        "judge2": 1,
+        "relation": 0,
+        "pr": [
+          [
+            1024,
+            14
+          ]
+        ]
+      },
+      {
+        "level": 6,
+        "cost": 205300,
+        "seconds": 66000,
+        "coin": 1600,
+        "center": 19,
+        "buff": 0.07,
+        "buff2": 0,
+        "buffType": 6003,
+        "buffType2": 0,
+        "judge": 1,
+        "judge2": 1,
+        "relation": 0,
+        "pr": []
+      },
+      {
+        "level": 7,
+        "cost": 239500,
+        "seconds": 90000,
+        "coin": 1700,
+        "center": 19,
+        "buff": 0.09,
+        "buff2": 0,
+        "buffType": 6003,
+        "buffType2": 0,
+        "judge": 1,
+        "judge2": 1,
+        "relation": 0,
+        "pr": []
+      },
+      {
+        "level": 8,
+        "cost": 273700,
+        "seconds": 150000,
+        "coin": 1800,
+        "center": 21,
+        "buff": 0.11,
+        "buff2": 0,
+        "buffType": 6003,
+        "buffType2": 0,
+        "judge": 1,
+        "judge2": 1,
+        "relation": 0,
+        "pr": []
+      },
+      {
+        "level": 9,
+        "cost": 307900,
+        "seconds": 150000,
+        "coin": 1900,
+        "center": 22,
+        "buff": 0.13,
+        "buff2": 0,
+        "buffType": 6003,
+        "buffType2": 0,
+        "judge": 1,
+        "judge2": 1,
+        "relation": 0,
+        "pr": [
+          [
+            1024,
+            15
+          ]
+        ]
+      },
+      {
+        "level": 10,
+        "cost": 342200,
+        "seconds": 150000,
+        "coin": 2000,
+        "center": 23,
+        "buff": 0.15,
+        "buff2": 0,
+        "buffType": 6003,
+        "buffType2": 0,
+        "judge": 1,
+        "judge2": 1,
+        "relation": 0,
+        "pr": []
+      }
+    ]
+  },
+  {
+    "id": 1030,
+    "name": "Reinforced Axles II",
+    "icon": "⚙",
+    "key": "LC_RESEARCH_NEW_CRYSTAL_NAME29",
+    "pic": "img_icon_Research77",
+    "awake": false,
+    "rows": [
+      {
+        "level": 1,
+        "cost": 34200,
+        "seconds": 2200,
+        "coin": 1200,
+        "center": 13,
+        "buff": 0.01,
+        "buff2": 0,
+        "buffType": 6004,
+        "buffType2": 0,
+        "judge": 1,
+        "judge2": 1,
+        "relation": 0,
+        "pr": [
+          [
+            1026,
+            1
+          ]
+        ]
+      },
+      {
+        "level": 2,
+        "cost": 68400,
+        "seconds": 7800,
+        "coin": 1300,
+        "center": 14,
+        "buff": 0.02,
+        "buff2": 0,
+        "buffType": 6004,
+        "buffType2": 0,
+        "judge": 1,
+        "judge2": 1,
+        "relation": 0,
+        "pr": []
+      },
+      {
+        "level": 3,
+        "cost": 102600,
+        "seconds": 17000,
+        "coin": 1400,
+        "center": 15,
+        "buff": 0.03,
+        "buff2": 0,
+        "buffType": 6004,
+        "buffType2": 0,
+        "judge": 1,
+        "judge2": 1,
+        "relation": 0,
+        "pr": []
+      },
+      {
+        "level": 4,
+        "cost": 136900,
+        "seconds": 30000,
+        "coin": 1400,
+        "center": 17,
+        "buff": 0.04,
+        "buff2": 0,
+        "buffType": 6004,
+        "buffType2": 0,
+        "judge": 1,
+        "judge2": 1,
+        "relation": 0,
+        "pr": []
+      },
+      {
+        "level": 5,
+        "cost": 171100,
+        "seconds": 46000,
+        "coin": 1500,
+        "center": 17,
+        "buff": 0.05,
+        "buff2": 0,
+        "buffType": 6004,
+        "buffType2": 0,
+        "judge": 1,
+        "judge2": 1,
+        "relation": 0,
+        "pr": [
+          [
+            1025,
+            14
+          ]
+        ]
+      },
+      {
+        "level": 6,
+        "cost": 205300,
+        "seconds": 66000,
+        "coin": 1600,
+        "center": 19,
+        "buff": 0.07,
+        "buff2": 0,
+        "buffType": 6004,
+        "buffType2": 0,
+        "judge": 1,
+        "judge2": 1,
+        "relation": 0,
+        "pr": []
+      },
+      {
+        "level": 7,
+        "cost": 239500,
+        "seconds": 90000,
+        "coin": 1700,
+        "center": 19,
+        "buff": 0.09,
+        "buff2": 0,
+        "buffType": 6004,
+        "buffType2": 0,
+        "judge": 1,
+        "judge2": 1,
+        "relation": 0,
+        "pr": []
+      },
+      {
+        "level": 8,
+        "cost": 273700,
+        "seconds": 150000,
+        "coin": 1800,
+        "center": 21,
+        "buff": 0.11,
+        "buff2": 0,
+        "buffType": 6004,
+        "buffType2": 0,
+        "judge": 1,
+        "judge2": 1,
+        "relation": 0,
+        "pr": []
+      },
+      {
+        "level": 9,
+        "cost": 307900,
+        "seconds": 150000,
+        "coin": 1900,
+        "center": 22,
+        "buff": 0.13,
+        "buff2": 0,
+        "buffType": 6004,
+        "buffType2": 0,
+        "judge": 1,
+        "judge2": 1,
+        "relation": 0,
+        "pr": [
+          [
+            1025,
+            15
+          ]
+        ]
+      },
+      {
+        "level": 10,
+        "cost": 342200,
+        "seconds": 150000,
+        "coin": 2000,
+        "center": 23,
+        "buff": 0.15,
+        "buff2": 0,
+        "buffType": 6004,
+        "buffType2": 0,
+        "judge": 1,
+        "judge2": 1,
+        "relation": 0,
+        "pr": []
+      }
+    ]
+  },
+  {
+    "id": 1031,
+    "name": "Drawn Blades",
+    "icon": "⚔",
+    "key": "LC_RESEARCH_NEW_CRYSTAL3_NAME06_NEW",
+    "pic": "img_icon_CrystalResearch38",
+    "awake": false,
+    "rows": [
+      {
+        "level": 1,
+        "cost": 106200,
+        "seconds": 46000,
+        "coin": 1100,
+        "center": 16,
+        "buff": 0.005,
+        "buff2": 0,
+        "buffType": 20031,
+        "buffType2": 0,
+        "judge": 1,
+        "judge2": 1,
+        "relation": 0,
+        "pr": [
+          [
+            1027,
+            4
+          ],
+          [
+            1028,
+            4
+          ],
+          [
+            1029,
+            4
+          ],
+          [
+            1030,
+            4
+          ]
+        ]
+      },
+      {
+        "level": 2,
+        "cost": 212400,
+        "seconds": 91000,
+        "coin": 1300,
+        "center": 16,
+        "buff": 0.01,
+        "buff2": 0,
+        "buffType": 20031,
+        "buffType2": 0,
+        "judge": 1,
+        "judge2": 1,
+        "relation": 0,
+        "pr": []
+      },
+      {
+        "level": 3,
+        "cost": 318600,
+        "seconds": 137000,
+        "coin": 1400,
+        "center": 17,
+        "buff": 0.015,
+        "buff2": 0,
+        "buffType": 20031,
+        "buffType2": 0,
+        "judge": 1,
+        "judge2": 1,
+        "relation": 0,
+        "pr": [
+          [
+            1027,
+            10
+          ],
+          [
+            1028,
+            10
+          ],
+          [
+            1029,
+            10
+          ],
+          [
+            1030,
+            10
+          ]
+        ]
+      },
+      {
+        "level": 4,
+        "cost": 424800,
+        "seconds": 182000,
+        "coin": 1500,
+        "center": 17,
+        "buff": 0.02,
+        "buff2": 0,
+        "buffType": 20031,
+        "buffType2": 0,
+        "judge": 1,
+        "judge2": 1,
+        "relation": 0,
+        "pr": []
+      },
+      {
+        "level": 5,
+        "cost": 531000,
+        "seconds": 228000,
+        "coin": 1600,
+        "center": 18,
+        "buff": 0.025,
+        "buff2": 0,
+        "buffType": 20031,
+        "buffType2": 0,
+        "judge": 1,
+        "judge2": 1,
+        "relation": 0,
+        "pr": []
+      },
+      {
+        "level": 6,
+        "cost": 637200,
+        "seconds": 273000,
+        "coin": 1700,
+        "center": 19,
+        "buff": 0.03,
+        "buff2": 0,
+        "buffType": 20031,
+        "buffType2": 0,
+        "judge": 1,
+        "judge2": 1,
+        "relation": 0,
+        "pr": [
+          [
+            1026,
+            10
+          ]
+        ]
+      },
+      {
+        "level": 7,
+        "cost": 743400,
+        "seconds": 319000,
+        "coin": 1800,
+        "center": 19,
+        "buff": 0.035,
+        "buff2": 0,
+        "buffType": 20031,
+        "buffType2": 0,
+        "judge": 1,
+        "judge2": 1,
+        "relation": 0,
+        "pr": []
+      },
+      {
+        "level": 8,
+        "cost": 849600,
+        "seconds": 365000,
+        "coin": 1900,
+        "center": 20,
+        "buff": 0.04,
+        "buff2": 0,
+        "buffType": 20031,
+        "buffType2": 0,
+        "judge": 1,
+        "judge2": 1,
+        "relation": 0,
+        "pr": [
+          [
+            1034,
+            10
+          ]
+        ]
+      },
+      {
+        "level": 9,
+        "cost": 955800,
+        "seconds": 410000,
+        "coin": 2100,
+        "center": 20,
+        "buff": 0.045,
+        "buff2": 0,
+        "buffType": 20031,
+        "buffType2": 0,
+        "judge": 1,
+        "judge2": 1,
+        "relation": 0,
+        "pr": []
+      },
+      {
+        "level": 10,
+        "cost": 1062000,
+        "seconds": 456000,
+        "coin": 2200,
+        "center": 20,
+        "buff": 0.05,
+        "buff2": 0,
+        "buffType": 20031,
+        "buffType2": 0,
+        "judge": 1,
+        "judge2": 1,
+        "relation": 0,
+        "pr": [
+          [
+            1039,
+            8
+          ]
+        ]
+      },
+      {
+        "level": 11,
+        "cost": 1168200,
+        "seconds": 501000,
+        "coin": 2300,
+        "center": 21,
+        "buff": 0.06,
+        "buff2": 0,
+        "buffType": 20031,
+        "buffType2": 0,
+        "judge": 1,
+        "judge2": 1,
+        "relation": 0,
+        "pr": []
+      },
+      {
+        "level": 12,
+        "cost": 1274400,
+        "seconds": 547000,
+        "coin": 2400,
+        "center": 22,
+        "buff": 0.07,
+        "buff2": 0,
+        "buffType": 20031,
+        "buffType2": 0,
+        "judge": 1,
+        "judge2": 1,
+        "relation": 0,
+        "pr": [
+          [
+            1039,
+            10
+          ]
+        ]
+      },
+      {
+        "level": 13,
+        "cost": 1380600,
+        "seconds": 593000,
+        "coin": 2500,
+        "center": 22,
+        "buff": 0.08,
+        "buff2": 0,
+        "buffType": 20031,
+        "buffType2": 0,
+        "judge": 1,
+        "judge2": 1,
+        "relation": 0,
+        "pr": []
+      },
+      {
+        "level": 14,
+        "cost": 1486900,
+        "seconds": 638000,
+        "coin": 2600,
+        "center": 23,
+        "buff": 0.09,
+        "buff2": 0,
+        "buffType": 20031,
+        "buffType2": 0,
+        "judge": 1,
+        "judge2": 1,
+        "relation": 0,
+        "pr": []
+      },
+      {
+        "level": 15,
+        "cost": 1593100,
+        "seconds": 684000,
+        "coin": 2800,
+        "center": 24,
+        "buff": 0.1,
+        "buff2": 0,
+        "buffType": 20031,
+        "buffType2": 0,
+        "judge": 1,
+        "judge2": 1,
+        "relation": 0,
+        "pr": []
+      }
+    ]
+  },
+  {
+    "id": 1032,
+    "name": "Runecraft *",
+    "icon": "💠",
+    "key": "LC_RESEARCH_NEW_CRYSTAL_NAME31",
+    "pic": "img_icon_CrystalResearch30",
+    "awake": false,
+    "rows": [
+      {
+        "level": 1,
+        "cost": 3000000,
+        "seconds": 1500000,
+        "coin": 2000,
+        "center": 20,
+        "buff": 5,
+        "buff2": 0,
+        "buffType": 7009,
+        "buffType2": 0,
+        "judge": 2,
+        "judge2": 1,
+        "relation": 0,
+        "pr": [
+          [
+            1031,
+            1
+          ]
+        ]
+      }
+    ]
+  },
+  {
+    "id": 1033,
+    "name": "Rapid Retreat *",
+    "icon": "➤",
+    "key": "LC_RESEARCH_NEW_CRYSTAL_NAME35",
+    "pic": "img_icon_CrystalResearch29",
+    "awake": false,
+    "rows": [
+      {
+        "level": 1,
+        "cost": 3000000,
+        "seconds": 1500000,
+        "coin": 4000,
+        "center": 21,
+        "buff": 6,
+        "buff2": 0,
+        "buffType": 7010,
+        "buffType2": 0,
+        "judge": 2,
+        "judge2": 1,
+        "relation": 0,
+        "pr": [
+          [
+            1031,
+            1
+          ]
+        ]
+      }
+    ]
+  },
+  {
+    "id": 1034,
+    "name": "Technology 1034",
+    "icon": "⚑",
+    "key": "LC_RESEARCH_NEW_CRYSTAL_NAME34",
+    "pic": "img_icon_Research81",
+    "awake": false,
+    "rows": [
+      {
+        "level": 1,
+        "cost": 50000,
+        "seconds": 5000,
+        "coin": 500,
+        "center": 17,
+        "buff": 0.02,
+        "buff2": 0,
+        "buffType": 12013,
+        "buffType2": 0,
+        "judge": 1,
+        "judge2": 1,
+        "relation": 0,
+        "pr": [
+          [
+            1031,
+            1
+          ]
+        ]
+      },
+      {
+        "level": 2,
+        "cost": 100000,
+        "seconds": 10000,
+        "coin": 600,
+        "center": 18,
+        "buff": 0.04,
+        "buff2": 0,
+        "buffType": 12013,
+        "buffType2": 0,
+        "judge": 1,
+        "judge2": 1,
+        "relation": 0,
+        "pr": []
+      },
+      {
+        "level": 3,
+        "cost": 150000,
+        "seconds": 20000,
+        "coin": 700,
+        "center": 19,
+        "buff": 0.06,
+        "buff2": 0,
+        "buffType": 12013,
+        "buffType2": 0,
+        "judge": 1,
+        "judge2": 1,
+        "relation": 0,
+        "pr": []
+      },
+      {
+        "level": 4,
+        "cost": 200000,
+        "seconds": 40000,
+        "coin": 800,
+        "center": 19,
+        "buff": 0.08,
+        "buff2": 0,
+        "buffType": 12013,
+        "buffType2": 0,
+        "judge": 1,
+        "judge2": 1,
+        "relation": 0,
+        "pr": []
+      },
+      {
+        "level": 5,
+        "cost": 250000,
+        "seconds": 80000,
+        "coin": 1000,
+        "center": 20,
+        "buff": 0.1,
+        "buff2": 0,
+        "buffType": 12013,
+        "buffType2": 0,
+        "judge": 1,
+        "judge2": 1,
+        "relation": 0,
+        "pr": []
+      },
+      {
+        "level": 6,
+        "cost": 300000,
+        "seconds": 80000,
+        "coin": 1100,
+        "center": 21,
+        "buff": 0.13,
+        "buff2": 0,
+        "buffType": 12013,
+        "buffType2": 0,
+        "judge": 1,
+        "judge2": 1,
+        "relation": 0,
+        "pr": []
+      },
+      {
+        "level": 7,
+        "cost": 400000,
+        "seconds": 80000,
+        "coin": 1200,
+        "center": 22,
+        "buff": 0.16,
+        "buff2": 0,
+        "buffType": 12013,
+        "buffType2": 0,
+        "judge": 1,
+        "judge2": 1,
+        "relation": 0,
+        "pr": []
+      },
+      {
+        "level": 8,
+        "cost": 550000,
+        "seconds": 80000,
+        "coin": 1300,
+        "center": 22,
+        "buff": 0.2,
+        "buff2": 0,
+        "buffType": 12013,
+        "buffType2": 0,
+        "judge": 1,
+        "judge2": 1,
+        "relation": 0,
+        "pr": []
+      },
+      {
+        "level": 9,
+        "cost": 700000,
+        "seconds": 80000,
+        "coin": 1400,
+        "center": 23,
+        "buff": 0.25,
+        "buff2": 0,
+        "buffType": 12013,
+        "buffType2": 0,
+        "judge": 1,
+        "judge2": 1,
+        "relation": 0,
+        "pr": [
+          [
+            1027,
+            10
+          ],
+          [
+            1028,
+            10
+          ],
+          [
+            1029,
+            10
+          ],
+          [
+            1030,
+            10
+          ]
+        ]
+      },
+      {
+        "level": 10,
+        "cost": 900000,
+        "seconds": 80000,
+        "coin": 1500,
+        "center": 24,
+        "buff": 0.3,
+        "buff2": 0,
+        "buffType": 12013,
+        "buffType2": 0,
+        "judge": 1,
+        "judge2": 1,
+        "relation": 0,
+        "pr": []
+      }
+    ]
+  },
+  {
+    "id": 1035,
+    "name": "Infantry Expert",
+    "icon": "⚔",
+    "key": "LC_RESEARCH_NEW_CRYSTAL_NAME47_NEW",
+    "pic": "img_icon_CrystalResearch34",
+    "awake": false,
+    "rows": [
+      {
+        "level": 1,
+        "cost": 43300,
+        "seconds": 2500,
+        "coin": 500,
+        "center": 20,
+        "buff": 0.005,
+        "buff2": 0,
+        "buffType": 20068,
+        "buffType2": 0,
+        "judge": 1,
+        "judge2": 1,
+        "relation": 0,
+        "pr": [
+          [
+            1034,
+            5
+          ]
+        ]
+      },
+      {
+        "level": 2,
+        "cost": 63900,
+        "seconds": 5000,
+        "coin": 500,
+        "center": 21,
+        "buff": 0.01,
+        "buff2": 0,
+        "buffType": 20068,
+        "buffType2": 0,
+        "judge": 1,
+        "judge2": 1,
+        "relation": 0,
+        "pr": []
+      },
+      {
+        "level": 3,
+        "cost": 85500,
+        "seconds": 10000,
+        "coin": 600,
+        "center": 21,
+        "buff": 0.015,
+        "buff2": 0,
+        "buffType": 20068,
+        "buffType2": 0,
+        "judge": 1,
+        "judge2": 1,
+        "relation": 0,
+        "pr": [
+          [
+            1031,
+            15
+          ]
+        ]
+      },
+      {
+        "level": 4,
+        "cost": 171100,
+        "seconds": 20000,
+        "coin": 600,
+        "center": 22,
+        "buff": 0.02,
+        "buff2": 0,
+        "buffType": 20068,
+        "buffType2": 0,
+        "judge": 1,
+        "judge2": 1,
+        "relation": 0,
+        "pr": []
+      },
+      {
+        "level": 5,
+        "cost": 256600,
+        "seconds": 40000,
+        "coin": 700,
+        "center": 22,
+        "buff": 0.025,
+        "buff2": 0,
+        "buffType": 20068,
+        "buffType2": 0,
+        "judge": 1,
+        "judge2": 1,
+        "relation": 0,
+        "pr": [
+          [
+            1003,
+            10
+          ]
+        ]
+      },
+      {
+        "level": 6,
+        "cost": 342200,
+        "seconds": 80000,
+        "coin": 800,
+        "center": 23,
+        "buff": 0.035,
+        "buff2": 0,
+        "buffType": 20068,
+        "buffType2": 0,
+        "judge": 1,
+        "judge2": 1,
+        "relation": 0,
+        "pr": []
+      },
+      {
+        "level": 7,
+        "cost": 427700,
+        "seconds": 160000,
+        "coin": 800,
+        "center": 23,
+        "buff": 0.045,
+        "buff2": 0,
+        "buffType": 20068,
+        "buffType2": 0,
+        "judge": 1,
+        "judge2": 1,
+        "relation": 0,
+        "pr": []
+      },
+      {
+        "level": 8,
+        "cost": 513200,
+        "seconds": 350000,
+        "coin": 900,
+        "center": 24,
+        "buff": 0.055,
+        "buff2": 0,
+        "buffType": 20068,
+        "buffType2": 0,
+        "judge": 1,
+        "judge2": 1,
+        "relation": 0,
+        "pr": []
+      },
+      {
+        "level": 9,
+        "cost": 598800,
+        "seconds": 350000,
+        "coin": 900,
+        "center": 24,
+        "buff": 0.07,
+        "buff2": 0,
+        "buffType": 20068,
+        "buffType2": 0,
+        "judge": 1,
+        "judge2": 1,
+        "relation": 0,
+        "pr": []
+      },
+      {
+        "level": 10,
+        "cost": 684300,
+        "seconds": 350000,
+        "coin": 1000,
+        "center": 25,
+        "buff": 0.1,
+        "buff2": 0,
+        "buffType": 20068,
+        "buffType2": 0,
+        "judge": 1,
+        "judge2": 1,
+        "relation": 0,
+        "pr": []
+      }
+    ]
+  },
+  {
+    "id": 1036,
+    "name": "Cavalry Expert",
+    "icon": "♞",
+    "key": "LC_RESEARCH_NEW_CRYSTAL_NAME48_NEW",
+    "pic": "img_icon_CrystalResearch35",
+    "awake": false,
+    "rows": [
+      {
+        "level": 1,
+        "cost": 43300,
+        "seconds": 2500,
+        "coin": 500,
+        "center": 20,
+        "buff": 0.005,
+        "buff2": 0,
+        "buffType": 20066,
+        "buffType2": 0,
+        "judge": 1,
+        "judge2": 1,
+        "relation": 0,
+        "pr": [
+          [
+            1034,
+            5
+          ]
+        ]
+      },
+      {
+        "level": 2,
+        "cost": 63900,
+        "seconds": 5000,
+        "coin": 500,
+        "center": 21,
+        "buff": 0.01,
+        "buff2": 0,
+        "buffType": 20066,
+        "buffType2": 0,
+        "judge": 1,
+        "judge2": 1,
+        "relation": 0,
+        "pr": []
+      },
+      {
+        "level": 3,
+        "cost": 85500,
+        "seconds": 10000,
+        "coin": 600,
+        "center": 21,
+        "buff": 0.015,
+        "buff2": 0,
+        "buffType": 20066,
+        "buffType2": 0,
+        "judge": 1,
+        "judge2": 1,
+        "relation": 0,
+        "pr": [
+          [
+            1031,
+            15
+          ]
+        ]
+      },
+      {
+        "level": 4,
+        "cost": 171100,
+        "seconds": 20000,
+        "coin": 600,
+        "center": 22,
+        "buff": 0.02,
+        "buff2": 0,
+        "buffType": 20066,
+        "buffType2": 0,
+        "judge": 1,
+        "judge2": 1,
+        "relation": 0,
+        "pr": []
+      },
+      {
+        "level": 5,
+        "cost": 256600,
+        "seconds": 40000,
+        "coin": 700,
+        "center": 22,
+        "buff": 0.025,
+        "buff2": 0,
+        "buffType": 20066,
+        "buffType2": 0,
+        "judge": 1,
+        "judge2": 1,
+        "relation": 0,
+        "pr": [
+          [
+            1004,
+            10
+          ]
+        ]
+      },
+      {
+        "level": 6,
+        "cost": 342200,
+        "seconds": 80000,
+        "coin": 800,
+        "center": 23,
+        "buff": 0.035,
+        "buff2": 0,
+        "buffType": 20066,
+        "buffType2": 0,
+        "judge": 1,
+        "judge2": 1,
+        "relation": 0,
+        "pr": []
+      },
+      {
+        "level": 7,
+        "cost": 427700,
+        "seconds": 160000,
+        "coin": 800,
+        "center": 23,
+        "buff": 0.045,
+        "buff2": 0,
+        "buffType": 20066,
+        "buffType2": 0,
+        "judge": 1,
+        "judge2": 1,
+        "relation": 0,
+        "pr": []
+      },
+      {
+        "level": 8,
+        "cost": 513200,
+        "seconds": 350000,
+        "coin": 900,
+        "center": 24,
+        "buff": 0.055,
+        "buff2": 0,
+        "buffType": 20066,
+        "buffType2": 0,
+        "judge": 1,
+        "judge2": 1,
+        "relation": 0,
+        "pr": []
+      },
+      {
+        "level": 9,
+        "cost": 598800,
+        "seconds": 350000,
+        "coin": 900,
+        "center": 24,
+        "buff": 0.07,
+        "buff2": 0,
+        "buffType": 20066,
+        "buffType2": 0,
+        "judge": 1,
+        "judge2": 1,
+        "relation": 0,
+        "pr": []
+      },
+      {
+        "level": 10,
+        "cost": 684300,
+        "seconds": 350000,
+        "coin": 1000,
+        "center": 25,
+        "buff": 0.1,
+        "buff2": 0,
+        "buffType": 20066,
+        "buffType2": 0,
+        "judge": 1,
+        "judge2": 1,
+        "relation": 0,
+        "pr": []
+      }
+    ]
+  },
+  {
+    "id": 1037,
+    "name": "Archer Expert",
+    "icon": "🏹",
+    "key": "LC_RESEARCH_NEW_CRYSTAL_NAME49_NEW",
+    "pic": "img_icon_CrystalResearch36",
+    "awake": false,
+    "rows": [
+      {
+        "level": 1,
+        "cost": 43300,
+        "seconds": 2500,
+        "coin": 500,
+        "center": 20,
+        "buff": 0.005,
+        "buff2": 0,
+        "buffType": 20067,
+        "buffType2": 0,
+        "judge": 1,
+        "judge2": 1,
+        "relation": 0,
+        "pr": [
+          [
+            1034,
+            5
+          ]
+        ]
+      },
+      {
+        "level": 2,
+        "cost": 63900,
+        "seconds": 5000,
+        "coin": 500,
+        "center": 21,
+        "buff": 0.01,
+        "buff2": 0,
+        "buffType": 20067,
+        "buffType2": 0,
+        "judge": 1,
+        "judge2": 1,
+        "relation": 0,
+        "pr": []
+      },
+      {
+        "level": 3,
+        "cost": 85500,
+        "seconds": 10000,
+        "coin": 600,
+        "center": 21,
+        "buff": 0.015,
+        "buff2": 0,
+        "buffType": 20067,
+        "buffType2": 0,
+        "judge": 1,
+        "judge2": 1,
+        "relation": 0,
+        "pr": [
+          [
+            1031,
+            15
+          ]
+        ]
+      },
+      {
+        "level": 4,
+        "cost": 171100,
+        "seconds": 20000,
+        "coin": 600,
+        "center": 22,
+        "buff": 0.02,
+        "buff2": 0,
+        "buffType": 20067,
+        "buffType2": 0,
+        "judge": 1,
+        "judge2": 1,
+        "relation": 0,
+        "pr": []
+      },
+      {
+        "level": 5,
+        "cost": 256600,
+        "seconds": 40000,
+        "coin": 700,
+        "center": 22,
+        "buff": 0.025,
+        "buff2": 0,
+        "buffType": 20067,
+        "buffType2": 0,
+        "judge": 1,
+        "judge2": 1,
+        "relation": 0,
+        "pr": [
+          [
+            1005,
+            10
+          ]
+        ]
+      },
+      {
+        "level": 6,
+        "cost": 342200,
+        "seconds": 80000,
+        "coin": 800,
+        "center": 23,
+        "buff": 0.035,
+        "buff2": 0,
+        "buffType": 20067,
+        "buffType2": 0,
+        "judge": 1,
+        "judge2": 1,
+        "relation": 0,
+        "pr": []
+      },
+      {
+        "level": 7,
+        "cost": 427700,
+        "seconds": 160000,
+        "coin": 800,
+        "center": 23,
+        "buff": 0.045,
+        "buff2": 0,
+        "buffType": 20067,
+        "buffType2": 0,
+        "judge": 1,
+        "judge2": 1,
+        "relation": 0,
+        "pr": []
+      },
+      {
+        "level": 8,
+        "cost": 513200,
+        "seconds": 350000,
+        "coin": 900,
+        "center": 24,
+        "buff": 0.055,
+        "buff2": 0,
+        "buffType": 20067,
+        "buffType2": 0,
+        "judge": 1,
+        "judge2": 1,
+        "relation": 0,
+        "pr": []
+      },
+      {
+        "level": 9,
+        "cost": 598800,
+        "seconds": 350000,
+        "coin": 900,
+        "center": 24,
+        "buff": 0.07,
+        "buff2": 0,
+        "buffType": 20067,
+        "buffType2": 0,
+        "judge": 1,
+        "judge2": 1,
+        "relation": 0,
+        "pr": []
+      },
+      {
+        "level": 10,
+        "cost": 684300,
+        "seconds": 350000,
+        "coin": 1000,
+        "center": 25,
+        "buff": 0.1,
+        "buff2": 0,
+        "buffType": 20067,
+        "buffType2": 0,
+        "judge": 1,
+        "judge2": 1,
+        "relation": 0,
+        "pr": []
+      }
+    ]
+  },
+  {
+    "id": 1038,
+    "name": "Siege Expert",
+    "icon": "💣",
+    "key": "LC_RESEARCH_NEW_CRYSTAL_NAME50_NEW",
+    "pic": "img_icon_CrystalResearch33",
+    "awake": false,
+    "rows": [
+      {
+        "level": 1,
+        "cost": 43300,
+        "seconds": 2500,
+        "coin": 500,
+        "center": 20,
+        "buff": 0.005,
+        "buff2": 0,
+        "buffType": 20069,
+        "buffType2": 0,
+        "judge": 1,
+        "judge2": 1,
+        "relation": 0,
+        "pr": [
+          [
+            1034,
+            5
+          ]
+        ]
+      },
+      {
+        "level": 2,
+        "cost": 63900,
+        "seconds": 5000,
+        "coin": 500,
+        "center": 21,
+        "buff": 0.01,
+        "buff2": 0,
+        "buffType": 20069,
+        "buffType2": 0,
+        "judge": 1,
+        "judge2": 1,
+        "relation": 0,
+        "pr": []
+      },
+      {
+        "level": 3,
+        "cost": 85500,
+        "seconds": 10000,
+        "coin": 600,
+        "center": 21,
+        "buff": 0.015,
+        "buff2": 0,
+        "buffType": 20069,
+        "buffType2": 0,
+        "judge": 1,
+        "judge2": 1,
+        "relation": 0,
+        "pr": [
+          [
+            1031,
+            15
+          ]
+        ]
+      },
+      {
+        "level": 4,
+        "cost": 171100,
+        "seconds": 20000,
+        "coin": 600,
+        "center": 22,
+        "buff": 0.02,
+        "buff2": 0,
+        "buffType": 20069,
+        "buffType2": 0,
+        "judge": 1,
+        "judge2": 1,
+        "relation": 0,
+        "pr": []
+      },
+      {
+        "level": 5,
+        "cost": 256600,
+        "seconds": 40000,
+        "coin": 700,
+        "center": 22,
+        "buff": 0.025,
+        "buff2": 0,
+        "buffType": 20069,
+        "buffType2": 0,
+        "judge": 1,
+        "judge2": 1,
+        "relation": 0,
+        "pr": [
+          [
+            1006,
+            10
+          ]
+        ]
+      },
+      {
+        "level": 6,
+        "cost": 342200,
+        "seconds": 80000,
+        "coin": 800,
+        "center": 23,
+        "buff": 0.035,
+        "buff2": 0,
+        "buffType": 20069,
+        "buffType2": 0,
+        "judge": 1,
+        "judge2": 1,
+        "relation": 0,
+        "pr": []
+      },
+      {
+        "level": 7,
+        "cost": 427700,
+        "seconds": 160000,
+        "coin": 800,
+        "center": 23,
+        "buff": 0.045,
+        "buff2": 0,
+        "buffType": 20069,
+        "buffType2": 0,
+        "judge": 1,
+        "judge2": 1,
+        "relation": 0,
+        "pr": []
+      },
+      {
+        "level": 8,
+        "cost": 513200,
+        "seconds": 350000,
+        "coin": 900,
+        "center": 24,
+        "buff": 0.055,
+        "buff2": 0,
+        "buffType": 20069,
+        "buffType2": 0,
+        "judge": 1,
+        "judge2": 1,
+        "relation": 0,
+        "pr": []
+      },
+      {
+        "level": 9,
+        "cost": 598800,
+        "seconds": 350000,
+        "coin": 900,
+        "center": 24,
+        "buff": 0.07,
+        "buff2": 0,
+        "buffType": 20069,
+        "buffType2": 0,
+        "judge": 1,
+        "judge2": 1,
+        "relation": 0,
+        "pr": []
+      },
+      {
+        "level": 10,
+        "cost": 684300,
+        "seconds": 350000,
+        "coin": 1000,
+        "center": 25,
+        "buff": 0.1,
+        "buff2": 0,
+        "buffType": 20069,
+        "buffType2": 0,
+        "judge": 1,
+        "judge2": 1,
+        "relation": 0,
+        "pr": []
+      }
+    ]
+  },
+  {
+    "id": 1039,
+    "name": "Special Medicine II *",
+    "icon": "✚",
+    "key": "LC_RESEARCH_NEW_CRYSTAL_NAME44",
+    "pic": "img_icon_Research1",
+    "awake": false,
+    "rows": [
+      {
+        "level": 1,
+        "cost": 50000,
+        "seconds": 5000,
+        "coin": 500,
+        "center": 22,
+        "buff": 0.01,
+        "buff2": 0,
+        "buffType": 2104,
+        "buffType2": 0,
+        "judge": 1,
+        "judge2": 1,
+        "relation": 0,
+        "pr": [
+          [
+            1035,
+            1
+          ],
+          [
+            1036,
+            1
+          ],
+          [
+            1037,
+            1
+          ],
+          [
+            1038,
+            1
+          ]
+        ]
+      },
+      {
+        "level": 2,
+        "cost": 75000,
+        "seconds": 10000,
+        "coin": 600,
+        "center": 22,
+        "buff": 0.02,
+        "buff2": 0,
+        "buffType": 2104,
+        "buffType2": 0,
+        "judge": 1,
+        "judge2": 1,
+        "relation": 0,
+        "pr": []
+      },
+      {
+        "level": 3,
+        "cost": 100000,
+        "seconds": 20000,
+        "coin": 700,
+        "center": 23,
+        "buff": 0.03,
+        "buff2": 0,
+        "buffType": 2104,
+        "buffType2": 0,
+        "judge": 1,
+        "judge2": 1,
+        "relation": 0,
+        "pr": []
+      },
+      {
+        "level": 4,
+        "cost": 200000,
+        "seconds": 40000,
+        "coin": 800,
+        "center": 23,
+        "buff": 0.04,
+        "buff2": 0,
+        "buffType": 2104,
+        "buffType2": 0,
+        "judge": 1,
+        "judge2": 1,
+        "relation": 0,
+        "pr": []
+      },
+      {
+        "level": 5,
+        "cost": 300000,
+        "seconds": 80000,
+        "coin": 1000,
+        "center": 23,
+        "buff": 0.06,
+        "buff2": 0,
+        "buffType": 2104,
+        "buffType2": 0,
+        "judge": 1,
+        "judge2": 1,
+        "relation": 0,
+        "pr": [
+          [
+            1031,
+            5
+          ]
+        ]
+      },
+      {
+        "level": 6,
+        "cost": 400000,
+        "seconds": 80000,
+        "coin": 1100,
+        "center": 24,
+        "buff": 0.08,
+        "buff2": 0,
+        "buffType": 2104,
+        "buffType2": 0,
+        "judge": 1,
+        "judge2": 1,
+        "relation": 0,
+        "pr": []
+      },
+      {
+        "level": 7,
+        "cost": 500000,
+        "seconds": 80000,
+        "coin": 1200,
+        "center": 24,
+        "buff": 0.11,
+        "buff2": 0,
+        "buffType": 2104,
+        "buffType2": 0,
+        "judge": 1,
+        "judge2": 1,
+        "relation": 0,
+        "pr": []
+      },
+      {
+        "level": 8,
+        "cost": 600000,
+        "seconds": 80000,
+        "coin": 1300,
+        "center": 24,
+        "buff": 0.14,
+        "buff2": 0,
+        "buffType": 2104,
+        "buffType2": 0,
+        "judge": 1,
+        "judge2": 1,
+        "relation": 0,
+        "pr": [
+          [
+            1031,
+            8
+          ]
+        ]
+      },
+      {
+        "level": 9,
+        "cost": 700000,
+        "seconds": 80000,
+        "coin": 1400,
+        "center": 25,
+        "buff": 0.18,
+        "buff2": 0,
+        "buffType": 2104,
+        "buffType2": 0,
+        "judge": 1,
+        "judge2": 1,
+        "relation": 0,
+        "pr": []
+      },
+      {
+        "level": 10,
+        "cost": 800000,
+        "seconds": 80000,
+        "coin": 1500,
+        "center": 25,
+        "buff": 0.25,
+        "buff2": 0,
+        "buffType": 2104,
+        "buffType2": 0,
+        "judge": 1,
+        "judge2": 1,
+        "relation": 0,
+        "pr": []
+      }
+    ]
+  },
+  {
+    "id": 1040,
+    "name": "Expanded Formations II",
+    "icon": "♟",
+    "key": "LC_RESEARCH_NEW_CRYSTAL_NAME46",
+    "pic": "img_iconAlliResearch4",
+    "awake": false,
+    "rows": [
+      {
+        "level": 1,
+        "cost": 6000000,
+        "seconds": 3000000,
+        "coin": 4000,
+        "center": 25,
+        "buff": 1,
+        "buff2": 0,
+        "buffType": 5052,
+        "buffType2": 0,
+        "judge": 2,
+        "judge2": 2,
+        "relation": 0,
+        "pr": [
+          [
+            1039,
+            10
+          ]
+        ]
+      }
+    ]
+  },
+  {
+    "id": 1041,
+    "name": "Surprise Strike *",
+    "icon": "✦",
+    "key": "LC_RESEARCH_NEW_CRYSTAL_NAME51",
+    "pic": "img_icon_CrystalResearch26",
+    "awake": false,
+    "rows": [
+      {
+        "level": 1,
+        "cost": 57000,
+        "seconds": 5000,
+        "coin": 1000,
+        "center": 23,
+        "buff": 0.01,
+        "buff2": 0,
+        "buffType": 12056,
+        "buffType2": 0,
+        "judge": 1,
+        "judge2": 1,
+        "relation": 0,
+        "pr": [
+          [
+            1039,
+            5
+          ]
+        ]
+      },
+      {
+        "level": 2,
+        "cost": 85500,
+        "seconds": 10000,
+        "coin": 1100,
+        "center": 23,
+        "buff": 0.02,
+        "buff2": 0,
+        "buffType": 12056,
+        "buffType2": 0,
+        "judge": 1,
+        "judge2": 1,
+        "relation": 0,
+        "pr": [
+          [
+            1015,
+            10
+          ]
+        ]
+      },
+      {
+        "level": 3,
+        "cost": 114100,
+        "seconds": 20000,
+        "coin": 1200,
+        "center": 23,
+        "buff": 0.03,
+        "buff2": 0,
+        "buffType": 12056,
+        "buffType2": 0,
+        "judge": 1,
+        "judge2": 1,
+        "relation": 0,
+        "pr": []
+      },
+      {
+        "level": 4,
+        "cost": 228100,
+        "seconds": 40000,
+        "coin": 1300,
+        "center": 24,
+        "buff": 0.04,
+        "buff2": 0,
+        "buffType": 12056,
+        "buffType2": 0,
+        "judge": 1,
+        "judge2": 1,
+        "relation": 0,
+        "pr": [
+          [
+            1039,
+            8
+          ]
+        ]
+      },
+      {
+        "level": 5,
+        "cost": 342200,
+        "seconds": 80000,
+        "coin": 1400,
+        "center": 24,
+        "buff": 0.05,
+        "buff2": 0,
+        "buffType": 12056,
+        "buffType2": 0,
+        "judge": 1,
+        "judge2": 1,
+        "relation": 0,
+        "pr": []
+      },
+      {
+        "level": 6,
+        "cost": 456200,
+        "seconds": 160000,
+        "coin": 1500,
+        "center": 24,
+        "buff": 0.06,
+        "buff2": 0,
+        "buffType": 12056,
+        "buffType2": 0,
+        "judge": 1,
+        "judge2": 1,
+        "relation": 0,
+        "pr": [
+          [
+            1035,
+            6
+          ],
+          [
+            1036,
+            6
+          ],
+          [
+            1037,
+            6
+          ],
+          [
+            1038,
+            6
+          ]
+        ]
+      },
+      {
+        "level": 7,
+        "cost": 570300,
+        "seconds": 320000,
+        "coin": 1600,
+        "center": 24,
+        "buff": 0.07,
+        "buff2": 0,
+        "buffType": 12056,
+        "buffType2": 0,
+        "judge": 1,
+        "judge2": 1,
+        "relation": 0,
+        "pr": []
+      },
+      {
+        "level": 8,
+        "cost": 684300,
+        "seconds": 700000,
+        "coin": 1700,
+        "center": 25,
+        "buff": 0.08,
+        "buff2": 0,
+        "buffType": 12056,
+        "buffType2": 0,
+        "judge": 1,
+        "judge2": 1,
+        "relation": 0,
+        "pr": [
+          [
+            1035,
+            8
+          ],
+          [
+            1036,
+            8
+          ],
+          [
+            1037,
+            8
+          ],
+          [
+            1038,
+            8
+          ]
+        ]
+      },
+      {
+        "level": 9,
+        "cost": 798400,
+        "seconds": 1400000,
+        "coin": 1800,
+        "center": 25,
+        "buff": 0.09,
+        "buff2": 0,
+        "buffType": 12056,
+        "buffType2": 0,
+        "judge": 1,
+        "judge2": 1,
+        "relation": 0,
+        "pr": [
+          [
+            1035,
+            10
+          ],
+          [
+            1036,
+            10
+          ],
+          [
+            1037,
+            10
+          ],
+          [
+            1038,
+            10
+          ]
+        ]
+      },
+      {
+        "level": 10,
+        "cost": 912400,
+        "seconds": 1400000,
+        "coin": 2000,
+        "center": 25,
+        "buff": 0.1,
+        "buff2": 0,
+        "buffType": 12056,
+        "buffType2": 0,
+        "judge": 1,
+        "judge2": 1,
+        "relation": 0,
+        "pr": []
+      }
+    ]
+  },
+  {
+    "id": 1042,
+    "name": "Onslaught Protection I",
+    "icon": "🛡",
+    "key": "LC_RESEARCH_NEW_CRYSTAL3_NAME01_NEW",
+    "pic": "img_icon_CrystalResearch26",
+    "awake": true,
+    "rows": [
+      {
+        "level": 1,
+        "cost": 0,
+        "seconds": 0,
+        "coin": 0,
+        "center": 13,
+        "buff": 0.02,
+        "buff2": 0.02,
+        "buffType": 10063,
+        "buffType2": 10067,
+        "judge": 1,
+        "judge2": 1,
+        "relation": 0,
+        "pr": [
+          [
+            1007,
+            15
+          ],
+          [
+            1008,
+            15
+          ],
+          [
+            1009,
+            15
+          ],
+          [
+            1010,
+            15
+          ]
+        ]
+      }
+    ]
+  },
+  {
+    "id": 1043,
+    "name": "Onslaught Protection II",
+    "icon": "🛡",
+    "key": "LC_RESEARCH_NEW_CRYSTAL3_NAME02_NEW",
+    "pic": "img_icon_CrystalResearch26",
+    "awake": true,
+    "rows": [
+      {
+        "level": 1,
+        "cost": 0,
+        "seconds": 0,
+        "coin": 0,
+        "center": 20,
+        "buff": 0.02,
+        "buff2": 0.02,
+        "buffType": 10063,
+        "buffType2": 10067,
+        "judge": 1,
+        "judge2": 1,
+        "relation": 0,
+        "pr": [
+          [
+            1016,
+            15
+          ]
+        ]
+      }
+    ]
+  },
+  {
+    "id": 1044,
+    "name": "Onslaught Protection III",
+    "icon": "🛡",
+    "key": "LC_RESEARCH_NEW_CRYSTAL3_NAME03_NEW",
+    "pic": "img_icon_CrystalResearch26",
+    "awake": true,
+    "rows": [
+      {
+        "level": 1,
+        "cost": 0,
+        "seconds": 0,
+        "coin": 0,
+        "center": 24,
+        "buff": 0.03,
+        "buff2": 0.03,
+        "buffType": 10063,
+        "buffType2": 10067,
+        "judge": 1,
+        "judge2": 1,
+        "relation": 0,
+        "pr": [
+          [
+            1031,
+            15
+          ]
+        ]
+      }
+    ]
+  },
+  {
+    "id": 1045,
+    "name": "Onslaught Protection IV",
+    "icon": "🛡",
+    "key": "LC_RESEARCH_NEW_CRYSTAL3_NAME04_NEW",
+    "pic": "img_icon_CrystalResearch26",
+    "awake": true,
+    "rows": [
+      {
+        "level": 1,
+        "cost": 0,
+        "seconds": 0,
+        "coin": 0,
+        "center": 25,
+        "buff": 0.03,
+        "buff2": 0.03,
+        "buffType": 10063,
+        "buffType2": 10067,
+        "judge": 1,
+        "judge2": 1,
+        "relation": 0,
+        "pr": [
+          [
+            1035,
+            10
+          ],
+          [
+            1036,
+            10
+          ],
+          [
+            1037,
+            10
+          ],
+          [
+            1038,
+            10
+          ]
+        ]
+      }
+    ]
+  }
+]
