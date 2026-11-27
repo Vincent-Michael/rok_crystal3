@@ -89,25 +89,35 @@ main{max-width:1480px;padding:24px 24px 32px}.hero{padding:1px 0 12px;margin:0 0
 .frame .nav input[type=range]{flex:1 1 0;min-width:0;margin:0;padding:0;border:0;background:transparent}
 @media(max-width:480px){.frame .nav{gap:5px}.frame .nav button{flex-basis:30px;width:30px;height:30px}.frame .nav #stage{min-width:0;font-size:10px}}
 .hero-totals .crystal-breakdown td.building-no-discount{color:#9999ac}
-/* v1.4.28: live buff breakdown */
-.buff-overview .foldbody{padding:0 14px 14px}
-.buff-overview-head{display:flex;justify-content:space-between;align-items:center;gap:12px;flex-wrap:wrap;margin:0 0 12px}
+/* v1.4.29: compact, responsive buff overview */
+.buff-overview .foldbody{padding:0 12px 12px}
+.buff-overview-head{display:flex;justify-content:space-between;align-items:center;gap:8px;flex-wrap:wrap;margin:0 0 10px}
 .buff-overview-head label{display:flex;align-items:center;gap:6px;margin:0;color:#e3d6ec;cursor:pointer}
 .buff-overview-head input{accent-color:#e1c47b}
-.buff-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:10px}
-.buff-group{border:1px solid #414052;border-radius:8px;overflow:hidden;background:#1a1927;min-width:0}
-.buff-group h3{margin:0;padding:10px 12px;font-size:13px;color:#edcf92;background:#242235}
-.buff-group table{white-space:normal;width:100%;font-size:12px}
-.buff-group th,.buff-group td{padding:7px 8px;border-color:#393548;vertical-align:middle}
-.buff-group th{position:static;background:#222032;color:#b9afc5;font-size:10px}
-.buff-group td:first-child{width:53%;color:#e4dbe9}
+.buff-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));align-items:start;gap:10px}
+.buff-column{display:flex;flex-direction:column;gap:10px;min-width:0}
+.buff-group{border:1px solid #414052;border-radius:8px;overflow:hidden;background:#1a1927;min-width:0;align-self:start;width:100%}
+.buff-matrix{grid-column:1/-1}
+.buff-group h3{margin:0;padding:9px 12px;font-size:13px;color:#edcf92;background:#242235}
+.buff-group table{white-space:normal;width:100%;font-size:12px;table-layout:fixed;border-collapse:collapse}
+.buff-group th,.buff-group td{padding:6px 10px;border-color:#393548;vertical-align:middle;line-height:1.35}
+.buff-group th{position:static;background:#222032;color:#b9afc5;font-size:11px}
+.buff-group td:first-child,.buff-group th:first-child{text-align:left;color:#e4dbe9;overflow-wrap:anywhere;width:54%}
 .buff-group td:not(:first-child){white-space:nowrap;font-variant-numeric:tabular-nums}
+.buff-group tr:last-child td{border-bottom:0}
+.buff-matrix td:first-child,.buff-matrix th:first-child{width:24%}
+.buff-matrix td:not(:first-child),.buff-matrix th:not(:first-child){text-align:center;width:19%}
+.buff-matrix .buff-cell{display:flex;align-items:center;justify-content:center;gap:6px;flex-wrap:wrap}
 .buff-target{color:#9edbff;font-weight:700}.buff-gain{color:#85dfab;font-weight:700}.buff-zero{color:#8e879e}
+.buff-current{color:#b4adbf;font-size:11px}
+.buff-matrix .buff-gain{font-size:10px;white-space:nowrap}
 .buff-overview-note{margin-top:10px;display:block;font-size:11px}
+.buff-matrix-scroll{overflow-x:auto}
+.buff-matrix table{min-width:480px}
 @media(max-width:850px){.buff-grid{grid-template-columns:1fr}}
-@media(max-width:420px){.buff-overview .foldbody{padding:0 7px 8px}.buff-group th,.buff-group td{padding:6px 4px;font-size:10px}}
+@media(max-width:480px){.buff-overview .foldbody{padding:0 7px 8px}.buff-group th,.buff-group td{padding:6px 5px;font-size:11px}.buff-matrix .buff-cell{gap:3px}.buff-group td:first-child,.buff-group th:first-child{width:46%}.buff-matrix td:first-child,.buff-matrix th:first-child{width:24%}.buff-matrix table{min-width:420px}}
 </style></head><body><main>
-<header class="hero"><div class="hero-badges"><span class="hero-tag"><span class="tag-dot"></span> KvK Tool</span><span class="hero-tag beta">Beta</span><small>Schema 300 · v1.4.28</small></div><div class="hero-title"><svg viewBox="0 0 42 55" class="hero-crystal" aria-hidden="true"><defs><linearGradient id="heroGem" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#b5f7ff"/><stop offset=".4" stop-color="#36bbff"/><stop offset="1" stop-color="#1645b8"/></linearGradient></defs><path d="M22 2 37 10 34 27 15 52 5 35 6 15Z" fill="url(#heroGem)" stroke="#6be7ff" stroke-width="1.5"/><path d="M22 2 19 24 6 15 5 35 19 24 15 52 34 27 19 24 37 10 22 2" fill="none" stroke="#bcefff" stroke-width="1.1"/><path d="M22 2 19 24 37 10Z" fill="#e2fcff" opacity=".65"/></svg><h1>Crystal Tech Simulator</h1></div><p>Plan your Crystal Technology research ahead of your next KvK. Choose a mode, assign research levels and track speedups, Season Coins and crystals live.</p></header>
+<header class="hero"><div class="hero-badges"><span class="hero-tag"><span class="tag-dot"></span> KvK Tool</span><span class="hero-tag beta">Beta</span><small>Schema 300 · v1.4.29</small></div><div class="hero-title"><svg viewBox="0 0 42 55" class="hero-crystal" aria-hidden="true"><defs><linearGradient id="heroGem" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#b5f7ff"/><stop offset=".4" stop-color="#36bbff"/><stop offset="1" stop-color="#1645b8"/></linearGradient></defs><path d="M22 2 37 10 34 27 15 52 5 35 6 15Z" fill="url(#heroGem)" stroke="#6be7ff" stroke-width="1.5"/><path d="M22 2 19 24 6 15 5 35 19 24 15 52 34 27 19 24 37 10 22 2" fill="none" stroke="#bcefff" stroke-width="1.1"/><path d="M22 2 19 24 37 10Z" fill="#e2fcff" opacity=".65"/></svg><h1>Crystal Tech Simulator</h1></div><p>Plan your Crystal Technology research ahead of your next KvK. Choose a mode, assign research levels and track speedups, Season Coins and crystals live.</p></header>
 <section class="top-controls dash-panel" aria-label="Research Center and buildings"><div class="center-control"><label for="targetCenter">Research Center Level</label><select id="targetCenter"><option value="1">Level 1</option><option value="2">Level 2</option><option value="3">Level 3</option><option value="4">Level 4</option><option value="5">Level 5</option><option value="6">Level 6</option><option value="7">Level 7</option><option value="8">Level 8</option><option value="9">Level 9</option><option value="10">Level 10</option><option value="11">Level 11</option><option value="12">Level 12</option><option value="13">Level 13</option><option value="14">Level 14</option><option value="15">Level 15</option><option value="16">Level 16</option><option value="17">Level 17</option><option value="18">Level 18</option><option value="19">Level 19</option><option value="20">Level 20</option><option value="21">Level 21</option><option value="22">Level 22</option><option value="23">Level 23</option><option value="24">Level 24</option><option value="25" selected>Level 25</option></select><small id="rcDiscountLabel">Research crystal discount: 5%</small></div><div class="building-control"><label class="switch-label" for="includeRC"><span>Include Research Center crystal cost</span><input type="checkbox" class="toggle" id="includeRC" checked></label><small id="rcCostLabel">1,800,000 crystals</small></div><div class="building-control"><label class="switch-label" for="includeMine"><span>Include Crystal Mine cost (Lv.25)</span><input type="checkbox" class="toggle" id="includeMine" checked></label><small id="mineCostLabel">1,800,000 crystals</small></div></section>
 <div class="planner-totals hero-totals"><div class="metric speedup-metric"><small>⏩ RESEARCH SPEEDUPS</small><b id="rawSpeedups">0.00 Days</b><small id="effectiveTime">0 with research speed bonus</small><small>Excludes alliance help.</small></div><div class="metric building-speedup-metric"><small>⚒ BUILDING SPEEDUPS</small><b id="rawBuildingSpeedups">0.00 Days</b><small id="buildingSpeedupNote">Selected building upgrades only</small><small id="buildingRawNote">Base construction time: 0.00 Days</small></div><div class="metric coin-metric"><small>◉ TOTAL SEASON COINS</small><b id="seasonCoins">0</b><small>Rewards from planned research</small></div><div class="metric crystal-metric"><small>◆ TOTAL CRYSTALS USED</small><b id="overallCrystals">0</b><small class="crystal-full">Full cost: <span id="overallFull">0</span></small><table class="crystal-breakdown" aria-label="Selected crystal cost breakdown"><thead><tr><th>Cost</th><th>Full</th><th>Reduced</th></tr></thead><tbody><tr><td>Research</td><td id="crystalResearchFull">0</td><td id="crystalResearchReduced">0</td></tr><tr><td>Buildings</td><td id="crystalBuildingFull">0</td><td class="building-no-discount" aria-label="No building discount">—</td></tr></tbody></table><div class="crystal-savings"><div><span>Research Center saved</span><strong id="centerCrystalsSaved">0</strong></div><div><span>Cutting Corners saved</span><strong id="techCrystalsSaved">0</strong></div><div id="extraSavingsRow" class="hidden"><span>Additional discount saved</span><strong id="extraCrystalsSaved">0</strong></div><div class="crystal-savings-total"><span>Total saved</span><strong id="totalCrystalsSaved">0</strong></div></div><small id="overallNote">Selected upgrades · before and after discounts</small></div></div><div class="toolbar primary-toolbar"><button id="treeBtn" class="active">Research Tree</button><button id="tableBtn">Table View</button><input id="search" type="search" placeholder="Find technology"><button id="clearPlan">Clear</button><button id="undoPlan" disabled>Undo</button><button id="maxAll">Max All</button><button id="buffToggle" aria-expanded="false">Buff Overview ▾</button><button id="guideToggle" aria-expanded="false">● Guide Recorder</button><button id="advancedToggle" aria-expanded="false">Import &amp; Export ▾</button></div>
 
@@ -443,15 +453,32 @@ function overviewValue(spec,levels,rc){
 function renderBuffOverview(){
   const only=$("buffChangedOnly").checked;
   const format=(n,k)=>k==="unlock"?(n?"Unlocked":"Locked"):String(Math.round(n*10000)/10000)+(k==="count"?"":"%");
-  $("buffGroups").innerHTML=buffGroups.map(([group,specs])=>{
+  const calc=spec=>{
+    const [label,,kind="percent"]=spec,a=overviewValue(spec,current,center("center")),b=overviewValue(spec,target,center("targetCenter")),delta=Math.round((b-a)*10000)/10000;
+    const change=kind==="unlock"?(delta>0?"Unlock":delta<0?"Lock":"—"):delta===0?"—":(delta>0?"+":"")+format(delta,kind);
+    return {label,kind,a,b,delta,change};
+  };
+  const troopRows=buffGroups[0][1].map((spec,i)=>{
+    const cells=buffGroups.slice(0,4).map(([,specs])=>calc(specs[i]));
+    if(only&&!cells.some(v=>v.delta>0))return "";
+    return '<tr><td>'+escapeAttr(spec[0])+'</td>'+cells.map(v=>{
+      if(only&&v.delta<=0)return '<td class="buff-zero">—</td>';
+      return '<td><div class="buff-cell"><span class="buff-current">'+format(v.a,v.kind)+' →</span><strong class="buff-target">'+format(v.b,v.kind)+'</strong>'+(v.delta!==0?'<span class="'+(v.delta>0?"buff-gain":"buff-zero")+'">('+v.change+')</span>':'')+'</div></td>';
+    }).join("")+'</tr>';
+  }).join("");
+  const matrix=troopRows?'<section class="buff-group buff-matrix"><h3>Troop Stats</h3><div class="buff-matrix-scroll"><table><thead><tr><th>Attribute</th><th>Infantry</th><th>Cavalry</th><th>Archers</th><th>Siege</th></tr></thead><tbody>'+troopRows+'</tbody></table></div></section>':"";
+  const groupHTML=([group,specs])=>{
     const rows=specs.map(spec=>{
-      const [label,,kind="percent"]=spec,a=overviewValue(spec,current,center("center")),b=overviewValue(spec,target,center("targetCenter")),delta=Math.round((b-a)*10000)/10000;
-      if(only&&delta<=0)return "";
-      const change=kind==="unlock"?(delta>0?"Unlock":delta<0?"Lock":"—"):delta===0?"—":(delta>0?"+":"")+format(delta,kind);
-      return '<tr><td>'+escapeAttr(label)+'</td><td>'+format(a,kind)+'</td><td class="buff-target">'+format(b,kind)+'</td><td class="'+(delta>0?"buff-gain":"buff-zero")+'">'+change+'</td></tr>';
+      const v=calc(spec);
+      if(only&&v.delta<=0)return "";
+      return '<tr><td>'+escapeAttr(v.label)+'</td><td>'+format(v.a,v.kind)+'</td><td class="buff-target">'+format(v.b,v.kind)+'</td><td class="'+(v.delta>0?"buff-gain":"buff-zero")+'">'+v.change+'</td></tr>';
     }).join("");
     return rows?'<section class="buff-group"><h3>'+escapeAttr(group)+'</h3><table><thead><tr><th>Attribute</th><th>Current</th><th>Target</th><th>Gain</th></tr></thead><tbody>'+rows+'</tbody></table></section>':"";
-  }).join("")||'<p class="muted">No increases selected.</p>';
+  };
+  const left=[buffGroups[4],buffGroups[5]].map(groupHTML).join("");
+  const right=[buffGroups[6],buffGroups[7]].map(groupHTML).join("");
+  const col=html=>html?'<div class="buff-column">'+html+'</div>':"";
+  $("buffGroups").innerHTML=matrix+col(left)+col(right)||'<p class="muted">No increases selected.</p>';
 }
 $("buffToggle").onclick=()=>{const p=$("buffOverview");p.open=!p.open;$("buffToggle").setAttribute("aria-expanded",String(p.open));if(p.open)p.scrollIntoView({block:"nearest",behavior:"smooth"})};
 $("buffOverview").addEventListener("toggle",()=>$("buffToggle").setAttribute("aria-expanded",String($("buffOverview").open)));
