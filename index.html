@@ -470,8 +470,13 @@ main{max-width:1480px;padding:24px 24px 32px}.hero{padding:1px 0 12px;margin:0 0
 #techDialog #detailIcon.awakening-detail-icon .medalWrap .medal,
 #techDialog #detailIcon.awakening-detail-icon .medalWrap .game-icon{position:absolute;inset:0;width:100%;height:100%;margin:0;object-fit:contain}
 .primary-toolbar #maxRunecraft{background:#293e3b;border-color:#629a8e;color:#cdf2e2;font-weight:650;white-space:nowrap}.primary-toolbar #maxRunecraft[aria-pressed="true"]{background:#3a6055;border-color:#9cddc6}
+/* v1.4.109: clickable prerequisite links */
+#researchError .error-tech-link{display:inline;padding:0;border:0;background:none;color:#ffd28a;font:inherit;font-weight:650;text-align:left;text-decoration:underline;text-underline-offset:2px;white-space:normal;cursor:pointer}
+#researchError .error-tech-link:hover{color:#fff1b6}
+#researchError .error-tech-link:focus-visible{outline:2px solid #ffd28a;outline-offset:2px;border-radius:2px}
+.error-jump-highlight{outline:3px solid #ffcf54!important;outline-offset:3px;box-shadow:0 0 15px #ffcf54aa!important}
 </style></head><body><main data-layout-revision="27272bcfa763ea3d3e624b69">
-<header class="hero"><div class="hero-badges"><span class="hero-tag beta"><span class="beta-dot" aria-hidden="true"></span><strong>BETA</strong><span class="beta-notice">In-game verification required</span></span><small>Schema 300 · v1.4.108</small></div><div class="hero-title"><svg viewBox="0 0 42 55" class="hero-crystal" aria-hidden="true"><defs><linearGradient id="heroGem" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#b5f7ff"/><stop offset=".4" stop-color="#36bbff"/><stop offset="1" stop-color="#1645b8"/></linearGradient></defs><path d="M22 2 37 10 34 27 15 52 5 35 6 15Z" fill="url(#heroGem)" stroke="#6be7ff" stroke-width="1.5"/><path d="M22 2 19 24 6 15 5 35 19 24 15 52 34 27 19 24 37 10 22 2" fill="none" stroke="#bcefff" stroke-width="1.1"/><path d="M22 2 19 24 37 10Z" fill="#e2fcff" opacity=".65"/></svg><h1>Crystal Tech Simulator</h1></div><p>Plan your Crystal Tech, optimize your research, and find out how much financial damage your next KvK will deal to your wallet.</p></header>
+<header class="hero"><div class="hero-badges"><span class="hero-tag beta"><span class="beta-dot" aria-hidden="true"></span><strong>BETA</strong><span class="beta-notice">In-game verification required</span></span><small>Schema 300 · v1.4.109</small></div><div class="hero-title"><svg viewBox="0 0 42 55" class="hero-crystal" aria-hidden="true"><defs><linearGradient id="heroGem" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#b5f7ff"/><stop offset=".4" stop-color="#36bbff"/><stop offset="1" stop-color="#1645b8"/></linearGradient></defs><path d="M22 2 37 10 34 27 15 52 5 35 6 15Z" fill="url(#heroGem)" stroke="#6be7ff" stroke-width="1.5"/><path d="M22 2 19 24 6 15 5 35 19 24 15 52 34 27 19 24 37 10 22 2" fill="none" stroke="#bcefff" stroke-width="1.1"/><path d="M22 2 19 24 37 10Z" fill="#e2fcff" opacity=".65"/></svg><h1>Crystal Tech Simulator</h1></div><p>Plan your Crystal Tech, optimize your research, and find out how much financial damage your next KvK will deal to your wallet.</p></header>
 <div id="sharedPlanBanner" class="shared-plan-banner" hidden><span id="sharedPlanMessage" role="status">Shared plan preview · your local plan is protected.</span><div><button id="saveSharedPlan" type="button">Save as my plan</button><button id="leaveSharedPlan" type="button">Return to my plan</button></div></div><section class="top-controls dash-panel building-planner" aria-label="Crystal building target levels">
 <div class="center-control"><label for="targetCenter">Crystal Research Center</label><select id="targetCenter"><option value="1">Level 1</option><option value="2">Level 2</option><option value="3">Level 3</option><option value="4">Level 4</option><option value="5">Level 5</option><option value="6">Level 6</option><option value="7">Level 7</option><option value="8">Level 8</option><option value="9">Level 9</option><option value="10">Level 10</option><option value="11">Level 11</option><option value="12">Level 12</option><option value="13">Level 13</option><option value="14">Level 14</option><option value="15">Level 15</option><option value="16">Level 16</option><option value="17">Level 17</option><option value="18">Level 18</option><option value="19">Level 19</option><option value="20">Level 20</option><option value="21">Level 21</option><option value="22">Level 22</option><option value="23">Level 23</option><option value="24">Level 24</option><option value="25" selected>Level 25</option></select><div class="building-compact-metrics" aria-live="polite"><div><span>Crystal cost</span><strong id="rcCompactCost">—</strong></div><div><span>Building speedups</span><strong id="rcCompactSpeedups">—</strong><small class="compact-no-help">Without helps: <span id="rcWithoutHelp">—</span></small></div></div></div>
 <div class="center-control"><label for="mineTarget">Crystal Mine</label><select id="mineTarget"><option value="1">Level 1</option><option value="2">Level 2</option><option value="3">Level 3</option><option value="4">Level 4</option><option value="5">Level 5</option><option value="6">Level 6</option><option value="7">Level 7</option><option value="8">Level 8</option><option value="9">Level 9</option><option value="10">Level 10</option><option value="11">Level 11</option><option value="12">Level 12</option><option value="13">Level 13</option><option value="14">Level 14</option><option value="15">Level 15</option><option value="16">Level 16</option><option value="17">Level 17</option><option value="18">Level 18</option><option value="19">Level 19</option><option value="20">Level 20</option><option value="21">Level 21</option><option value="22">Level 22</option><option value="23">Level 23</option><option value="24">Level 24</option><option value="25" selected>Level 25</option></select><div class="building-compact-metrics" aria-live="polite"><div><span>Crystal cost</span><strong id="mineCompactCost">—</strong></div><div><span>Building speedups</span><strong id="mineCompactSpeedups">—</strong><small class="compact-no-help">Without helps: <span id="mineWithoutHelp">—</span></small></div></div></div>
@@ -1445,6 +1450,31 @@ $("guidePDF").onclick=()=>exportGuideVisual("pdf");
 $("guidePNG").onclick=()=>exportGuideVisual("png");
 $("guideZIP").onclick=()=>exportGuideVisual("zip");
 
+/* ERROR_LINK_MODEL_START */
+function researchErrorParts(message,technologies){
+  const text=String(message),matches=[];
+  for(const t of technologies){
+    const needle=t.name+" Lv. ";
+    let offset=0;
+    while(true){
+      const index=text.indexOf(needle,offset);
+      if(index<0)break;
+      offset=index+needle.length;
+      const level=text.slice(offset).match(/^\d+/);
+      if(level&&(index===0||!/[\w]/.test(text[index-1])))matches.push({start:index,end:offset+level[0].length,id:t.id});
+    }
+  }
+  matches.sort((a,b)=>a.start-b.start||b.end-a.end);
+  const parts=[];let cursor=0;
+  for(const m of matches){
+    if(m.start<cursor)continue;
+    if(m.start>cursor)parts.push({text:text.slice(cursor,m.start)});
+    parts.push({text:text.slice(m.start,m.end),id:m.id});cursor=m.end;
+  }
+  if(cursor<text.length)parts.push({text:text.slice(cursor)});
+  return parts;
+}
+/* ERROR_LINK_MODEL_END */
 let researchErrorTimer=null;
 function clearError(){
   if(researchErrorTimer!==null){clearTimeout(researchErrorTimer);researchErrorTimer=null}
@@ -1458,11 +1488,37 @@ function showResearchError(title,errors){
   $("modeMessage").classList.add("error");
   $("modeMessage").textContent=title+" — "+errors.join(" ");
   $("errorTitle").textContent=title;$("errorBody").replaceChildren();
-  const ul=document.createElement("ul");for(const e of errors){const li=document.createElement("li");li.textContent=e;ul.appendChild(li)}$("errorBody").appendChild(ul);
+  const ul=document.createElement("ul");let hasLinks=false;
+  for(const e of errors){
+    const li=document.createElement("li");
+    for(const part of researchErrorParts(e,T)){
+      if(part.id===undefined){li.appendChild(document.createTextNode(part.text));continue}
+      const link=document.createElement("button");link.type="button";link.className="error-tech-link";link.textContent=part.text;
+      link.title="Jump to "+by[part.id].name+" in the research tree";
+      link.onclick=()=>jumpToErrorTechnology(part.id);
+      li.appendChild(link);hasLinks=true;
+    }
+    ul.appendChild(li);
+  }
+  $("errorBody").appendChild(ul);
   const error=$("researchError");if($("techDialog").open)$("techDialog").appendChild(error);else document.body.appendChild(error);error.classList.remove("hidden");
-  researchErrorTimer=setTimeout(clearError,3000);
+  researchErrorTimer=hasLinks?null:setTimeout(clearError,3000);
 }
 $("closeError").onclick=clearError;
+function jumpToErrorTechnology(id){
+  if(!by[id]||!positions[id])return;
+  clearError();
+  if($("techDialog").open)$("techDialog").close();
+  $("search").value="";
+  view(true);choose(id);renderList();
+  const node=$("nodes").querySelector('[data-id="'+id+'"]')||$("nodes").querySelector('[data-info="'+id+'"]');
+  const card=node?.closest(".research-node,.awake")||node;
+  const left=positions[id].x-Math.max(0,(viewport.clientWidth-(card?.offsetWidth||213))/2);
+  viewport.scrollLeft=Math.max(0,Math.min(viewport.scrollWidth-viewport.clientWidth,left));
+  $("frame").scrollIntoView({block:"nearest",inline:"nearest"});
+  if(node)node.focus({preventScroll:true});
+  if(card){card.classList.remove("error-jump-highlight");void card.offsetWidth;card.classList.add("error-jump-highlight");}
+}
 function stepLevel(id,delta){selected=id;setTarget(id,(target[id]||0)+delta,false)}
 
 function capturePlanHistory(){
